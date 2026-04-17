@@ -608,6 +608,8 @@ https://movil.ejeserver.com/live/calimatv.m3u8
 https://mdstrm.com/live-stream-playlist/6952dc88cb62083467eb6ab4.m3u8
 #EXTINF:-1 tvg-id="CanalCatorce.do@SD" tvg-logo="https://i.imgur.com/iKLGBbA.png" group-title="General",Canal Catorce (720p)
 https://tv.livestreaminggroup.info:3052/live/catorcetvlive.m3u8
+#EXTINF:-1 tvg-id="CanalCHD.co@SD" tvg-logo="https://new.opencaster.com/uploads/logos/logo_142_1754063328.png" group-title="General",Canal CHD
+https://vs20.live.opencaster.com/canalchd2025_8d99626c/index.m3u8
 #EXTINF:-1 tvg-id="CanalClave.cu@SD" tvg-logo="https://i.imgur.com/7tMkA4Z.png" group-title="Music",Canal Clave (480p) [Not 24/7]
 https://tv.picta.cu/clave/clave_0.m3u8
 #EXTINF:-1 tvg-id="CanalCoinTV.es@SD" tvg-logo="https://i.imgur.com/3QPJIpa.png" group-title="General",Canal Coín (1080p)
@@ -674,6 +676,8 @@ https://cdn.streamhispanatv.net:3840/live/penielfamlive.m3u8
 https://www.desde-paraguay.com/pro.m3u8
 #EXTINF:-1 tvg-id="CanalProvincial.ar@SD" tvg-logo="https://i.imgur.com/bXHHtcb.png" group-title="General",Canal Provincial (360p)
 https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8
+#EXTINF:-1 tvg-id="CanalPulpoTV.ar@SD" tvg-logo="https://new.opencaster.com/uploads/logos/logo_306_1756336707.png" group-title="Entertainment",Canal Pulpo TV
+https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8
 #EXTINF:-1 tvg-id="CanalPyC.co@SD" tvg-logo="https://i.imgur.com/3qxBDhV.png" group-title="News",Canal PyC (720p)
 https://live20.bozztv.com/akamaissh101/ssh101/pyctelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalRural.ar@SD" tvg-logo="https://i.imgur.com/NgIBbPX.png" group-title="Outdoor",Canal Rural (1080p)
@@ -1108,6 +1112,8 @@ https://elche7tv.gestec-video.com/hls/canal2.m3u8
 https://cloud2.streaminglivehd.com:1936/8078/8078/playlist.m3u8
 #EXTINF:-1 tvg-id="ElimTV.sv@SD" tvg-logo="https://i.imgur.com/payIg0N.png" group-title="Religious",Elim TV (480p) [Not 24/7]
 https://stream.soporteccrtv.xyz/hls/master-dveo.m3u8
+#EXTINF:-1 tvg-id="EmisoraLasVegas.co@SD" tvg-logo="https://new.opencaster.com/uploads/logos/logo_70_1759816048.png" group-title="Undefined",Emisora Las Vegas
+https://vs20.live.opencaster.com/emisoralasvegas_b84f5781/index.m3u8
 #EXTINF:-1 tvg-id="EnLenguadeSenasTV.py@SD" tvg-logo="https://i.imgur.com/oxPEZas.png" group-title="Education",En Lengua de Senas TV (720p)
 https://cloudtv.streaming.com.py/lenguasdesenas/lenguasdesenas/chunklist.m3u8
 #EXTINF:-1 tvg-id="Encuentro.ar@SD" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="Culture",Encuentro (1080p)
@@ -1305,7 +1311,7 @@ https://schurch1.bozztv.com/livecdn69/live/playlist.m3u8
 #EXTINF:-1 tvg-id="GuadaTV.es@SD" tvg-logo="https://i.imgur.com/YaDNsYN.png" group-title="General",Guada TV (720p) [Not 24/7]
 https://cloud.streamingconnect.tv/hls/guadatv/guadatv.m3u8
 #EXTINF:-1 tvg-id="GuaroTV.ve@SD" tvg-logo="https://i.ibb.co/LN92K6h/IMG-20230705-154347.jpg" group-title="Entertainment",Guaro TV (720p)
-https://streamtv.intervenhosting.net:3592/stream/play.m3u8
+https://streamtv.intervenhosting.net:3592/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="GuaymateTV.do@SD" tvg-logo="https://i.imgur.com/PBgQi9a.png" group-title="Culture",Guaymate TV (720p) [Not 24/7]
 https://live20.bozztv.com/akamaissh101/ssh101/guaymatetv/playlist.m3u8
 #EXTINF:-1 tvg-id="HainaVision.do@SD" tvg-logo="https://i.imgur.com/eoodUNJ.png" group-title="General",Haina Vision (720p)
@@ -1517,6 +1523,8 @@ https://alba-cl-lared-lared.stream.mediatiquestream.com/index.m3u8
 https://cloud2.streaminglivehd.com:1936/lareinatv/lareinatv/playlist.m3u8
 #EXTINF:-1 tvg-id="LaRutaTV.do@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2896-294x165-FFFFFF.jpg" group-title="General",La Ruta TV
 https://streamunoapp.com:3983/live/larutatvlive.m3u8
+#EXTINF:-1 tvg-id="LaSalvaciondelAlmaTV.do@SD" tvg-logo="https://www.zradios.com/files/1/1/9/11942-627.jpg" group-title="Religious",La Salvacion del Alma TV
+https://vs20.live.opencaster.com/lasalvaciondelalmatv_dfc663c0/index.m3u8
 #EXTINF:-1 tvg-id="LaSultanadelEsteTV.do@SD" tvg-logo="https://i.imgur.com/UNiyOvd.png" group-title="General",La Sultana del Este TV (720p) [Not 24/7]
 https://micanal.ovh/livestreams/544.EP3QGO4KPL66.m3u8
 #EXTINF:-1 tvg-id="LaTele.pe@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png" group-title="Entertainment",La Tele
@@ -1719,6 +1727,8 @@ https://video.xtrematv.com:3812/live/memoriastoonslive.m3u8
 https://video.xtrematv.com:3361/live/memoriastropicallive.m3u8
 #EXTINF:-1 tvg-id="MeridianoTV.ve@SD" tvg-logo="https://i.imgur.com/I6gsUqD.png" group-title="Sports",Meridiano TV (480p)
 https://e1.viginet.vectormax.com:5210/quickstart/114-934-21/index.m3u8
+#EXTINF:-1 tvg-id="MetaleitorTV.us@SD" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" group-title="Music",Metaleitor TV
+https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
 #EXTINF:-1 tvg-id="Metro.ar@SD" tvg-logo="https://i.imgur.com/D4nRp62.png" group-title="Undefined",Metro (480p)
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-53_480.m3u8
 #EXTINF:-1 tvg-id="MetroTV.ar@SD" tvg-logo="https://i.imgur.com/7f7M7zl.png" group-title="Entertainment",Metro TV (720p)
@@ -1747,6 +1757,8 @@ https://www.milenial.news/salida/milenial.m3u8
 https://mdstrm.com/live-stream-playlist/610178c7db32a4112d994650.m3u8
 #EXTINF:-1 tvg-id="MCTV.us@SD" tvg-logo="https://i.imgur.com/VXbHin6.png" group-title="General",Millbrae Community Television (720p)
 https://685c08ed6d81a.streamlock.net/live/mp4:MCTV_aac/playlist.m3u8
+#EXTINF:-1 tvg-id="MinisterioLaVozDeUnRemanenteTV.us@SD" tvg-logo="https://new.opencaster.com/uploads/logos/logo_188_1754869413.png" group-title="Religious",Ministerio La Voz De Un Remanente TV
+https://vs20.live.opencaster.com/remanente_5925b089/index.m3u8
 #EXTINF:-1 tvg-id="MirameTV.es@SD" tvg-logo="https://i.imgur.com/LK4pLgT.png" group-title="News",Mírame TV (360p) [Not 24/7]
 https://bit.controlstreams.com:5443/LiveApp/streams/mirametv.m3u8
 #EXTINF:-1 tvg-id="MisionesCuatro.ar@SD" tvg-logo="https://i.imgur.com/HXRpRlK.png" group-title="General",Misiones Cuatro
@@ -2058,6 +2070,8 @@ https://mlb.essastream.com:8081/portaldigital/playlist.m3u8
 https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
 #EXTINF:-1 tvg-id="PowerMaxRadioTV.ar@SD" tvg-logo="https://i.ibb.co/qgZLYDj/channels4-profile-6.jpg" group-title="Entertainment",Power Max Radio TV (720p)
 https://videostream.shockmedia.com.ar:19360/radio1045/radio1045.m3u8
+#EXTINF:-1 tvg-id="PrattelTV.pe@SD" tvg-logo="https://new.opencaster.com/uploads/logos/logo_244_1761928734.png" group-title="Music",Prattel TV
+https://vs20.live.opencaster.com/prattelpe_a2b8d350/index.m3u8
 #EXTINF:-1 tvg-id="PrensaLatinaTV.cu@SD" tvg-logo="https://i.imgur.com/jbm2S9O.jpg" group-title="News",Prensa Latina TV (1080p)
 https://eu1.servers10.com:8081/8192/index.m3u8
 #EXTINF:-1 tvg-id="PresenciaTelevision.gt@SD" tvg-logo="https://i.imgur.com/SVho6El.png" group-title="Religious",Presencia TV (720p) [Not 24/7]
