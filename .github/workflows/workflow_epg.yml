@@ -4,6 +4,10 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,8 +17,16 @@ jobs:
       with:
         python-version: '3.10'
     - run: python update_epg.py
-    - run: |
+    
+    - name: Subir cambios
+      run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add epg.xml
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update EPG" && git push)
+        
+    - name: Limpiar workflows viejos (mantener 3)
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh run list --workflow "2. Actualizar EPG" --limit 100 --json databaseId -q '.[3:][].databaseId' | xargs -I{} gh run delete "{}" || true
