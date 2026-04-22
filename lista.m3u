@@ -31,16 +31,12 @@ https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist
 https://stream-207963.castr.net/65313d270e749722b6474684/live_1c690d40dfb711eeabd66ba1b9ba93a1/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Campeche.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png",Canal 13 Campeche [Not 24/7]
 https://stream-207963.castr.net/65313d270e749722b6474684/live_38c14fb0dfbd11ee8847c303f3096501/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="Canal13Michoacan.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png",Canal 13 Michoacán [Not 24/7]
-https://stream-207963.castr.net/65313d270e749722b6474684/live_0424eb20dfbf11ee821911a0b6ba5091/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Oaxaca.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png",Canal 13 Oaxaca [Not 24/7]
 https://stream-207963.castr.net/65313d270e749722b6474684/live_0bd65ed0dfbf11ee848c53d8a686e201/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Tabasco.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png",Canal 13 Tabasco [Not 24/7]
 https://stream-207963.castr.net/65313d270e749722b6474684/live_185f5f10888711ee83e2f144889e3879/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="Canal13Tapachula.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png",Canal 13 Tapachula [Not 24/7]
 https://stream-207963.castr.net/65313d270e749722b6474684/live_2b589fc0dfbf11ee9ce13534ca2a46c3/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="Canal13Yucatan.mx@SD" tvg-logo="https://i.imgur.com/SlycKgZ.png",Canal 13 Yucatán [Not 24/7]
-https://stream-207963.castr.net/65313d270e749722b6474684/live_4d3635d0dfbf11eeaae187cc1ffaf09b/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="ILCECanal15SummaSaberes.mx@SD" tvg-logo="https://i.imgur.com/r7czgOc.png",Canal 15 ILCE Summa Sabres
 https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal22Nacional.mx@SD" tvg-logo="https://i.imgur.com/6qiYvhe.png",Canal 22 Nacional [Geo-blocked]
@@ -599,3 +595,7 @@ https://live-evg1.tv360.bitel.com.pe/bitel/latele/playlist.m3u8
 https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
 #EXTINF:-1 tvg-id="LaTop1077.hn@SD" tvg-logo="https://i.imgur.com/vgHhh1W.jpg",La Top 107.7
 https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
+#EXTINF:-1 tvg-id="LaUrbanTV.es@SD" tvg-logo="https://i.imgur.com/hythjEn.png",La Urban TV [Not 24/7]
+https://urbanrevolution.es:8443/live/TV/playlist.m3u8
+#EXTINF:-1 tvg-id="LaVozdelTropico.do@SD" tvg-logo="https://i.imgur.com/DKDFpHt.png",La Voz del Tropico (480p) [Geo-blocked]
+https://ss2.tvrdomi.com:1936/lavozdeltropico/lavozdeltropico/playlist.m3u8
