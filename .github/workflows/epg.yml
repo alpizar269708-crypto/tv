@@ -1,0 +1,25 @@
+name: 2-GenerarEPG
+on:
+  schedule: [{cron: '30 4 * * *'}]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: {contents: write, actions: write}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.x'}
+      - run: pip install requests
+      - run: python generar_epg.py
+      - run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add guia.xml
+          git commit -m "Update EPG Global" || exit 0
+          git push origin main --force
+      - name: Limpieza
+        env: {GH_TOKEN: ${{ github.token }}}
+        run: |
+          runs=$(gh run list --workflow "2-GenerarEPG" --json databaseId --limit 100 | jq -r '.[3:] | .[].databaseId' | grep -v "null" || true)
+          if [ -n "$runs" ]; then for r in $runs; do gh run delete "$r"; done; fi
