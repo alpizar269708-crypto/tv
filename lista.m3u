@@ -343,6 +343,8 @@ https://5790d294af2dc.streamlock.net/tvhdlive/tvhdlive/playlist.m3u8
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png",Clan TVE [Geo-blocked]
 https://ztnr.rtve.es/ztnr/5466990.m3u8
+#EXTINF:-1 tvg-id="ClaroSports.mx@SD" tvg-logo="https://i.imgur.com/n0kd17r.png",Claro Sports
+https://jmp2.uk/plu-6320d2755e54db000783fd87.m3u8
 #EXTINF:-1 tvg-id="ClickTVChile.cl@SD" tvg-logo="https://i.imgur.com/H0XNbMS.png",Click TV (Coronel)
 https://v2.tustreaming.cl/clicktv/playlist.m3u8
 #EXTINF:-1 tvg-id="CMMTV.es@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/CMMedia.svg/960px-CMMedia.svg.png",CMM TV
@@ -597,5 +599,3 @@ https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
 https://jmp2.uk/plu-5f1aadf373bed3000794d1d7.m3u8
 #EXTINF:-1 tvg-id="MTVPlutoTV.us@LatAm" tvg-logo="https://images.pluto.tv/channels/5fab088b3279760007d4e4fd/colorLogoPNG_1764875981566.png",MTV Pluto TV LatAm
 https://jmp2.uk/plu-5fab088b3279760007d4e4fd.m3u8
-#EXTINF:-1 tvg-id="MTVTattooados.us@Spain" tvg-logo="https://i.imgur.com/VisA1sY.png",MTV Tattoo a dos
-https://jmp2.uk/plu-611b87946b7f420007c22361.m3u8
