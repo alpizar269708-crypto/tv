@@ -409,6 +409,8 @@ https://op-group1-swiftservehd-1.dens.tv/h/h250/index.m3u8
 http://181.119.93.83:8000/play/a1jw/index.m3u8
 #EXTINF:-1 tvg-id="DeportesTVC.hn@SD" tvg-logo="https://i.imgur.com/Y1t8xkL.png",Deportes TVC
 http://162.19.255.233:8080/play/UNbAl57p9hXZClOu56FCTYXmD-MOS3u5IUkeXPpBt80/m3u8
+#EXTINF:-1 tvg-id="DeporTV.ar@SD" tvg-logo="https://i.imgur.com/THk9ARS.png",DeporTV
+https://edgectc.com/DEPORTES_CTC_PLUS/index.m3u8
 #EXTINF:-1 tvg-id="DetectiveConan.us@Spain" tvg-logo="https://images.pluto.tv/channels/629a066860ef810008267b70/solidLogoPNG.png?w=512",Detective Conan
 https://jmp2.uk/plu-629a066860ef810008267b70.m3u8
 #EXTINF:-1 tvg-id="DHE.us@SD" tvg-logo="https://i.imgur.com/nsttoEa.png",DHE
@@ -597,5 +599,3 @@ https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
 https://jmp2.uk/plu-5f1acbed25948a0007ffbe65.m3u8
 #EXTINF:-1 tvg-id="LosAsesinatosdeMidsomer.us@Spain" tvg-logo="https://i.imgur.com/JIbupT1.png",Los Asesinatos de Midsomer
 https://jmp2.uk/plu-5f1aca8310a30e00074fab92.m3u8
-#EXTINF:-1 tvg-id="LoveThePlanet.es@ES" tvg-logo="https://i.imgur.com/RBcD49X.png",Love The Planet ES [Geo-blocked]
-https://amg01821-lovetv-amg01821c9-rlaxx-gb-10458.playouts.now.amagi.tv/playlist.m3u8
