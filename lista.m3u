@@ -9,6 +9,8 @@ https://mdstrm.com/live-stream-playlist/60b56be1000ea50835fa1e63.m3u8
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 #EXTINF:-1 tvg-id="AMXNoticias.mx@SD" tvg-logo="https://i.imgur.com/snIU1UA.jpg",AMX Noticias [Not 24/7]
 https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8
+#EXTINF:-1 tvg-id="AntenaTV.mx@SD" tvg-logo="https://i.imgur.com/1sAgSME.png",Antena TV
+https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNLatinAmerica.us@Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png",AXN Latin America Mexico
 http://190.11.225.124:5000/live/axn_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="AztecaInternacional.mx@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png",Azteca Internacional
@@ -327,8 +329,8 @@ http://45.167.1.138:8000/play/a04s
 http://45.228.235.116:8000/play/a0iy/index.m3u8
 #EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar@SD" tvg-logo="https://i.imgur.com/g1BFoSs.png",Azahares Radio Multimedia
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
-#EXTINF:-1 tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png",Babyfirst
-https://jmp2.uk/plu-5ebac49ce4dc8b00078b23bc.m3u8
+#EXTINF:-1 tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png",BabyFirst
+http://206.212.244.63/639/index.m3u8
 #EXTINF:-1 tvg-id="BabyTV.uk@Spain" tvg-logo="https://i.imgur.com/4BDJ5FT.png",BabyTV Spain
 http://179.60.51.134:8888/BABY-TV/index.m3u8
 #EXTINF:-1 tvg-id="BarcaTV.es@SD" tvg-logo="https://i.imgur.com/d8x7c8i.png",Barca TV
@@ -385,8 +387,6 @@ https://jmp2.uk/plu-5f513564e4622a0007c578c0.m3u8
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/cinefamiliar.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CineHispano.us@SD" tvg-logo="https://i.imgur.com/tfgyfrw.png",Cine Hispano
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/cinehispano.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CineNostalgia.us@SD" tvg-logo="https://i.imgur.com/LLwppwB.png",Cine Nostalgia
-https://a-cdn.klowdtv.com/live2/nost_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="CinePremiere.us@SD" tvg-logo="https://i.imgur.com/PdhWTO6.png",Cine Premiere
 https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 #EXTINF:-1 tvg-id="CinePremium.us@SD" tvg-logo="https://i.imgur.com/tC3jGd4.png",Cine Premium
@@ -429,6 +429,8 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 https://jmp2.uk/plu-64ddcbb14c5ed80008fad416.m3u8
 #EXTINF:-1 tvg-id="CromTV.do@SD" tvg-logo="https://i.imgur.com/jk1lkOV.png",CromTV [Not 24/7]
 https://fox.hostlagarto.com:8081/cromtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="CRTV.cl@SD" tvg-logo="https://i2.paste.pics/bf68b159547597c39574aec9dd7c626a.png",CRTV
+https://stmv2.voxtvhd.com.br/crtvchile/crtvchile/playlist.m3u8
 #EXTINF:-1 tvg-id="CSIMiami.us@LatAm" tvg-logo="https://images.pluto.tv/channels/63eb9c5351f5d000085e8d7e/colorLogoPNG.png",CSI: Miami
 https://jmp2.uk/plu-63eb9255c111bc0008fe6ec4.m3u8
 #EXTINF:-1 tvg-id="Cultura24.pe@SD" tvg-logo="https://i.imgur.com/h0LxXsx.png",Cultura 24
@@ -527,6 +529,8 @@ https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://live20.bozztv.com/akamaissh101/ssh101/fsradiotv/playlist.m3u8
 #EXTINF:-1 tvg-id="FMMundo.ec@SD" tvg-logo="https://i.imgur.com/1nNnYQO.png",FM Mundo
 https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
+#EXTINF:-1 tvg-id="FMPlusTV.cl@SD" tvg-logo="https://i.imgur.com/1UokOyN.png",FM Plus TV
+https://v2.tustreaming.cl/fmplus/index.m3u8
 #EXTINF:-1 tvg-id="FolkloreTV.pe@SD" tvg-logo="https://i.imgur.com/QdOGJes.png",Folklore TV
 https://play.folkloretv.pe/StreamSD/index.m3u8
 #EXTINF:-1 tvg-id="ForensicFiles.us@SD" tvg-logo="https://i.imgur.com/V5vvuLK.png",Forensic Files
@@ -595,7 +599,3 @@ http://181.78.121.15:8000/play/a00a/index.m3u8
 http://45.4.1.201:8000/play/a1ai/index.m3u8
 #EXTINF:-1 tvg-id="L1Max.pe@SD" tvg-logo="https://i.imgur.com/2fziU2B.png",L1 Max
 http://45.4.1.201:8000/play/a123/index.m3u8
-#EXTINF:-1 tvg-id="La981TV.hn@SD" tvg-logo="https://i.imgur.com/7380kTN.png",La 98.1 TV [Not 24/7]
-https://6019dcac4147f.streamlock.net:9443/la98/Invosa/playlist.m3u8
-#EXTINF:-1 tvg-id="LaFabulosaTV.pe@SD" tvg-logo="https://i.imgur.com/GjME5H0.png",La Fabulosa Radio y TV
-https://eu1.servers10.com:8081/8004/index.m3u8
