@@ -331,7 +331,7 @@ http://45.228.235.116:8000/play/a0iy/index.m3u8
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png",BabyFirst
 http://206.212.244.63/639/index.m3u8
-#EXTINF:-1 tvg-id="BabyTV.uk@Spain" tvg-logo="https://i.imgur.com/4BDJ5FT.png",BabyTV Spain
+#EXTINF:-1 tvg-id="BabyTV.uk@LatinAmerica" tvg-logo="https://i.imgur.com/4BDJ5FT.png",BabyTV Latin America
 http://179.60.51.134:8888/BABY-TV/index.m3u8
 #EXTINF:-1 tvg-id="BarcaTV.es@SD" tvg-logo="https://i.imgur.com/d8x7c8i.png",Barca TV
 https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8
@@ -477,6 +477,8 @@ http://179.60.51.134:8888/DISNEY-JR/index.m3u8
 https://bbb.exoadash.com/TVD1561/index.mpd
 #EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",Disney Junior (1080i)
 http://23.237.104.106:8080/USA_DISNEY_JUNIOR/index.m3u8
+#EXTINF:-1 tvg-id="DisneyJunior.us@West" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",Disney Junior West
+http://206.212.244.63/655/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg",Disney XD
 http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVDogelcazarrecompensas.us@SD" tvg-logo="https://i.imgur.com/h3kSZLc.png",Dog el cazarrecompensas
@@ -597,5 +599,3 @@ https://jmp2.uk/plu-5fcea93ffcf94500071c4b2f.m3u8
 http://181.78.121.15:8000/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="L1.pe@SD" tvg-logo="https://i.imgur.com/eRmXneK.png",L1
 http://45.4.1.201:8000/play/a1ai/index.m3u8
-#EXTINF:-1 tvg-id="L1Max.pe@SD" tvg-logo="https://i.imgur.com/2fziU2B.png",L1 Max
-http://45.4.1.201:8000/play/a123/index.m3u8
