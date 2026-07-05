@@ -327,6 +327,8 @@ https://jmp2.uk/plu-5f984f4a09e92d0007d74647.m3u8
 https://streamtv.as3sport.online:3394/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="Atrescine.es@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png",Atrescine
 http://181.114.57.246:4000/play/KgkA9tT2SpLYm86J/index.m3u8
+#EXTINF:-1 tvg-id="Audiokiss.bo@SD" tvg-logo="https://www.audiokiss.com/audiokiss/wp-content/uploads/sites/4/2021/02/Audio_kiss800-768x405.png",Audiokiss
+https://master.tucableip.com/audiokisstv/index.m3u8
 #EXTINF:-1 tvg-id="AuroraMediaFilms.gt@SD" tvg-logo="https://i.imgur.com/DVC5w6H.png",Aurora Media Films
 https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
 #EXTINF:-1 tvg-id="AvatarLaLeyendadeAang.us@LatAm" tvg-logo="https://images.pluto.tv/channels/6759ee82bd523200083b4f0f/colorLogoPNG.png",Avatar: La Leyenda de Aang
@@ -383,8 +385,12 @@ http://200.125.170.122:8000/play/a03j/index.m3u8
 https://eu1.servers10.com:8081/ceacom/index.m3u8
 #EXTINF:-1 tvg-id="ChamameTV.ar@SD" tvg-logo="https://i.imgur.com/JigzJck.png",Chamame TV
 https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
+#EXTINF:-1 tvg-id="Chikitoonz.pe@SD" tvg-logo="https://chikitoonz.com/site/wp-content/uploads/2024/08/logochikitoonz2.png",like Gecko) Chrome/146.0.0.0 Safari/537.36" group-title="Kids",Chikitoonz
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/Chikitoonz/playlist.m3u8
 #EXTINF:-1 tvg-id="ChinolaTV.do@SD" tvg-logo="https://i.imgur.com/ybud4dI.png",Chinola TV (480p)
 https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
+#EXTINF:-1 tvg-id="ChocolateFM.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/382_ChocolateFM.png",Chocolate FM
+https://5eaccbab48461.streamlock.net:1936/8180/8180/playlist.m3u8
 #EXTINF:-1 tvg-id="CINDIETV.br@HD" tvg-logo="https://a.jsrdn.com/hls/23208/cindie-tv/logo_20250225_222520_68.png",CINDIE TV
 https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
 #EXTINF:-1 tvg-id="Cine35mm.co@SD" tvg-logo="https://i.imgur.com/CYLmLOI.jpeg",Cine35mm
@@ -435,6 +441,8 @@ https://jmp2.uk/plu-5ffcc21a432945000762d06b.m3u8
 https://jmp2.uk/plu-609ae5cd48d3200007b0a98e.m3u8
 #EXTINF:-1 tvg-id="ConcertChannel.us@SD" tvg-logo="https://i.imgur.com/u2irADf.png",Concert Channel
 https://jmp2.uk/plu-6868152657543d1f8be4ece3.m3u8
+#EXTINF:-1 tvg-id="CorazonTV.pa@SD" tvg-logo="https://i.imgur.com/HVdbXku.png",Corazon TV
+https://sistemastr.tropicalmoonmedia.com/live/7FFCFEC3978B68D1A2ED0A38DE96AF76/12.m3u8
 #EXTINF:-1 tvg-id="CosmosTv.ar@SD" tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",Cosmos Tv
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 #EXTINF:-1 tvg-id="CrimenHistoria.es@SD" tvg-logo="https://images.pluto.tv/channels/64ddcbb14c5ed80008fad416/colorLogoPNG.png",Crimen & Historia
@@ -591,11 +599,3 @@ http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 http://cm.hostlagarto.com:8081/hits360tv/hits360HD.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="HitzTV.bz@SD" tvg-logo="https://i.imgur.com/SbZgsDh.png",Hitz TV
 https://streamer2.nexgen.bz/13-HITZ/index.m3u8
-#EXTINF:-1 tvg-id="iCarly.de@ES" tvg-logo="https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png",iCarly
-https://jmp2.uk/plu-6181404ef48321000797bc41.m3u8
-#EXTINF:-1 tvg-id="InfinitaTV.ec@SD" tvg-logo="https://i.imgur.com/1nHxdkR.png",Infinita TV
-https://s2.tvdatta.com:3753/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="InterradioTV.cl@SD" tvg-logo="https://i.imgur.com/3875n4G.png",Interradio TV
-https://tv.arkeo.cl:1936/8002/8002/playlist.m3u8
-#EXTINF:-1 tvg-id="IQChannel.cr@SD" tvg-logo="https://i.imgur.com/hwuaomt.png",IQ Channel
-https://rtmp.info/iqtv/envivo/playlist.m3u8
