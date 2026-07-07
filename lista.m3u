@@ -503,8 +503,14 @@ http://206.212.244.63/655/index.m3u8
 http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVDogelcazarrecompensas.us@SD" tvg-logo="https://i.imgur.com/h3kSZLc.png",Dog el cazarrecompensas
 https://jmp2.uk/plu-5f9992c685a2a80007fa414a.m3u8
+#EXTINF:-1 tvg-id="DSports.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png",DSports
+https://streamvidex.qzz.io/videx/dsportsar/index.m3u8
+#EXTINF:-1 tvg-id="DSports2.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/DIRECTV_Sports_2_Latin_America_%282018%29.svg/960px-DIRECTV_Sports_2_Latin_America_%282018%29.svg.png",DSports 2
+https://streamvidex.qzz.io/videx/dsports2/index.m3u8
 #EXTINF:-1 tvg-id="DSportsUruguay.uy@SD" tvg-logo="https://i.imgur.com/2PoEm1x.png",DSports Uruguay
 https://cors-proxy.cooks.fyi/http://147.135.114.221:8001/play/a00m/index.m3u8
+#EXTINF:-1 tvg-id="DSportsPlus.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DirecTV_Sports%2B_Latin_America_%282018%29.png/960px-DirecTV_Sports%2B_Latin_America_%282018%29.png",DSports+
+https://streamvidex.qzz.io/videx/dsportsplus/index.m3u8
 #EXTINF:-1 tvg-id="E40.py@SD" tvg-logo="https://i.imgur.com/0RypDUY.png",E40
 https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion
 #EXTINF:-1 tvg-id="Ecovision.do@SD" tvg-logo="https://imgur.com/Y4ahiYu.png",Ecovisión
@@ -593,9 +599,3 @@ https://jmp2.uk/plu-67517f923a61d40008c451f0.m3u8
 https://jmp2.uk/plu-5f4d3696d938c900072679fd.m3u8
 #EXTINF:-1 tvg-id="History2LatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png",History 2 Latin America
 http://138.121.15.230:9002/HISTORY-2/index.m3u8
-#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",History Latin America
-http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="Hits360TV.do@SD" tvg-logo="https://i.imgur.com/Cx5V233.jpg",Hits 360 TV [Not 24/7]
-http://cm.hostlagarto.com:8081/hits360tv/hits360HD.myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="HitzTV.bz@SD" tvg-logo="https://i.imgur.com/SbZgsDh.png",Hitz TV
-https://streamer2.nexgen.bz/13-HITZ/index.m3u8
