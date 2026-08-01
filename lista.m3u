@@ -473,6 +473,8 @@ https://jmp2.uk/plu-609ae5cd48d3200007b0a98e.m3u8
 https://jmp2.uk/plu-6868152657543d1f8be4ece3.m3u8
 #EXTINF:-1 tvg-id="CorazonTV.pa@SD" tvg-logo="https://i.imgur.com/HVdbXku.png",Corazon TV
 https://sistemastr.tropicalmoonmedia.com/live/7FFCFEC3978B68D1A2ED0A38DE96AF76/12.m3u8
+#EXTINF:-1 tvg-id="CosmosTv.ar@HD" tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",Cosmos Tv
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 #EXTINF:-1 tvg-id="CosmosTv.ar@SD" tvg-logo="https://i0.wp.com/fmcosmos.com/wp-content/uploads/2021/11/COSMOS-TV.png",Cosmos Tv
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 #EXTINF:-1 tvg-id="CrimenHistoria.es@SD" tvg-logo="https://images.pluto.tv/channels/64ddcbb14c5ed80008fad416/colorLogoPNG.png",Crimen & Historia
@@ -597,5 +599,3 @@ https://amixtv.com/fillkatvhd/index.m3u8
 http://15.204.246.24:8080/FilmArtsHD/index.m3u8
 #EXTINF:-1 tvg-id="FlexStudioRadioTV.bz@SD" tvg-logo="https://i.imgur.com/tZjqtxd.png",Flex Studio Radio TV [Not 24/7]
 https://live20.bozztv.com/akamaissh101/ssh101/fsradiotv/playlist.m3u8
-#EXTINF:-1 tvg-id="Flix.us@East" tvg-logo="https://i.imgur.com/N1d23J3.png",Flix
-https://gpuserver3.tier1streams.com/FLIX/index.m3u8
