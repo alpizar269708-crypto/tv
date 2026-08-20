@@ -105,6 +105,8 @@ https://5ca9af4645e15.streamlock.net/teleradio/smil:teleradio.smil/playlist.m3u8
 https://filmex-filmex-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmexClasico.mx@SD" tvg-logo="https://i.imgur.com/D3dj4mv.png",Filmex Clásico [Geo-blocked]
 https://filmex-filmexclasico-xumo.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="GikTVMX.mx@SD" tvg-logo="https://i.imgur.com/Gwz78jZ.png",GikTVMX
+https://pistream.ddns.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IcrtvColima.mx@SD" tvg-logo="https://i.imgur.com/iUks0ot.png",ICRTV Colima
 https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="IERTBCSCanal82.mx@SD" tvg-logo="https://i.imgur.com/R3icGuG.png",IERTBCS Canal 8.2 La Paz [Not 24/7]
@@ -375,6 +377,8 @@ https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 https://live.amelbatv.co:81/womtvlive/index.m3u8
 #EXTINF:-1 tvg-id="CazadordeHomicidas.us@Spain" tvg-logo="https://i.imgur.com/hy6FJLe.png",Cazador de Homicidas
 https://jmp2.uk/plu-60ed5fb9c4716d0007d180c5.m3u8
+#EXTINF:-1 tvg-id="CDNDeportes.do@SD" tvg-logo="https://i.imgur.com/yU5LqTL.png",CDN Deportes [Not 24/7]
+https://hls.tvabierta.net/hls/036.m3u8
 #EXTINF:-1 tvg-id="CEACOMTV.bo@SD" tvg-logo="https://i.imgur.com/hutdRfk.png",CEACOM TV [Not 24/7]
 https://eu1.servers10.com:8081/ceacom/index.m3u8
 #EXTINF:-1 tvg-id="ChamameTV.ar@SD" tvg-logo="https://i.imgur.com/JigzJck.png",Chamame TV
@@ -531,6 +535,8 @@ https://stream.soporteccrtv.xyz/hls/master-dveo.m3u8
 https://jmp2.uk/plu-60218baa464ef900073168c1.m3u8
 #EXTINF:-1 tvg-id="EnerGeekRadio.cl@SD" tvg-logo="https://cdn.energeek.cl/logos/EG-Radio-2025_pfp.png",EnerGeek Radio
 https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=ZZDemoIPTVGH
+#EXTINF:-1 tvg-id="ESPNDeportes.us@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/960px-ESPN_Deportes.svg.png",ESPN Deportes
+http://168.228.44.241:9998/play/a0dz/index.m3u8
 #EXTINF:-1 tvg-id="eSportsMaxTV.ve@SD" tvg-logo="https://i.imgur.com/OprRgQN.png",eSports Max TV
 https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="PlutoTVEstrellasdeAccion.us@SD" tvg-logo="https://i.imgur.com/GVOYX4L.png",Estrellas de Acción
@@ -593,9 +599,3 @@ http://15.204.246.24:8080/GolfChannelHD/index.m3u8
 https://copacogen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion
 #EXTINF:-1 tvg-id="HeyArnold.us@LatAm" tvg-logo="https://images.pluto.tv/channels/66c79221b1a34600087e264d/colorLogoPNG.png",Hey Arnold!
 https://jmp2.uk/plu-66c79221b1a34600087e264d.m3u8
-#EXTINF:-1 tvg-id="Historia.es@SD" tvg-logo="https://i.imgur.com/VUy8xIG.png",Historia
-https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
-#EXTINF:-1 tvg-id="Historia.es@HD" tvg-logo="https://i.imgur.com/VUy8xIG.png",Historia
-https://d1k3vzh2ivy22k.cloudfront.net/Historia1080.m3u8
-#EXTINF:-1 tvg-id="HistoriaYVida.es@SD" tvg-logo="https://i.imgur.com/56ZtCA1.png",Historia y Vida
-https://jmp2.uk/plu-67517f923a61d40008c451f0.m3u8
