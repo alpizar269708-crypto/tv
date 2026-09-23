@@ -449,7 +449,7 @@ https://jmp2.uk/plu-68de3db35fc0afe85de0b843.m3u8
 https://jmp2.uk/plu-5cf96dad1652631e36d43320.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralPlutoTV.us@LatAm" tvg-logo="https://images.pluto.tv/channels/5f357e91b18f0b00073583d2/colorLogoPNG.png",Comedy Central Pluto TV LatAm
 https://jmp2.uk/plu-5ffcc21a432945000762d06b.m3u8
-#EXTINF:-1 tvg-id="ComedyCentralSouthPark.us@LatAm" tvg-logo="https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png",Comedy Central South Park (United States) LatAm
+#EXTINF:-1 tvg-id="ComedyCentralSouthPark.us@LatAm" tvg-logo="https://images.pluto.tv/channels/609ae66b359b270007869ff1/colorLogoPNG_1733160636316.png",Comedy Central South Park LatAm
 https://jmp2.uk/plu-609ae5cd48d3200007b0a98e.m3u8
 #EXTINF:-1 tvg-id="ConcertChannel.us@SD" tvg-logo="https://i.imgur.com/u2irADf.png",Concert Channel
 https://jmp2.uk/plu-6868152657543d1f8be4ece3.m3u8
@@ -479,7 +479,7 @@ https://jmp2.uk/plu-5f1acd36779de70007a680d1.m3u8
 https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8
 #EXTINF:-1 tvg-id="DanceTV.ar@SD" tvg-logo="https://i.imgur.com/UKMR625.png",like Gecko Chrome/144.0.0.0 Safari/537.36" group-title="Music",Dance TV [Geo-blocked]
 https://op-group1-swiftservehd-1.dens.tv/h/h250/index.m3u8
-#EXTINF:-1 tvg-id="Daria.us@LatAm" tvg-logo="https://images.pluto.tv/channels/62d0895ebe7a970008785244/colorLogoPNG.png",Daria (United States)
+#EXTINF:-1 tvg-id="Daria.us@LatAm" tvg-logo="https://images.pluto.tv/channels/62d0895ebe7a970008785244/colorLogoPNG.png",Daria
 https://jmp2.uk/plu-62d0895ebe7a970008785244.m3u8
 #EXTINF:-1 tvg-id="DePeliculaLatinAmerica.mx@SD" tvg-logo="https://i.imgur.com/aksM8pa.png",De Pelicula Latin America
 http://38.19.41.46:8081/DEPELICULA/index.m3u8
