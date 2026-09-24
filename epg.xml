@@ -10934,11 +10934,11 @@
     <icon src="https://www.fetchtv.com.au/v2/epg/channels/2377/image" />
     <url>http://www.fetchtv.com.au</url>
   </channel>
-  <channel id="National.Geographic.HD.be">
-    <icon src="http://dtil.tmsimg.com/assets/s121147_ll_h15_aa.png?w=360&amp;h=270" />
-    <icon src="http://dtil.tmsimg.com/assets/s121147_ll_h15_aa.png?w=360&amp;h=270" />
+  <channel id="Antena.HD.be">
+    <icon src="http://dtil.tmsimg.com/assets/s120212_ll_h15_ab.png?w=360&amp;h=270" />
+    <icon src="http://dtil.tmsimg.com/assets/s120212_ll_h15_ab.png?w=360&amp;h=270" />
     <url>http://www.tmsapi.com</url>
-    <display-name lang="en">National Geographic HD</display-name>
+    <display-name lang="en">Antena HD</display-name>
   </channel>
   <channel id="5.HD.be">
     <url>http://www.tmsapi.com</url>
@@ -10950,17 +10950,17 @@
     <url>http://www.tmsapi.com</url>
     <display-name lang="en">FTV UHD</display-name>
   </channel>
-  <channel id="Antena.HD.be">
-    <icon src="http://dtil.tmsimg.com/assets/s120212_ll_h15_ab.png?w=360&amp;h=270" />
-    <icon src="http://dtil.tmsimg.com/assets/s120212_ll_h15_ab.png?w=360&amp;h=270" />
-    <url>http://www.tmsapi.com</url>
-    <display-name lang="en">Antena HD</display-name>
-  </channel>
   <channel id="National.Geographic.be">
     <icon src="https://tv.cdnartwhere.eu/images/logos_chaines/243.png" />
     <icon src="https://tv.cdnartwhere.eu/images/logos_chaines/243.png" />
     <url>http://www.moustique.be</url>
     <display-name lang="fr">National Geographic</display-name>
+  </channel>
+  <channel id="National.Geographic.HD.be">
+    <icon src="http://dtil.tmsimg.com/assets/s121147_ll_h15_aa.png?w=360&amp;h=270" />
+    <icon src="http://dtil.tmsimg.com/assets/s121147_ll_h15_aa.png?w=360&amp;h=270" />
+    <url>http://www.tmsapi.com</url>
+    <display-name lang="en">National Geographic HD</display-name>
   </channel>
   <channel id="Film.&amp;.Arts.br">
     <display-name lang="pt">Film &amp; Arts</display-name>
@@ -11052,17 +11052,17 @@
     <icon src="https://cablenet.com.cy/wp-content/plugins/tv-guide-plugin/assets/logos/51406.png" />
     <url>http://www.cablenet.com.cy</url>
   </channel>
-  <channel id="National.Geographic.HD.cz">
-    <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/NG_HD.png" />
-    <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/NG_HD.png" />
-    <url>http://www.tv.sms.cz.m</url>
-    <display-name lang="cs">National Geographic HD</display-name>
-  </channel>
   <channel id="Antena.TV.cz">
     <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/antena.png" />
     <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/antena.png" />
     <url>http://www.tv.sms.cz.m</url>
     <display-name lang="cs">Antena TV</display-name>
+  </channel>
+  <channel id="National.Geographic.HD.cz">
+    <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/NG_HD.png" />
+    <icon src="https://www.sms.cz/kategorie/televize/bmp/loga/velka/NG_HD.png" />
+    <url>http://www.tv.sms.cz.m</url>
+    <display-name lang="cs">National Geographic HD</display-name>
   </channel>
   <channel id="DSPORTS.+.HD.dtvsp">
     <display-name lang="en">DSPORTS + HD</display-name>
@@ -11421,21 +11421,21 @@
     <url>http://www.tv.wp.pl</url>
     <display-name lang="pl">National Geographic HD</display-name>
   </channel>
-  <channel id="Antena.pl">
+  <channel id="National.Geographic.pl">
     <url>http://www.tv.wp.pl</url>
-    <display-name lang="pl">Antena</display-name>
-  </channel>
-  <channel id="BabyFirstTV.pl">
-    <url>http://www.tv.wp.pl</url>
-    <display-name lang="pl">BabyFirstTV</display-name>
+    <display-name lang="pl">National Geographic</display-name>
   </channel>
   <channel id="Antena.HD.pl">
     <url>http://www.tv.wp.pl</url>
     <display-name lang="pl">Antena HD</display-name>
   </channel>
-  <channel id="National.Geographic.pl">
+  <channel id="BabyFirstTV.pl">
     <url>http://www.tv.wp.pl</url>
-    <display-name lang="pl">National Geographic</display-name>
+    <display-name lang="pl">BabyFirstTV</display-name>
+  </channel>
+  <channel id="Antena.pl">
+    <url>http://www.tv.wp.pl</url>
+    <display-name lang="pl">Antena</display-name>
   </channel>
   <channel id="plex.tv.Forensic.Files.plex">
     <display-name lang="en">Forensic Files</display-name>
@@ -11515,17 +11515,17 @@
     <icon src="https://mage.stream.nos.pt/mage/v1/Images?sourceUri=http%3A%2F%2Fvip.repositories.local.internal%2FRepositories.EPG%2FOttChannelIcons%2FNGCHD.png&amp;profile=ott_16_220x64&amp;client_id=xe1dgrShwdR1DVOKGmsj8Ut4QLlGyOFI&amp;format=image/png.pt" />
     <url>http://www.nostv.pt</url>
   </channel>
-  <channel id="National.Geographic.ro">
-    <icon src="https://static.cinemagia.ro/img/tv_station/national-geographic.jpg" />
-    <icon src="https://static.cinemagia.ro/img/tv_station/national-geographic.jpg" />
-    <url>http://www.programetv.ro</url>
-    <display-name lang="ro">National Geographic</display-name>
-  </channel>
   <channel id="National.Geographic.HD.ro">
     <icon src="https://static.cinemagia.ro/img/tv_station/national-geographic-hd.jpg" />
     <icon src="https://static.cinemagia.ro/img/tv_station/national-geographic-hd.jpg" />
     <url>http://www.programetv.ro</url>
     <display-name lang="ro">National Geographic HD</display-name>
+  </channel>
+  <channel id="National.Geographic.ro">
+    <icon src="https://static.cinemagia.ro/img/tv_station/national-geographic.jpg" />
+    <icon src="https://static.cinemagia.ro/img/tv_station/national-geographic.jpg" />
+    <url>http://www.programetv.ro</url>
+    <display-name lang="ro">National Geographic</display-name>
   </channel>
   <channel id="National.Geographic.(HD).ro">
     <display-name lang="ro">National Geographic (HD)</display-name>
@@ -11703,41 +11703,17 @@
     <display-name lang="tr">NATIONAL GEOGRAPHIC</display-name>
     <url>http://www.tivibu.com.tr</url>
   </channel>
-  <channel id="Cinemax.Hits.us2">
-    <icon src="http://dtil.tmsimg.com/assets/GNLZZGG0029CKD8.png?w=360&amp;h=270" />
-    <icon src="http://dtil.tmsimg.com/assets/GNLZZGG0029CKD8.png?w=360&amp;h=270" />
-    <url>http://www.tmsapi.com</url>
-    <display-name lang="en">Cinemax Hits</display-name>
-  </channel>
-  <channel id="TUDN.us2">
-    <icon src="http://dtil.tmsimg.com/assets/s75176_ll_h15_ae.png?w=360&amp;h=270" />
-    <icon src="http://dtil.tmsimg.com/assets/s75176_ll_h15_ae.png?w=360&amp;h=270" />
-    <url>http://www.tmsapi.com</url>
-    <display-name lang="en">TUDN</display-name>
-  </channel>
-  <channel id="Estrella.TV.us2">
-    <icon src="http://dtil.tmsimg.com/assets/s65064_ll_h15_af.png?w=360&amp;h=270" />
-    <icon src="http://dtil.tmsimg.com/assets/s65064_ll_h15_af.png?w=360&amp;h=270" />
-    <url>http://www.tmsapi.com</url>
-    <display-name lang="en">Estrella TV</display-name>
-  </channel>
-  <channel id="ESPN.Deportes.HD.us2">
-    <icon src="http://dtil.tmsimg.com/assets/s71914_ll_h15_aa.png?w=360&amp;h=270" />
-    <icon src="http://dtil.tmsimg.com/assets/s71914_ll_h15_aa.png?w=360&amp;h=270" />
-    <url>http://www.tmsapi.com</url>
-    <display-name lang="en">ESPN Deportes HD</display-name>
-  </channel>
   <channel id="Fox.Deportes.HD.us2">
     <icon src="http://dtil.tmsimg.com/assets/s15377_ll_h15_ab.png?w=360&amp;h=270" />
     <icon src="http://dtil.tmsimg.com/assets/s15377_ll_h15_ab.png?w=360&amp;h=270" />
     <url>http://www.tmsapi.com</url>
     <display-name lang="en">Fox Deportes HD</display-name>
   </channel>
-  <channel id="National.Geographic.HD.us2">
-    <icon src="http://dtil.tmsimg.com/assets/s49438_ll_h15_ab.png?w=360&amp;h=270" />
-    <icon src="http://dtil.tmsimg.com/assets/s49438_ll_h15_ab.png?w=360&amp;h=270" />
+  <channel id="Cinemax.Hits.us2">
+    <icon src="http://dtil.tmsimg.com/assets/GNLZZGG0029CKD8.png?w=360&amp;h=270" />
+    <icon src="http://dtil.tmsimg.com/assets/GNLZZGG0029CKD8.png?w=360&amp;h=270" />
     <url>http://www.tmsapi.com</url>
-    <display-name lang="en">National Geographic HD</display-name>
+    <display-name lang="en">Cinemax Hits</display-name>
   </channel>
   <channel id="BabyFirst.TV.us2">
     <icon src="http://dtil.tmsimg.com/assets/s50338_ll_h15_ab.png?w=360&amp;h=270" />
@@ -11745,11 +11721,35 @@
     <url>http://www.tmsapi.com</url>
     <display-name lang="en">BabyFirst TV</display-name>
   </channel>
+  <channel id="TUDN.us2">
+    <icon src="http://dtil.tmsimg.com/assets/s75176_ll_h15_ae.png?w=360&amp;h=270" />
+    <icon src="http://dtil.tmsimg.com/assets/s75176_ll_h15_ae.png?w=360&amp;h=270" />
+    <url>http://www.tmsapi.com</url>
+    <display-name lang="en">TUDN</display-name>
+  </channel>
+  <channel id="National.Geographic.HD.us2">
+    <icon src="http://dtil.tmsimg.com/assets/s49438_ll_h15_ab.png?w=360&amp;h=270" />
+    <icon src="http://dtil.tmsimg.com/assets/s49438_ll_h15_ab.png?w=360&amp;h=270" />
+    <url>http://www.tmsapi.com</url>
+    <display-name lang="en">National Geographic HD</display-name>
+  </channel>
+  <channel id="ESPN.Deportes.HD.us2">
+    <icon src="http://dtil.tmsimg.com/assets/s71914_ll_h15_aa.png?w=360&amp;h=270" />
+    <icon src="http://dtil.tmsimg.com/assets/s71914_ll_h15_aa.png?w=360&amp;h=270" />
+    <url>http://www.tmsapi.com</url>
+    <display-name lang="en">ESPN Deportes HD</display-name>
+  </channel>
   <channel id="ESTRELLA.NEWS.us2">
     <icon src="http://dtil.tmsimg.com/sources/generic/generic_sources_h3.png" />
     <icon src="http://dtil.tmsimg.com/sources/generic/generic_sources_h3.png" />
     <url>http://www.tmsapi.com</url>
     <display-name lang="en">ESTRELLA NEWS</display-name>
+  </channel>
+  <channel id="Estrella.TV.us2">
+    <icon src="http://dtil.tmsimg.com/assets/s65064_ll_h15_af.png?w=360&amp;h=270" />
+    <icon src="http://dtil.tmsimg.com/assets/s65064_ll_h15_af.png?w=360&amp;h=270" />
+    <url>http://www.tmsapi.com</url>
+    <display-name lang="en">Estrella TV</display-name>
   </channel>
   <channel id="26.TV.HD..uy">
     <display-name lang="es">26 TV HD</display-name>
@@ -16038,8 +16038,7 @@
     <rating system="방송통신심의위원회">
       <value>15</value>
     </rating>
-  </programme>
-  <programme channel="National.Geographic.HD.be" start="20260923133500 +0000" stop="20260923140000 +0000">
+  </programme><programme channel="National.Geographic.HD.be" start="20260923133500 +0000" stop="20260923140000 +0000">
     <title lang="en">Dog Squad Puppy School</title>
     <desc lang="nl">Politiehond Stark neemt meer hooi op haar vork dan ze aankan. Welke van de Blind Low Vision-broers wordt verrast, Aiden of Archie?</desc>
     <credits>
@@ -23449,7 +23448,8 @@
     <icon src="http://dtil.tmsimg.com/assets/p23418426_b_h8_aa.jpg?w=960&amp;h=540" />
     <episode-num system="onscreen">S2 E12</episode-num>
     <previously-shown />
-  </programme><programme channel="Antena.HD.be" start="20260926025000 +0000" stop="20260926040000 +0000">
+  </programme>
+  <programme channel="Antena.HD.be" start="20260926025000 +0000" stop="20260926040000 +0000">
     <title lang="pl">Winnice miłości</title>
     <desc lang="pl">Ujawnienie przez Patroklosa, że Diamantis był mężem Helgi Linemayer, szokuje wszystkich i rodzi pytania. Achilleas i Mattheos proszą babcię, aby opowiedziała im wszystko, co wie o przeszłości. Patroklos spędza coraz więcej czasu z rodziną.</desc>
     <credits>
@@ -29045,7 +29045,8 @@
     <icon src="http://dtil.tmsimg.com/assets/p19221598_b_h8_ab.jpg?w=960&amp;h=540" />
     <episode-num system="onscreen">S2026 E195</episode-num>
     <previously-shown />
-  </programme><programme channel="5.HD.be" start="20260926000000 +0000" stop="20260926010000 +0000">
+  </programme>
+  <programme channel="5.HD.be" start="20260926000000 +0000" stop="20260926010000 +0000">
     <title lang="en">Cruise TV with LoveitBookit</title>
     <desc lang="en">A one-stop shop for all things cruise, presenting the hottest destinations and the latest deals.</desc>
     <date>2018</date>
@@ -36058,8 +36059,7 @@
     <rating system="GR">
       <value>16</value>
     </rating>
-  </programme>
-  <programme start="20260925202500 +0000" stop="20260925211000 +0000" channel="National.Geographic.HD.cy">
+  </programme><programme start="20260925202500 +0000" stop="20260925211000 +0000" channel="National.Geographic.HD.cy">
     <title lang="el">Hitler’s Last Stand: Fight to the Finish</title>
     <desc lang="el">Three missions in WWII put Allied soldiers to the test. With all eyes upon them, they prove it takes more than strength to succeed. It takes courage.</desc>
     <rating system="GR">
@@ -36100,7 +36100,8 @@
     <rating system="GR">
       <value>12</value>
     </rating>
-  </programme><programme start="20260922035800 +0000" stop="20260922042400 +0000" channel="TV.5.cy">
+  </programme>
+  <programme start="20260922035800 +0000" stop="20260922042400 +0000" channel="TV.5.cy">
     <title lang="el">6H INFO</title>
     <desc lang="el">The 6am news bulletin (Paris time) by the France Télévisions editorial team.</desc>
     <rating system="GR">
@@ -36463,8 +36464,7 @@
     <rating system="GR">
       <value>12</value>
     </rating>
-  </programme>
-  <programme start="20260923063000 +0000" stop="20260923070000 +0000" channel="TV.5.cy">
+  </programme><programme start="20260923063000 +0000" stop="20260923070000 +0000" channel="TV.5.cy">
     <title lang="el">TÉLÉMATIN</title>
     <desc lang="el">The latest news and laughter, 7 days a week!</desc>
     <rating system="GR">
@@ -37002,8 +37002,7 @@
     <rating system="GR">
       <value>12</value>
     </rating>
-  </programme>
-  <programme start="20260924231400 +0000" stop="20260924234000 +0000" channel="TV.5.cy">
+  </programme><programme start="20260924231400 +0000" stop="20260924234000 +0000" channel="TV.5.cy">
     <title lang="el">LE JOURNAL AFRIQUE</title>
     <desc lang="el">All the African news from the TV5MONDE news staff.</desc>
     <rating system="GR">
@@ -37275,8 +37274,7 @@
     <rating system="GR">
       <value>12</value>
     </rating>
-  </programme>
-  <programme start="20260925185600 +0000" stop="20260925185700 +0000" channel="TV.5.cy">
+  </programme><programme start="20260925185600 +0000" stop="20260925185700 +0000" channel="TV.5.cy">
     <title lang="el">MÉTÉO</title>
     <desc lang="el">The international weather report.</desc>
     <rating system="GR">
@@ -38515,8 +38513,7 @@
     <icon src="https://www.sms.cz/~tri65dnigalerie/porad_booklet/600/1/1ec5f3a66e84283a91d8ba7ea1bc7fb4.jpg" />
     <country lang="cs">Spojené státy americké</country>
     <episode-num system="onscreen">S10 E4</episode-num>
-  </programme>
-  <programme channel="National.Geographic.HD.cz" start="20260923042700 +0200" stop="20260923051200 +0200">
+  </programme><programme channel="National.Geographic.HD.cz" start="20260923042700 +0200" stop="20260923051200 +0200">
     <title lang="cs">Stavíme Evropu - výběr I</title>
     <desc lang="cs">(Engineering Europe: Compilations Season I) Inženýrské zázraky: Těžké váhy USA 2026 Vydejte se na cestu Evropou a objevte nejpůsobivější inženýrské stavby kontinentu. Od dánského mostu Storstrřm přes nizozemský hrad De Haar až po futuristický hotel Marques de Riscal ve Španělsku. Podíváme se na železniční most na Emži, obří kanalizační tunel v Londýně i nizozemské protipovodňové hráze Deltawerken, které chrání miliony lidí před mořem. A v loděnici Royal Bodewes uvidíme, jak se udržuje... tradiční řemeslo. Příběhy inženýrů ukazují, jak inovace a odhodlání mění evropské stavby v/ikony. Vizuálně působivý dokumentární seriál o nejzajímavějších evropských stavbách a technických projektech představuje nejvyšší budovy, kostely i další monumentální konstrukce, ale také celá dřevěná města a nejmodernější stavební postupy. Vysvětluje, jak architekti a inženýři dokážou překonávat náročné přírodní podmínky a vytvářet stavby, které posouvají hranice možného. Díky návštěvám přímo na místě, rozhovorům s odborníky a poutavému vyprávění přináší fascinující pohled na týmovou práci,... tvořivost a odhodlání, které stojí za nejznámějšími evropskými památkami a městy.</desc>
   </programme>
@@ -39352,7 +39349,8 @@
   </programme>
   <programme start="20260924124500 -0500" stop="20260924125000 -0500" channel="DSPORTS.+.HD.dtvsp">
     <title lang="en">Usain Bolt</title>
-  </programme><programme start="20260924125000 -0500" stop="20260924155000 -0500" channel="DSPORTS.+.HD.dtvsp">
+  </programme>
+  <programme start="20260924125000 -0500" stop="20260924155000 -0500" channel="DSPORTS.+.HD.dtvsp">
     <title lang="en">Montreal, día 5: Carrera en ruta femenina sub-23</title>
   </programme>
   <programme start="20260924155000 -0500" stop="20260924171500 -0500" channel="DSPORTS.+.HD.dtvsp">
@@ -39441,8 +39439,7 @@
   </programme>
   <programme start="20260922213000 -0500" stop="20260922233000 -0500" channel="DSPORTS.2.HD.dtvsp">
     <title lang="en">Sporting Club de Portugal vs. Arouca</title>
-  </programme>
-  <programme start="20260922233000 -0500" stop="20260923000000 -0500" channel="DSPORTS.2.HD.dtvsp">
+  </programme><programme start="20260922233000 -0500" stop="20260923000000 -0500" channel="DSPORTS.2.HD.dtvsp">
     <title lang="en">LaLiga Highlights</title>
   </programme>
   <programme start="20260923000000 -0500" stop="20260923010000 -0500" channel="DSPORTS.2.HD.dtvsp">
@@ -39984,7 +39981,8 @@
     <desc lang="da">Sæson: 1. Episode: 6. 'Queen Anne's Revenge, Tribal Trepanation, Thunderbolt'. Udforsk nogle af historiens mest ekstreme medicinske praksisser. Ombord på vraget af det berygtede piratskib Queen Anne's Revenge finder arkæologer kirurgiske redskaber, der engang blev brugt til at behandle sårede søfolk - men de afslører en brutal virkelighed med smerte, infektion og begrænset pleje på åbent hav. I Peru afslører udgravninger ved fæstningen Kuélap jordiske rester med tegn på trepanering, en gammel form for kraniekirurgi, der krævede bemærkelsesværdig anatomisk viden og rolige hænder. Og ved den amerikanske grænse afslører vidnesbyrd fra Lewis og Clarks ekspeditionslatriner brugen af "tordenkiler", en kraftfuld kviksølvbaseret medicin, der blev medbragt til behandling af sygdomme under deres rejse. På tværs af oceaner, bjerge og kontinenter afslører disse opdagelser de desperate og vovede forholdsregler, folk engang traf for at overleve. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://stv-images.content-production.entertainment.nuuday.cloud/pics/510960200/1920x1080.jpg" />
-  </programme><programme start="20260923200000 +0000" stop="20260923210000 +0000" channel="National.Geographic.dk">
+  </programme>
+  <programme start="20260923200000 +0000" stop="20260923210000 +0000" channel="National.Geographic.dk">
     <title lang="da">How The Tudors Lost Their Heads</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Anne Boleyn'. Anne Boleyn blev henrettet for utroskab og forræderi, og hun huskes ofte som ”skøgen”, der forførte Henrik 7. til at annullere sit første ægteskab og dermed tvang sit land ud i religiøs uro. Suzannah Lipscomb og Dan Snow undersøger beviser, der afslører en anden Anne, hvis idéer forvandlede England og hvis ry fortjener en revurdering. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
@@ -40837,8 +40835,7 @@
   </programme>
   <programme start="20260923035500 -0500" stop="20260923060000 -0500" channel="Canal.DHE.ec">
     <title lang="es">El exorcismo de Emily Rose</title>
-  </programme>
-  <programme start="20260923060000 -0500" stop="20260923075000 -0500" channel="Canal.DHE.ec">
+  </programme><programme start="20260923060000 -0500" stop="20260923075000 -0500" channel="Canal.DHE.ec">
     <title lang="es">Sin Rastro</title>
   </programme>
   <programme start="20260923075000 -0500" stop="20260923093000 -0500" channel="Canal.DHE.ec">
@@ -41119,7 +41116,8 @@
   </programme>
   <programme start="20260922060500 -0500" stop="20260922075000 -0500" channel="Canal.Europa.Europa.ec">
     <title lang="es">Rojo, amarillo, rosa</title>
-  </programme><programme start="20260922075000 -0500" stop="20260922081000 -0500" channel="Canal.Europa.Europa.ec">
+  </programme>
+  <programme start="20260922075000 -0500" stop="20260922081000 -0500" channel="Canal.Europa.Europa.ec">
     <title lang="es">La llamada</title>
   </programme>
   <programme start="20260922081000 -0500" stop="20260922100000 -0500" channel="Canal.Europa.Europa.ec">
@@ -41216,8 +41214,7 @@
   </programme>
   <programme start="20260924080000 -0500" stop="20260924100000 -0500" channel="Canal.Europa.Europa.ec">
     <title lang="es">El sueño de Cassandra</title>
-  </programme>
-  <programme start="20260924100000 -0500" stop="20260924120500 -0500" channel="Canal.Europa.Europa.ec">
+  </programme><programme start="20260924100000 -0500" stop="20260924120500 -0500" channel="Canal.Europa.Europa.ec">
     <title lang="es">Montalbano</title>
     <episode-num system="onscreen">S7 E18</episode-num>
   </programme>
@@ -41285,7 +41282,8 @@
   </programme>
   <programme start="20260921025500 -0500" stop="20260921050000 -0500" channel="Canal.Film.&amp;.Arts.ec">
     <title lang="es">Las Suites de Bach según Anne</title>
-  </programme><programme start="20260921050000 -0500" stop="20260921060000 -0500" channel="Canal.Film.&amp;.Arts.ec">
+  </programme>
+  <programme start="20260921050000 -0500" stop="20260921060000 -0500" channel="Canal.Film.&amp;.Arts.ec">
     <title lang="es">Las guerras de Coco Chanel</title>
   </programme>
   <programme start="20260921060000 -0500" stop="20260921070000 -0500" channel="Canal.Film.&amp;.Arts.ec">
@@ -41377,8 +41375,7 @@
   <programme start="20260922082500 -0500" stop="20260922092000 -0500" channel="Canal.Film.&amp;.Arts.ec">
     <title lang="es">Hérouville Sessions</title>
     <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260922092000 -0500" stop="20260922110000 -0500" channel="Canal.Film.&amp;.Arts.ec">
+  </programme><programme start="20260922092000 -0500" stop="20260922110000 -0500" channel="Canal.Film.&amp;.Arts.ec">
     <title lang="es">Vera</title>
     <episode-num system="onscreen">S12 E1</episode-num>
   </programme>
@@ -41575,7 +41572,8 @@
   </programme>
   <programme start="20260924190000 -0500" stop="20260924210000 -0500" channel="Canal.Film.&amp;.Arts.ec">
     <title lang="es">Il Volo en Agrigento</title>
-  </programme><programme start="20260924210000 -0500" stop="20260924220000 -0500" channel="Canal.Film.&amp;.Arts.ec">
+  </programme>
+  <programme start="20260924210000 -0500" stop="20260924220000 -0500" channel="Canal.Film.&amp;.Arts.ec">
     <title lang="es">Hugh Grant el ícono olvidado</title>
   </programme>
   <programme start="20260924220000 -0500" stop="20260924230000 -0500" channel="Canal.Film.&amp;.Arts.ec">
@@ -42285,8 +42283,7 @@
     <rating>
       <value>TP</value>
     </rating>
-  </programme>
-  <programme start="20260924120000 +0000" stop="20260924124500 +0000" channel="CMM.TV.es">
+  </programme><programme start="20260924120000 +0000" stop="20260924124500 +0000" channel="CMM.TV.es">
     <title lang="es">Castilla-La Mancha a las 2</title>
     <desc lang="es">Primera edición de los informativos de Castilla-La Mancha Televisión, con la actualidad más relevante de la jornada tanto nacional como internacional.</desc>
     <date>2026</date>
@@ -46707,8 +46704,7 @@
     <rating>
       <value>+7</value>
     </rating>
-  </programme>
-  <programme start="20260922062909 +0000" stop="20260922070109 +0000" channel="The.Pet.Collective.es">
+  </programme><programme start="20260922062909 +0000" stop="20260922070109 +0000" channel="The.Pet.Collective.es">
     <title lang="es">Best Pets of the Month</title>
     <sub-title lang="es">Best Pets Of The Month Ep. 1.1</sub-title>
     <desc lang="es">These pets won January '18. But after watching these clips, the real winner is you.</desc>
@@ -48775,7 +48771,8 @@
     <category lang="fi">Sarjat</category>
     <icon src="https://img.ilcdn.fi/2D4jxwEDg62P7Kv2DXlW0yA8SOY=/244x152/smart/filters:quality(86)/il-telkku-image.prod.il.fi%2F15290673180067616154" />
     <episode-num system="onscreen">S1 E3</episode-num>
-  </programme><programme start="20260924200000 +0000" stop="20260924210000 +0000" channel="National.Geographic.fi">
+  </programme>
+  <programme start="20260924200000 +0000" stop="20260924210000 +0000" channel="National.Geographic.fi">
     <title lang="fi">Tudorien verinen valtakausi</title>
     <desc lang="fi">Aviorikoksesta ja maanpetoksesta syytettynä teloitettu Anne Boleyn muistetaan usein "portona", joka vietteli Henrik VIII:n mitätöimään ensimmäisen avioliittonsa ja pakotti maansa uskonnolliseen sekasortoon. Suzannah Lipscomb ja Dan Snow tutkivat todisteita, jotka paljastavat erilaisen Annen, jonka ajatukset mullistavat Englannin ja jonka maine ansaitsee tulla arvioiduksi uudelleen.</desc>
     <date>2026</date>
@@ -49045,7 +49042,8 @@
     <category lang="fi">Sarjat</category>
     <icon src="https://img.ilcdn.fi/pMFyNAoj8SxaWSjhwb9YXJWlPmM=/244x152/smart/filters:quality(86)/il-telkku-image.prod.il.fi%2F13278399182855063046" />
     <episode-num system="onscreen">S1 E2</episode-num>
-  </programme><programme start="20260922030000 +0000" stop="20260922033000 +0000" channel="TV.5.fi">
+  </programme>
+  <programme start="20260922030000 +0000" stop="20260922033000 +0000" channel="TV.5.fi">
     <title lang="fi">Asunnon metsästäjät</title>
     <desc lang="fi">Asunnon ostaminen ei ole helppoa, varsinkaan silloin, kun kaupat tehdään ulkomailla. Sarjassa seurataan asunnonvälittäjien ja asiakkaiden kintereillä ympäri maailmaa.</desc>
     <date>2019</date>
@@ -49954,7 +49952,8 @@
     <category lang="fr">Documentaire</category>
     <icon src="https://focus.telerama.fr/252x168/80/2026/09/16/21a74f85e3804e079b6a32d33e40414d.jpg" />
     <country lang="fr">Grande-Bretagne</country>
-  </programme><programme channel="National.Geographic.fr" start="20260922134500 +0200" stop="20260922144000 +0200">
+  </programme>
+  <programme channel="National.Geographic.fr" start="20260922134500 +0200" stop="20260922144000 +0200">
     <title lang="fr">Air Crash</title>
     <desc lang="fr">Le 10 octobre 2006, le vol Atlantic Airways 670 transporte les employés d'un groupe pétrolier vers leur lieu de travail. Lors d'un arrêt de routine sur la petite île norvégienne de Stord, le British Aerospace 146 quitte la piste et dévale le ravin. L'un des moteurs est toujours en marche, plusieurs sorties sont bloquées et l'avion ne met pas longtemps à s'enflammer.</desc>
     <category lang="fr">Documentaire</category>
@@ -50527,8 +50526,7 @@
     <category lang="fr">Documentaire</category>
     <icon src="https://focus.telerama.fr/252x168/80/2026/09/16/e9a011e8d68048deb4fcb74a30acb132.jpg" />
     <country lang="fr">Etats-Unis</country>
-  </programme>
-  <programme channel="National.Geographic.fr" start="20260925012000 +0200" stop="20260925021000 +0200">
+  </programme><programme channel="National.Geographic.fr" start="20260925012000 +0200" stop="20260925021000 +0200">
     <title lang="fr">De l'ombre à la lumière</title>
     <desc lang="fr">De par le monde, des corps ont été retrouvés enterrés avec un pieu, une pierre ou un couteau enfoncés dans leur coeur. Un homme pense avoir trouvé une explication à ces phénomènes : il est parti sur la piste du plus ancien vampire supposé.</desc>
     <category lang="fr">Documentaire</category>
@@ -53302,7 +53300,8 @@
     <rating system="GRen">
       <value>12</value>
     </rating>
-  </programme><programme start="20260925050500 -0500" stop="20260925053000 -0500" channel="National.Geographic.gr">
+  </programme>
+  <programme start="20260925050500 -0500" stop="20260925053000 -0500" channel="National.Geographic.gr">
     <title lang="el">Κυνηγοί Πολεμικών Κειμηλίων</title>
     <title lang="xx">Lords Of War</title>
     <desc lang="el">Το Λιβάδι Των Κραυγών. O Shooter ανακαλύπτει την ιταλική εκδοχή ενός M-14 και ενθουσιάζεται όταν ο ιδιοκτήτης του τον αφήνει να το δοκιμάσει στο σκοπευτήριο.</desc>
@@ -55282,7 +55281,8 @@
       <actor>Ben</actor>
     </credits>
     <icon src="http://epg.bnet.hr/images/https://cdn.a1xploretv.hr/cdn_publish/epg/498x280_event_thumb/8a14e1e4e9024444b353fc7e6943c22f_thumb.jpg" />
-  </programme><programme start="20260921030500 +0200" stop="20260921035000 +0200" channel="National.Geographic.hr">
+  </programme>
+  <programme start="20260921030500 +0200" stop="20260921035000 +0200" channel="National.Geographic.hr">
     <title lang="hr">U Zračnoj Luci Sydney</title>
     <desc lang="hr">Ludilo petkom. Proboji osiguranja, zračna pomoć za hitne slučajeve, droga pronađena u ostavljenoj prtljazi i gnjevni putnik — stvaraju ludnicu na poslu šefu osoblja Georgeu.</desc>
     <credits>
@@ -55528,7 +55528,8 @@
     <title lang="hr">Zapljena Krijumčarene Robe</title>
     <desc lang="hr">Maybach i lijekovi. Policajci iz Newarka traže ukradeni luksuzni auto koji je na putu za inozemstvo. Agenti na Floridi presreću tri borda koji krijumčare zabranjenu robu.</desc>
     <icon src="http://epg.bnet.hr/images/https://cdn.a1xploretv.hr/cdn_publish/epg/498x280_event_thumb/72b2505f60c446c7aaf96780ee6d96e6_thumb.jpg" />
-  </programme><programme start="20260921220000 +0200" stop="20260921230000 +0200" channel="National.Geographic.hr">
+  </programme>
+  <programme start="20260921220000 +0200" stop="20260921230000 +0200" channel="National.Geographic.hr">
     <title lang="hr">Avionske Nesreće, Rekonstrukcija</title>
     <desc lang="hr">US Airways Flight 1549. Preživjeli iz "čuda na Hudsonu" dijele svoja iskustva iz prve ruke o prinudnom slijetanju.</desc>
     <credits>
@@ -56502,7 +56503,8 @@
       <actor>Phil Cornwell</actor>
     </credits>
     <icon src="http://epg.bnet.hr/images/https://cdn.a1xploretv.hr/cdn_publish/epg/498x280_event_thumb/a9eaa1db56ed4cdaa33bb9328700d9ad_thumb.jpg" />
-  </programme><programme start="20260922060000 +0200" stop="20260922080000 +0200" channel="Babyfirst.hu">
+  </programme>
+  <programme start="20260922060000 +0200" stop="20260922080000 +0200" channel="Babyfirst.hu">
     <title lang="hu">Breakfast Club</title>
     <star-rating>
       <value>2</value>
@@ -57613,8 +57615,7 @@
     <star-rating>
       <value>1</value>
     </star-rating>
-  </programme>
-  <programme start="20260925010000 +0200" stop="20260925013000 +0200" channel="National.Geographic.HD.hu">
+  </programme><programme start="20260925010000 +0200" stop="20260925013000 +0200" channel="National.Geographic.HD.hu">
     <title lang="hu">Azok a legendás évtizedek</title>
     <title lang="en">80s Greatest 1</title>
     <sub-title lang="hu">Nők forradalma</sub-title>
@@ -58351,8 +58352,7 @@
     <star-rating>
       <value>23</value>
     </star-rating>
-  </programme>
-  <programme start="20260923130000 +0200" stop="20260923140000 +0200" channel="National.Geographic.hu">
+  </programme><programme start="20260923130000 +0200" stop="20260923140000 +0200" channel="National.Geographic.hu">
     <title lang="hu">Alaszka őslakói</title>
     <title lang="en">Life Below Zero: First Alaskans: Season 1</title>
     <sub-title lang="hu">Hideg fogás</sub-title>
@@ -58665,7 +58665,8 @@
     <star-rating>
       <value>23</value>
     </star-rating>
-  </programme><programme start="20260924130000 +0200" stop="20260924140000 +0200" channel="National.Geographic.hu">
+  </programme>
+  <programme start="20260924130000 +0200" stop="20260924140000 +0200" channel="National.Geographic.hu">
     <title lang="hu">Alaszka őslakói</title>
     <title lang="en">Life Below Zero: First Alaskans: Season 1</title>
     <sub-title lang="hu">Az alkalmazkodás mesterei</sub-title>
@@ -58896,8 +58897,7 @@
     <star-rating>
       <value>36</value>
     </star-rating>
-  </programme>
-  <programme start="20260925080000 +0200" stop="20260925090000 +0200" channel="National.Geographic.hu">
+  </programme><programme start="20260925080000 +0200" stop="20260925090000 +0200" channel="National.Geographic.hu">
     <title lang="hu">Meghökkentő építmények</title>
     <title lang="en">How Did They Build That?: Season 2</title>
     <sub-title lang="hu">Múzeum a mocsáron</sub-title>
@@ -64980,7 +64980,8 @@
   </programme>
   <programme start="20260923100000 +0300" stop="20260923102000 +0300" channel="ספורט.5.שידור.חי.il">
     <title lang="he">ליגת ווינר 26/27 - בית''ר י-ם/ה. חיפה</title>
-  </programme><programme start="20260923102000 +0300" stop="20260923123500 +0300" channel="ספורט.5.שידור.חי.il">
+  </programme>
+  <programme start="20260923102000 +0300" stop="20260923123500 +0300" channel="ספורט.5.שידור.חי.il">
     <title lang="he">כדורסל</title>
   </programme>
   <programme start="20260923123500 +0300" stop="20260923130000 +0300" channel="ספורט.5.שידור.חי.il">
@@ -65965,8 +65966,7 @@ K.O時間：16：00
     <category lang="ja">スポーツ</category>
     <category lang="ja">&lt;a Href="https://soccer.skyperfectv.co.jp"&gt;サッカー&lt;/a&gt;</category>
     <icon src="https://pm-img-ap.skyperfectv.co.jp/uploads/thumbnail_origin/image/88021/S_8e3ab92705b14bf5a9554a3cb379c8a4_20260908140605751.png" />
-  </programme>
-  <programme start="20260925165500 +0900" stop="20260926041500 +0900" channel="スカチャン5.jp">
+  </programme><programme start="20260925165500 +0900" stop="20260926041500 +0900" channel="スカチャン5.jp">
     <title lang="ja">高円宮杯 JFA U-18 サッカープレミアリーグ 2026 15節 東京V×鹿島</title>
     <desc lang="ja">高円宮杯 JFA U-18 サッカープレミアリーグ 2026 EAST 15節
 東京ヴェルディユース×鹿島アントラーズユース　もっと見る. 高円宮杯 JFA U-18 サッカープレミアリーグ 2026 EAST 15節
@@ -66202,8 +66202,7 @@ K.O時間：17：00
     <rating>
       <value>7</value>
     </rating>
-  </programme>
-  <programme start="20260922210000 +0300" stop="20260922214500 +0300" channel="National.Geographic.lt">
+  </programme><programme start="20260922210000 +0300" stop="20260922214500 +0300" channel="National.Geographic.lt">
     <title lang="lt">Lėktuvų avarijų tyrimai</title>
     <desc lang="lt">Seriale tiriamos oro transporto ir traukinių katastrofos bei nelaimės jūroje. Domimės išgyvenusiais žmonėmis, aukų šeimos nariais ir tyrėjais, nes kartu jie pateikia didelių avarijų priežasčių įrodymų.</desc>
     <category lang="lt">Mokslas</category>
@@ -67767,7 +67766,8 @@ K.O時間：17：00
     <date>2022</date>
     <category lang="de">Info</category>
     <icon src="http://images.media-press.cloud/5914c9573de048a7ad79fb02085a22e6" />
-  </programme><programme start="20260925155000 -0100" stop="20260925163500 -0100" channel="National.Geographic.lu">
+  </programme>
+  <programme start="20260925155000 -0100" stop="20260925163500 -0100" channel="National.Geographic.lu">
     <title lang="de">UFO-Jäger</title>
     <desc lang="de">Stürzte 1947 ein UFO in der Nähe von Roswell, New Mexico, ab? Oder doch nur der berühmte Wetterballon, wie Militärs und Behörden seit Jahren beteuern? Bis heute werden regelmäßig seltsame Flugobjekte über der Wüste gesichtet – was allerdings auch damit zu tun haben könnte, dass die Air Force hier neue Flugzeugtypen testet. Doch ein kürzlich aufgetauchtes Video soll jetzt den Beweis dafür liefern, dass wirklich Außerirdische im Spiel sind: Denn angeblich zeigt der Film die Bruchlandung eines unbekannten Flugobjekts, die sich vor nicht allzu langer Zeit in der Nähe von Roswell abgespielt haben soll.</desc>
     <date>2012</date>
@@ -68133,7 +68133,8 @@ K.O時間：17：00
     <title lang="xx">Strangest Things: Season</title>
     <desc lang="lv">Vai Turīnas līķauts patiešām ir kristietības Mesijas apbedīšanas drāna — vai arī tas ir rūpīgi izstrādāts viltojums? Kāpēc patiesību par šo noslēpumaino artefaktu ir tik grūti atklāt? Kā gan dīvaina mugursoma var likt cilvēkam lidot — un kāpēc mums visiem tādas vēl nav? Kāds ir patiesais mērķis pārim krāšņu zelta biķeru, kas atrasti senas kareivīgas civilizācijas apbedījumā?</desc>
     <icon src="https://api-prd.shortcut.lv/api/images/epg/6786353589820/lv?quality=80&amp;width=280" />
-  </programme><programme start="20260923201500 +0000" stop="20260923210000 +0000" channel="National.Geographic.HD.lv">
+  </programme>
+  <programme start="20260923201500 +0000" stop="20260923210000 +0000" channel="National.Geographic.HD.lv">
     <title lang="lv">Dīvainākās lietas - Augšāmcēlies skelets, slepenā kamera, Šekspīra apš</title>
     <title lang="xx">Strangest Things: Season</title>
     <desc lang="lv">Kāpēc sens skelets, atrasts Polijā, gulstas ar asmeni pār vēderu, akmeni uz kakla un dīvainu zaļganu krāsu mutē? Vai skaista zelta kapsula, liela kā pludmales bumba, patiešām palīdzēja novērst Armagedonu? Un vai masīva koka ierīce var pierādīt, ka Šekspīrs patiesībā nav sarakstījis savus meistardarbus? Ja tā — kurš tad bija īstais autors?</desc>
@@ -68341,8 +68342,7 @@ K.O時間：17：00
     <title lang="xx">Border Protection Spain</title>
     <desc lang="lv">Naktī kāds satrauktas mātes zvans brīdina krasta apsardzi par iespējamu pašnāvības mēģinājumu bīstamā vietā. Ar helikopteru palīdzību komanda pārtver narkotiku kontrabandistus, kas pārvadā vairāk nekā 3 tonnas hašiša. Zvejnieki, izmantojot nelegālas ierīces, mēģina zvejot aizsargātajos ūdeņos, un aizdomas izraisa vācu buru kuģis.</desc>
     <icon src="https://api-prd.shortcut.lv/api/images/epg/6789390032009/lv?quality=80&amp;width=280" />
-  </programme>
-  <programme start="20260925004500 +0000" stop="20260925013000 +0000" channel="National.Geographic.HD.lv">
+  </programme><programme start="20260925004500 +0000" stop="20260925013000 +0000" channel="National.Geographic.HD.lv">
     <title lang="lv">Kristiska Situācija</title>
     <title lang="xx">Situation Critical</title>
     <icon src="https://api-prd.shortcut.lv/api/images/epg/6789390032013/lv?quality=80&amp;width=280" />
@@ -68502,8 +68502,7 @@ K.O時間：17：00
   <programme start="20260925210000 +0000" stop="20260925215000 +0000" channel="National.Geographic.HD.lv">
     <title lang="lv">Nākamais lielais cunami</title>
     <title lang="xx">The Next Mega Tsunami</title>
-  </programme>
-  <programme start="20260925215000 +0000" stop="20260925223500 +0000" channel="National.Geographic.HD.lv">
+  </programme><programme start="20260925215000 +0000" stop="20260925223500 +0000" channel="National.Geographic.HD.lv">
     <title lang="lv">Milzu tornado iekšienē</title>
     <title lang="xx">Inside The Mega Twister</title>
   </programme>
@@ -68617,7 +68616,8 @@ K.O時間：17：00
   </programme>
   <programme start="20260922123000 +0800" stop="20260922130000 +0800" channel="TV5.mn">
     <title lang="mn">Эрүүл амьдарцгаая - эрүүл мэндийн нэвтрүүлэг</title>
-  </programme><programme start="20260922130000 +0800" stop="20260922131000 +0800" channel="TV5.mn">
+  </programme>
+  <programme start="20260922130000 +0800" stop="20260922131000 +0800" channel="TV5.mn">
     <title lang="mn">Мэдээ</title>
   </programme>
   <programme start="20260922131000 +0800" stop="20260922133000 +0800" channel="TV5.mn">
@@ -68709,8 +68709,7 @@ K.O時間：17：00
   </programme>
   <programme start="20260923090000 +0800" stop="20260923093000 +0800" channel="TV5.mn">
     <title lang="mn">Гэгээн өглөө ярилцлага</title>
-  </programme>
-  <programme start="20260923093000 +0800" stop="20260923100000 +0800" channel="TV5.mn">
+  </programme><programme start="20260923093000 +0800" stop="20260923100000 +0800" channel="TV5.mn">
     <title lang="mn">Цаг агаарын мэдээ</title>
   </programme>
   <programme start="20260923100000 +0800" stop="20260923102500 +0800" channel="TV5.mn">
@@ -69775,7 +69774,8 @@ K.O時間：17：00
     <rating>
       <value>12</value>
     </rating>
-  </programme><programme start="20260922151000 +0000" stop="20260922153500 +0000" channel="National.Geographic.HD.mt">
+  </programme>
+  <programme start="20260922151000 +0000" stop="20260922153500 +0000" channel="National.Geographic.HD.mt">
     <title lang="mt">Science of Stupid</title>
     <sub-title lang="mt">Episode 8</sub-title>
     <desc lang="mt">In this episode we find out the best way to drive a jetski over land, the worst way to ride a bicycle and the dangers of slack lining.</desc>
@@ -70675,7 +70675,8 @@ K.O時間：17：00
     <rating>
       <value>12</value>
     </rating>
-  </programme><programme start="20260924144500 +0000" stop="20260924151000 +0000" channel="National.Geographic.HD.mt">
+  </programme>
+  <programme start="20260924144500 +0000" stop="20260924151000 +0000" channel="National.Geographic.HD.mt">
     <title lang="mt">Science of Stupid</title>
     <sub-title lang="mt">Ninja Grip, Rope Swing and Parasailing</sub-title>
     <desc lang="mt">In this episode we discover the secrets of ninja grip, the best way to swing onto a bank and what to avoid when parasailing behind a boat.</desc>
@@ -70766,8 +70767,7 @@ K.O時間：17：00
     <rating>
       <value>12</value>
     </rating>
-  </programme>
-  <programme start="20260924193500 +0000" stop="20260924202500 +0000" channel="National.Geographic.HD.mt">
+  </programme><programme start="20260924193500 +0000" stop="20260924202500 +0000" channel="National.Geographic.HD.mt">
     <title lang="mt">Nazis at Nuremberg: The Lost Testimony</title>
     <sub-title lang="mt">Nazis at Nuremberg: The Lost Testimony</sub-title>
     <desc lang="mt">Never-before-heard trial testimony reveals shocking new details about World War II and the inner workings of the Nazi war machine.</desc>
@@ -70988,8 +70988,7 @@ K.O時間：17：00
   </programme>
   <programme start="20260922200000 -0500" stop="20260922210000 -0500" channel="Canal.Mexiquense.TV.mx">
     <title lang="es">Nuestra chamba</title>
-  </programme>
-  <programme start="20260922210000 -0500" stop="20260922220000 -0500" channel="Canal.Mexiquense.TV.mx">
+  </programme><programme start="20260922210000 -0500" stop="20260922220000 -0500" channel="Canal.Mexiquense.TV.mx">
     <title lang="es">Mirada Global</title>
   </programme>
   <programme start="20260922220000 -0500" stop="20260922230000 -0500" channel="Canal.Mexiquense.TV.mx">
@@ -71153,7 +71152,8 @@ K.O時間：17：00
   </programme>
   <programme start="20260921040000 -0500" stop="20260921050000 -0500" channel="Canal.Telefórmula.mx">
     <title lang="es">En el Estudio de Eduado Ruiz</title>
-  </programme><programme start="20260921050000 -0500" stop="20260921053000 -0500" channel="Canal.Telefórmula.mx">
+  </programme>
+  <programme start="20260921050000 -0500" stop="20260921053000 -0500" channel="Canal.Telefórmula.mx">
     <title lang="es">Blitz</title>
   </programme>
   <programme start="20260921053000 -0500" stop="20260921063000 -0500" channel="Canal.Telefórmula.mx">
@@ -71281,8 +71281,7 @@ K.O時間：17：00
   </programme>
   <programme start="20260923043000 -0500" stop="20260923053000 -0500" channel="Canal.Telefórmula.mx">
     <title lang="es">José Cárdenas informa</title>
-  </programme>
-  <programme start="20260923053000 -0500" stop="20260923063000 -0500" channel="Canal.Telefórmula.mx">
+  </programme><programme start="20260923053000 -0500" stop="20260923063000 -0500" channel="Canal.Telefórmula.mx">
     <title lang="es">SimiBarra Matutina</title>
   </programme>
   <programme start="20260923063000 -0500" stop="20260923080000 -0500" channel="Canal.Telefórmula.mx">
@@ -71464,7 +71463,8 @@ K.O時間：17：00
   <programme start="20260921164500 -0500" stop="20260921180000 -0500" channel="Canal.Distrito.Comedia.mx">
     <title lang="es">40 y 20</title>
     <episode-num system="onscreen">S6</episode-num>
-  </programme><programme start="20260921180000 -0500" stop="20260921183000 -0500" channel="Canal.Distrito.Comedia.mx">
+  </programme>
+  <programme start="20260921180000 -0500" stop="20260921183000 -0500" channel="Canal.Distrito.Comedia.mx">
     <title lang="es">El Príncipe del Barrio</title>
     <episode-num system="onscreen">S3</episode-num>
   </programme>
@@ -71891,8 +71891,7 @@ K.O時間：17：00
   </programme>
   <programme start="20260921120000 -0500" stop="20260921123000 -0500" channel="Canal.BabyFirst.TV.mx">
     <title lang="es">Explorando con el mundo es una maravilla</title>
-  </programme>
-  <programme start="20260921123000 -0500" stop="20260921130000 -0500" channel="Canal.BabyFirst.TV.mx">
+  </programme><programme start="20260921123000 -0500" stop="20260921130000 -0500" channel="Canal.BabyFirst.TV.mx">
     <title lang="es">Charlie &amp; las figuras y otras historias</title>
   </programme>
   <programme start="20260921130000 -0500" stop="20260921133000 -0500" channel="Canal.BabyFirst.TV.mx">
@@ -72047,7 +72046,8 @@ K.O時間：17：00
   </programme>
   <programme start="20260922140000 -0500" stop="20260922143000 -0500" channel="Canal.BabyFirst.TV.mx">
     <title lang="es">Los primeros descubrimientos mágicos</title>
-  </programme><programme start="20260922143000 -0500" stop="20260922150000 -0500" channel="Canal.BabyFirst.TV.mx">
+  </programme>
+  <programme start="20260922143000 -0500" stop="20260922150000 -0500" channel="Canal.BabyFirst.TV.mx">
     <title lang="es">El patio de la imaginación</title>
   </programme>
   <programme start="20260922150000 -0500" stop="20260922153000 -0500" channel="Canal.BabyFirst.TV.mx">
@@ -72172,8 +72172,7 @@ K.O時間：17：00
   </programme>
   <programme start="20260923170000 -0500" stop="20260923173000 -0500" channel="Canal.BabyFirst.TV.mx">
     <title lang="es">Club de Baby First</title>
-  </programme>
-  <programme start="20260923173000 -0500" stop="20260923180000 -0500" channel="Canal.BabyFirst.TV.mx">
+  </programme><programme start="20260923173000 -0500" stop="20260923180000 -0500" channel="Canal.BabyFirst.TV.mx">
     <title lang="es">Club de Baby First</title>
   </programme>
   <programme start="20260923180000 -0500" stop="20260923183000 -0500" channel="Canal.BabyFirst.TV.mx">
@@ -73593,8 +73592,7 @@ K.O時間：17：00
   </programme>
   <programme start="20260923133600 -0500" stop="20260923161200 -0500" channel="Canal.Cinecanal.(México).mx">
     <title lang="es">Sociedad de los poetas muerto</title>
-  </programme>
-  <programme start="20260923161200 -0500" stop="20260923181300 -0500" channel="Canal.Cinecanal.(México).mx">
+  </programme><programme start="20260923161200 -0500" stop="20260923181300 -0500" channel="Canal.Cinecanal.(México).mx">
     <title lang="es">Un Don Excepcional</title>
     <desc lang="es">Frank Adler (Chris Evans) es un hombre soltero que cría a una niña prodigio – su joven sobrina Mary (Mckenna Grace) – en una ciudad costera de Florida. El plan de Frank para una vida escolar normal para su sobrina con apenas 7 años de edad es frustrado cuando sus habilidades matemáticas llaman la atención de su abuela Evelyn Adler (Lindsay Duncan) cuyos planes para su nieta amenazan con separar a Frank y Mary. La maestra Bonnie Stevenson (Jenny Slate) una mujer joven cuya preocupación son sus estudiantes se convierte en una conexión con su tío también.</desc>
     <credits>
@@ -73879,8 +73877,7 @@ K.O時間：17：00
   </programme>
   <programme start="20260922180700 -0500" stop="20260922194900 -0500" channel="Canal.Golden.Premier.mx">
     <title lang="es">El descenso</title>
-  </programme>
-  <programme start="20260922194900 -0500" stop="20260922212700 -0500" channel="Canal.Golden.Premier.mx">
+  </programme><programme start="20260922194900 -0500" stop="20260922212700 -0500" channel="Canal.Golden.Premier.mx">
     <title lang="es">El Aro</title>
   </programme>
   <programme start="20260922212700 -0500" stop="20260922230000 -0500" channel="Canal.Golden.Premier.mx">
@@ -74044,7 +74041,8 @@ K.O時間：17：00
   </programme>
   <programme start="20260924145100 -0500" stop="20260924161000 -0500" channel="Canal.Golden.Premier.mx">
     <title lang="es">Déjame estar contigo</title>
-  </programme><programme start="20260924161000 -0500" stop="20260924173900 -0500" channel="Canal.Golden.Premier.mx">
+  </programme>
+  <programme start="20260924161000 -0500" stop="20260924173900 -0500" channel="Canal.Golden.Premier.mx">
     <title lang="es">Borrón y vida nueva</title>
   </programme>
   <programme start="20260924173900 -0500" stop="20260924191700 -0500" channel="Canal.Golden.Premier.mx">
@@ -74385,7 +74383,8 @@ K.O時間：17：00
   </programme>
   <programme start="20260922070000 -0500" stop="20260922080000 -0500" channel="Canal.TUDN.(México).mx">
     <title lang="es">Línea de cuatro</title>
-  </programme><programme start="20260922080000 -0500" stop="20260922090000 -0500" channel="Canal.TUDN.(México).mx">
+  </programme>
+  <programme start="20260922080000 -0500" stop="20260922090000 -0500" channel="Canal.TUDN.(México).mx">
     <title lang="es">Contacto Deportivo</title>
   </programme>
   <programme start="20260922090000 -0500" stop="20260922100000 -0500" channel="Canal.TUDN.(México).mx">
@@ -74497,8 +74496,7 @@ K.O時間：17：00
   <programme start="20260923160000 -0500" stop="20260923180000 -0500" channel="Canal.TUDN.(México).mx">
     <title lang="es">Monterrey vs. Tigres UANL</title>
     <sub-title lang="es">Fútbol Mexicano Primera División</sub-title>
-  </programme>
-  <programme start="20260923180000 -0500" stop="20260923190000 -0500" channel="Canal.TUDN.(México).mx">
+  </programme><programme start="20260923180000 -0500" stop="20260923190000 -0500" channel="Canal.TUDN.(México).mx">
     <title lang="es">Tricolor al día</title>
   </programme>
   <programme start="20260923190000 -0500" stop="20260923200000 -0500" channel="Canal.TUDN.(México).mx">
@@ -75058,8 +75056,7 @@ K.O時間：17：00
   </programme>
   <programme start="20260923190000 -0500" stop="20260923200000 -0500" channel="Teleformula.mx">
     <title lang="es">José Cárdenas informa</title>
-  </programme>
-  <programme start="20260923200000 -0500" stop="20260923210000 -0500" channel="Teleformula.mx">
+  </programme><programme start="20260923200000 -0500" stop="20260923210000 -0500" channel="Teleformula.mx">
     <title lang="es">Formula Noticias Juan Becerra</title>
   </programme>
   <programme start="20260923210000 -0500" stop="20260923220000 -0500" channel="Teleformula.mx">
@@ -75180,7 +75177,8 @@ K.O時間：17：00
     <icon src="https://staticqbr-prod-nl.gnp.cloud.ziggogo.tv/image-service/ImagesEPG/EventImages/p18530107_b_v8_aa.jpg?supportsTransparency=false" />
     <country lang="nl">CA</country>
     <episode-num system="onscreen">S3</episode-num>
-  </programme><programme start="20260922040000 +0000" stop="20260922042500 +0000" channel="National.Geographic.nl">
+  </programme>
+  <programme start="20260922040000 +0000" stop="20260922042500 +0000" channel="National.Geographic.nl">
     <title lang="nl">Food Factory</title>
     <sub-title lang="nl">Veggies &amp; Apple Butter</sub-title>
     <desc lang="nl">Een verrukkelijk inkijkje in het productieproces van appelboter met kaneel en zalige chocolaatjes met pindakaas. Later brengen we een uniek bezoekje aan de fabrieken die zuigtabletten met kersensmaak en glutenvrije broodjes met groente fabriceren.</desc>
@@ -76301,7 +76299,8 @@ K.O時間：17：00
     <icon src="https://staticqbr-prod-nl.gnp.cloud.ziggogo.tv/image-service/ImagesEPG/EventImages/p20254911_b_v11_ac.jpg?supportsTransparency=false" />
     <country lang="nl">US</country>
     <episode-num system="onscreen">S19 E2</episode-num>
-  </programme><programme start="20260924120000 +0000" stop="20260924130000 +0000" channel="National.Geographic.nl">
+  </programme>
+  <programme start="20260924120000 +0000" stop="20260924130000 +0000" channel="National.Geographic.nl">
     <title lang="nl">Secret Nazi Bases</title>
     <sub-title lang="nl">Dag Bromberg: A City in the Forest</sub-title>
     <desc lang="nl">Toen het Rode Leger tegen het einde van de oorlog een bos in Polen naderde, stuitten ze op een complex met meer dan duizend gebouwen verspreid over vijfentwintig vierkante kilometer.</desc>
@@ -76431,8 +76430,7 @@ K.O時間：17：00
     <icon src="https://staticqbr-prod-nl.gnp.cloud.ziggogo.tv/image-service/ImagesEPG/EventImages/p29587499_b_v8_ab.jpg?supportsTransparency=false" />
     <country lang="nl">GB</country>
     <episode-num system="onscreen">S13 E5</episode-num>
-  </programme>
-  <programme start="20260924183000 +0000" stop="20260924193000 +0000" channel="National.Geographic.nl">
+  </programme><programme start="20260924183000 +0000" stop="20260924193000 +0000" channel="National.Geographic.nl">
     <title lang="nl">Air Crash Investigation</title>
     <sub-title lang="nl">Death Race</sub-title>
     <desc lang="nl">Vlak boven de grond vliegen zes eenmotorige WWII-jagers naar hun positie voor het hoogtepunt van de Reno Air Races. Jimmy Leeward wil een nieuw snelheidsrecord bereiken, maar hij verliest de controle over zijn vliegtuig en stort neer.</desc>
@@ -78047,7 +78045,8 @@ K.O時間：17：00
   </programme>
   <programme start="20260922063000 -0500" stop="20260922070000 -0500" channel="Canal.BabyFirst.TV.pa">
     <title lang="es">Walter y Dude y Sus Amigos</title>
-  </programme><programme start="20260922070000 -0500" stop="20260922073000 -0500" channel="Canal.BabyFirst.TV.pa">
+  </programme>
+  <programme start="20260922070000 -0500" stop="20260922073000 -0500" channel="Canal.BabyFirst.TV.pa">
     <title lang="es">Canciones &amp; rimas</title>
   </programme>
   <programme start="20260922073000 -0500" stop="20260922080000 -0500" channel="Canal.BabyFirst.TV.pa">
@@ -79183,7 +79182,8 @@ K.O時間：17：00
     <date>2013</date>
     <category lang="pl">serial obyczajowy</category>
     <episode-num system="onscreen">S1E144</episode-num>
-  </programme><programme channel="Antena.HD.pl" start="20260922230000 -0500" stop="20260922232500 -0500">
+  </programme>
+  <programme channel="Antena.HD.pl" start="20260922230000 -0500" stop="20260922232500 -0500">
     <title lang="pl">Zakręcone stworzonka z internetu 3</title>
     <desc lang="pl">Najśmieszniejsze nagrania ze zwierzętami w roli głównej, które zbierają miliony wyświetleń w internecie.</desc>
     <date>2024</date>
@@ -80201,8 +80201,7 @@ Carrie poznaje nową patolog Joanne Webster. Do funkcjonariuszki dzwoni nieznajo
     </credits>
     <date>2018</date>
     <category lang="pl">dramat kryminalny</category>
-  </programme>
-  <programme channel="Antena.HD.pl" start="20260926165000 -0500" stop="20260926183500 -0500">
+  </programme><programme channel="Antena.HD.pl" start="20260926165000 -0500" stop="20260926183500 -0500">
     <title lang="pl">Whitney Houston: zawsze będę cię kochać</title>
     <desc lang="pl">Whitney Houston (Yaya DaCosta), podczas gali rozdania nagród Soul Train, poznaje wybuchowego muzyka, młodszego od niej o sześć lat Bobby'ego Browna (Arlen Escarpeta). Nawiązują gorący romans i trzy lata później stają na ślubnym kobiercu. Wkrótce na świecie pojawia się ich córka, Bobbi Kristina. Muzyczny sukces, jaki odniosła Whitney, odbija się na jej życiu prywatnym. W domu muzyków coraz częściej pojawiają się narkotyki i alkohol, co prowadzi do licznych awantur. Reżyserką filmu jest amerykańska aktorka Angela Bassett, prywatnie przyjaciółka Whitney. Film jest hołdem dla tragicznie zmarłej w 2012 roku wokalistki. To próba spojrzenia na jej związek, który zniszczył jej życie i karierę. W filmie nie zabrakło największych przebojów Houston, wykonanych przez Deborah Cox.</desc>
     <credits>
@@ -80381,8 +80380,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <date>2024</date>
     <category lang="pl">serial dokumentalny</category>
     <episode-num system="onscreen">S3E6</episode-num>
-  </programme>
-  <programme channel="National.Geographic.HD.pl" start="20260922110000 -0500" stop="20260922120000 -0500">
+  </programme><programme channel="National.Geographic.HD.pl" start="20260922110000 -0500" stop="20260922120000 -0500">
     <title lang="pl">Tajemnice wojennych wraków</title>
     <title lang="xx">Sunken Warships: Secrets From the Deep</title>
     <sub-title lang="pl">HMS Barham: Utajniona tragedia</sub-title>
@@ -80502,7 +80500,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <date>2024</date>
     <category lang="pl">serial dokumentalny</category>
     <episode-num system="onscreen">S24E7</episode-num>
-  </programme><programme channel="National.Geographic.HD.pl" start="20260922230000 -0500" stop="20260923000000 -0500">
+  </programme>
+  <programme channel="National.Geographic.HD.pl" start="20260922230000 -0500" stop="20260923000000 -0500">
     <title lang="pl">Katastrofa w przestworzach</title>
     <title lang="xx">Mayday 13</title>
     <sub-title lang="pl">Tragedia na rzece Potomak</sub-title>
@@ -83050,8 +83049,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <date>2023</date>
     <category lang="pl">serial dokumentalny</category>
     <episode-num system="onscreen">E4</episode-num>
-  </programme>
-  <programme channel="National.Geographic.pl" start="20260923080000 -0500" stop="20260923090000 -0500">
+  </programme><programme channel="National.Geographic.pl" start="20260923080000 -0500" stop="20260923090000 -0500">
     <title lang="pl">Katastrofa w przestworzach</title>
     <title lang="xx">Air Crash Investigation 23</title>
     <sub-title lang="pl">Tajemnica Morza Śródziemnego</sub-title>
@@ -84077,7 +84075,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-PG</value>
     </rating>
-  </programme><programme start="20260922090600 +0000" stop="20260922093400 +0000" channel="plex.tv.Forensic.Files.plex">
+  </programme>
+  <programme start="20260922090600 +0000" stop="20260922093400 +0000" channel="plex.tv.Forensic.Files.plex">
     <title lang="en">Forensic Files</title>
     <sub-title lang="en">Printed Proof</sub-title>
     <desc lang="en">When two women were found brutally murdered, police wondered if they were victims of a hate crime.</desc>
@@ -85168,8 +85167,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-PG</value>
     </rating>
-  </programme>
-  <programme start="20260924030500 +0000" stop="20260924033300 +0000" channel="plex.tv.Forensic.Files.plex">
+  </programme><programme start="20260924030500 +0000" stop="20260924033300 +0000" channel="plex.tv.Forensic.Files.plex">
     <title lang="en">Forensic Files</title>
     <sub-title lang="en">Bitter Potion</sub-title>
     <desc lang="en">When a woman exhibits flu-like symptoms before dying, investigators determine she was poisoned.</desc>
@@ -86423,7 +86421,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>NR</value>
     </rating>
-  </programme><programme start="20260923005500 +0000" stop="20260923024000 +0000" channel="plex.tv.MyTime.Movie.Network.plex">
+  </programme>
+  <programme start="20260923005500 +0000" stop="20260923024000 +0000" channel="plex.tv.MyTime.Movie.Network.plex">
     <title lang="en">The Bad Son</title>
     <desc lang="en">A female cop fights to stop an elusive serial killer and his bizarre mother from claiming their next victim.</desc>
     <date>2007</date>
@@ -87720,8 +87719,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-PG</value>
     </rating>
-  </programme>
-  <programme start="20260923133300 +0000" stop="20260923140500 +0000" channel="plex.tv.The.Pet.Collective.plex">
+  </programme><programme start="20260923133300 +0000" stop="20260923140500 +0000" channel="plex.tv.The.Pet.Collective.plex">
     <title lang="en">Best Pets of the Month</title>
     <sub-title lang="en">Best Pets of the Month - Ep. 1.9</sub-title>
     <desc lang="en">These pets won October and November '18. But after watching these clips, the real winner is you.</desc>
@@ -88164,7 +88162,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-PG</value>
     </rating>
-  </programme><programme start="20260924090100 +0000" stop="20260924093300 +0000" channel="plex.tv.The.Pet.Collective.plex">
+  </programme>
+  <programme start="20260924090100 +0000" stop="20260924093300 +0000" channel="plex.tv.The.Pet.Collective.plex">
     <title lang="en">TPC That's My Pet</title>
     <sub-title lang="en">TPC That's My Pet - Ferret</sub-title>
     <desc lang="en">Did you know that ferrets are used to run wires for houses and buildings?</desc>
@@ -89209,8 +89208,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-PG</value>
     </rating>
-  </programme>
-  <programme start="20260922200000 +0000" stop="20260922210000 +0000" channel="plex.tv.Azteca.Internacional.plex">
+  </programme><programme start="20260922200000 +0000" stop="20260922210000 +0000" channel="plex.tv.Azteca.Internacional.plex">
     <title lang="en">Hechos Meridiano</title>
     <desc lang="en">Información de última hora. Los mejores reportajes exclusivos, deportes y espectáculos.</desc>
     <category lang="en">En Español</category>
@@ -89599,7 +89597,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-PG</value>
     </rating>
-  </programme><programme start="20260924223000 +0000" stop="20260925003000 +0000" channel="plex.tv.Azteca.Internacional.plex">
+  </programme>
+  <programme start="20260924223000 +0000" stop="20260925003000 +0000" channel="plex.tv.Azteca.Internacional.plex">
     <title lang="en">Cosas de la Vida</title>
     <desc lang="en">Rocío Sánchez Azuara presenta casos reales y da voz a quienes buscan apoyo y justicia ante sus problemas.</desc>
     <category lang="en">En Español</category>
@@ -92309,8 +92308,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>M/12</value>
     </rating>
-  </programme>
-  <programme start="20260924214100 +0000" stop="20260924223100 +0000" channel="plex.tv.Corazón.plex">
+  </programme><programme start="20260924214100 +0000" stop="20260924223100 +0000" channel="plex.tv.Corazón.plex">
     <title lang="en">Huérfanas</title>
     <sub-title lang="en">Huerfanas - Huerfanas</sub-title>
     <desc lang="en">Tres jóvenes que al morir sus padres, se quedan sin nada y emprenden un camino para descubrir la verdad.</desc>
@@ -92477,7 +92475,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>M/12</value>
     </rating>
-  </programme><programme start="20260925120000 +0000" stop="20260925125000 +0000" channel="plex.tv.Corazón.plex">
+  </programme>
+  <programme start="20260925120000 +0000" stop="20260925125000 +0000" channel="plex.tv.Corazón.plex">
     <title lang="en">Huérfanas</title>
     <sub-title lang="en">Huerfanas - Huerfanas</sub-title>
     <desc lang="en">Tres jóvenes que al morir sus padres, se quedan sin nada y emprenden un camino para descubrir la verdad.</desc>
@@ -92611,8 +92610,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>PG</value>
     </rating>
-  </programme>
-  <programme start="20260922030000 +0000" stop="20260922040000 +0000" channel="plex.tv.Estrella.TV.plex">
+  </programme><programme start="20260922030000 +0000" stop="20260922040000 +0000" channel="plex.tv.Estrella.TV.plex">
     <title lang="en">Tengo Talento Mucho Talento</title>
     <desc lang="en">El programa de competencia de talentos más antiguo y mejor calificado de Estrella TV.</desc>
     <category lang="en">En Español</category>
@@ -93097,7 +93095,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>PG</value>
     </rating>
-  </programme><programme start="20260925000000 +0000" stop="20260925010000 +0000" channel="plex.tv.Estrella.TV.plex">
+  </programme>
+  <programme start="20260925000000 +0000" stop="20260925010000 +0000" channel="plex.tv.Estrella.TV.plex">
     <title lang="en">Tengo Talento Mucho Talento</title>
     <desc lang="en">El programa de competencia de talentos más antiguo y mejor calificado de Estrella TV.</desc>
     <category lang="en">En Español</category>
@@ -94086,7 +94085,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-PG</value>
     </rating>
-  </programme><programme start="20260923103700 +0000" stop="20260923110700 +0000" channel="plex.tv.WeatherSpy.plex">
+  </programme>
+  <programme start="20260923103700 +0000" stop="20260923110700 +0000" channel="plex.tv.WeatherSpy.plex">
     <title lang="en">Viral Wild</title>
     <sub-title lang="en">WS Viral Wild - Ep. 3.7</sub-title>
     <desc lang="en">They say live in the moment. These insects do just that with their short lifespan. Take a look.</desc>
@@ -96941,7 +96941,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>M/12</value>
     </rating>
-  </programme><programme start="20260923122900 +0000" stop="20260923130000 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
+  </programme>
+  <programme start="20260923122900 +0000" stop="20260923130000 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
     <title lang="en">Yoga y tu</title>
     <sub-title lang="en">Epispdio 47</sub-title>
     <desc lang="en">Yoga y tú, nos acercará al fascinante mundo de la meditación a través del yoga.</desc>
@@ -97216,7 +97217,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>M/12</value>
     </rating>
-  </programme><programme start="20260924000400 +0000" stop="20260924000700 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
+  </programme>
+  <programme start="20260924000400 +0000" stop="20260924000700 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
     <title lang="en">Los Protagonistas Zague</title>
     <sub-title lang="en">Episodio 3</sub-title>
     <desc lang="en">Exfutbolista y comentarista deportivo. Uno de los futbolistas más destacados del fútbol mexicano.</desc>
@@ -97347,8 +97349,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>M/12</value>
     </rating>
-  </programme>
-  <programme start="20260924004900 +0000" stop="20260924005900 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
+  </programme><programme start="20260924004900 +0000" stop="20260924005900 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
     <title lang="en">Los Protagonistas Christian Martinoli</title>
     <sub-title lang="en">Episodio 4</sub-title>
     <desc lang="en">El periodista deportivo, Christian Martinoli, comparte lo que representa en su vida.</desc>
@@ -98091,7 +98092,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>M/12</value>
     </rating>
-  </programme><programme start="20260924202100 +0000" stop="20260924204900 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
+  </programme>
+  <programme start="20260924202100 +0000" stop="20260924204900 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
     <title lang="en">El asado</title>
     <sub-title lang="en">Episodio 10</sub-title>
     <desc lang="en">Acompaa A Lalo Urbina En Una Entrevista Con El Montaista Hctor Ponce De Len, Conoce Sobre Su Trayectoria.</desc>
@@ -98366,7 +98368,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>M/12</value>
     </rating>
-  </programme><programme start="20260925035400 +0000" stop="20260925035900 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
+  </programme>
+  <programme start="20260925035400 +0000" stop="20260925035900 +0000" channel="plex.tv.Azteca.Deportes.Network.plex">
     <title lang="en">Los Protagonistas Inés Sainz</title>
     <sub-title lang="en">Los Protagonistas Ines Sainz - Episodio 1</sub-title>
     <desc lang="en">Presentadora de televisión periodista y modelo mexicana reconocida como La mujer del deporte en México.</desc>
@@ -99317,7 +99320,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-14</value>
     </rating>
-  </programme><programme start="20260923090000 +0000" stop="20260923100000 +0000" channel="plex.tv.Estrella.Games.plex">
+  </programme>
+  <programme start="20260923090000 +0000" stop="20260923100000 +0000" channel="plex.tv.Estrella.Games.plex">
     <title lang="en">Mi Sueño es Bailar</title>
     <desc lang="en">Concurso de baile entre famosos y bailarines profesionales por ser el campeon.</desc>
     <date>2026</date>
@@ -100717,8 +100721,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-G</value>
     </rating>
-  </programme>
-  <programme start="20260923110000 +0000" stop="20260923130000 +0000" channel="plex.tv.beIN.Sports.Xtra.en.Español.plex">
+  </programme><programme start="20260923110000 +0000" stop="20260923130000 +0000" channel="plex.tv.beIN.Sports.Xtra.en.Español.plex">
     <title lang="en">Padelmania</title>
     <sub-title lang="en">Premier Padel Valencia - Men's Final</sub-title>
     <desc lang="en">Premier Padel is a dynamic and exciting new global Padel tour that features the top players of the world.</desc>
@@ -101007,8 +101010,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="US">
       <value>TV-G</value>
     </rating>
-  </programme>
-  <programme start="20260924110000 +0000" stop="20260924130000 +0000" channel="plex.tv.beIN.Sports.Xtra.en.Español.plex">
+  </programme><programme start="20260924110000 +0000" stop="20260924130000 +0000" channel="plex.tv.beIN.Sports.Xtra.en.Español.plex">
     <title lang="en">Padelmania</title>
     <sub-title lang="en">Premier Padel Valencia - Women's Final</sub-title>
     <desc lang="en">Premier Padel is a dynamic and exciting new global Padel tour that features the top players of the world.</desc>
@@ -102592,8 +102594,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <star-rating system="Imdb">
       <value>8.3/10</value>
     </star-rating>
-  </programme>
-  <programme start="20260923164600 +0000" stop="20260923173000 +0000" channel="National.Geographic.HD.pt">
+  </programme><programme start="20260923164600 +0000" stop="20260923173000 +0000" channel="National.Geographic.HD.pt">
     <title lang="pt">Primal Survivor</title>
     <sub-title lang="pt">Inferno no Interior</sub-title>
     <desc lang="pt">Hazen Audel aventura-se no interior implacável e devastado pelo sol da Austrália em busca de um oásis fresco.</desc>
@@ -103895,8 +103896,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="ro">Serialul Dezastre în aer analizează cauzele care au provocat aceste incidente și dacă ar fi putut fi evitate. Aceste evenimente au contribuit la adoptarea de noi măsuri privind securitatea în transportul aerian, producând unele dintre cele mai importante schimbări în regulamentele aviatice. Mărturiile supraviețuitorilor și reconstituirile înfățișează povești impresionante, iar grafica computerizată și experții în domeniu explică motivele aflate la baza producerii evenimentelor fatale sau aproape fatale.</desc>
     <category lang="ro">Documentar</category>
     <icon src="https://www.programetv.ro/img/shows/81/e3/dezastre-in-aer.jpg?key=Z2lfZnVial90cmFyZXZwLzAwLzA0LzMxLzE4Mzk2OXktMTIwazE3MC1hLW9zczkwNnBuLndjdA==" />
-  </programme>
-  <programme channel="National.Geographic.HD.ro" start="20260923170000 -0500" stop="20260923175959 -0500">
+  </programme><programme channel="National.Geographic.HD.ro" start="20260923170000 -0500" stop="20260923175959 -0500">
     <title lang="ro">Ilegal cu Mariana van Zeller</title>
     <desc lang="ro">Premiata jurnalistă Mariana van Zeller explorează structura și funcționarea celor mai periculoase piețe negre din universul interlop. În fiecare episod, jurnalista surprinde o altă piață neagră, de la droguri la arme și comerț cu tigri, cu scopul de a întâlni traficanții, de a afla modul de lucru și a dezvălui circumstanțele și contextul geo-politic care creează o economie subterană de miliarde de dolari.</desc>
     <category lang="ro">Documentar</category>
@@ -104225,8 +104225,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260921073000 -0600" stop="20260921080000 -0600" channel="Canal.BabyFirst.TV.sv">
     <title lang="es">La hora del arte, la actividad y la música</title>
-  </programme>
-  <programme start="20260921080000 -0600" stop="20260921083000 -0600" channel="Canal.BabyFirst.TV.sv">
+  </programme><programme start="20260921080000 -0600" stop="20260921083000 -0600" channel="Canal.BabyFirst.TV.sv">
     <title lang="es">Los primeros descubrimientos mágicos</title>
   </programme>
   <programme start="20260921083000 -0600" stop="20260921090000 -0600" channel="Canal.BabyFirst.TV.sv">
@@ -104798,8 +104797,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260921190000 -0600" stop="20260921193000 -0600" channel="Canal.Barça.TV.sv">
     <title lang="es">17/5/2006: Melodía inesperada</title>
-  </programme>
-  <programme start="20260921193000 -0600" stop="20260921203000 -0600" channel="Canal.Barça.TV.sv">
+  </programme><programme start="20260921193000 -0600" stop="20260921203000 -0600" channel="Canal.Barça.TV.sv">
     <title lang="es">La hora B</title>
   </programme>
   <programme start="20260921203000 -0600" stop="20260921210000 -0600" channel="Canal.Barça.TV.sv">
@@ -105101,8 +105099,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260924193000 -0600" stop="20260924203000 -0600" channel="Canal.Barça.TV.sv">
     <title lang="es">La hora B</title>
-  </programme>
-  <programme start="20260924203000 -0600" stop="20260924220000 -0600" channel="Canal.Barça.TV.sv">
+  </programme><programme start="20260924203000 -0600" stop="20260924220000 -0600" channel="Canal.Barça.TV.sv">
     <title lang="es">Bàsquet Lliga ACB</title>
   </programme>
   <programme start="20260924220000 -0600" stop="20260924223000 -0600" channel="Canal.Barça.TV.sv">
@@ -105777,7 +105774,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260924042000 -0600" stop="20260924044600 -0600" channel="Canal.Cine.Sony.sv">
     <title lang="es">Planet Action</title>
-  </programme><programme start="20260924044600 -0600" stop="20260924051200 -0600" channel="Canal.Cine.Sony.sv">
+  </programme>
+  <programme start="20260924044600 -0600" stop="20260924051200 -0600" channel="Canal.Cine.Sony.sv">
     <title lang="es">Planet Action</title>
   </programme>
   <programme start="20260924051200 -0600" stop="20260924053800 -0600" channel="Canal.Cine.Sony.sv">
@@ -105824,7 +105822,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260921050000 -0600" stop="20260921080000 -0600" channel="Canal.Cinecanal.(México).sv">
     <title lang="es">Miss Peregrine y los niños</title>
-  </programme><programme start="20260921080000 -0600" stop="20260921093000 -0600" channel="Canal.Cinecanal.(México).sv">
+  </programme>
+  <programme start="20260921080000 -0600" stop="20260921093000 -0600" channel="Canal.Cinecanal.(México).sv">
     <title lang="es">Ofelia</title>
   </programme>
   <programme start="20260921093000 -0600" stop="20260921113900 -0600" channel="Canal.Cinecanal.(México).sv">
@@ -105954,8 +105953,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260922111400 -0600" stop="20260922124400 -0600" channel="Canal.Cinecanal.(México).sv">
     <title lang="es">Henry &amp; Klauss Maestros</title>
-  </programme>
-  <programme start="20260922124400 -0600" stop="20260922145900 -0600" channel="Canal.Cinecanal.(México).sv">
+  </programme><programme start="20260922124400 -0600" stop="20260922145900 -0600" channel="Canal.Cinecanal.(México).sv">
     <title lang="es">Competencia Oficial</title>
     <desc lang="es">En busca de transcendencia y prestigio social, un empresario multimillonario decide rodar una película que deje una marca en la industria del cine. Para ello, contrata a los mejores: un equipo estelar formado por la celebérrima cineasta Lola Cuevas (Penélope Cruz), y dos reconocidos actores, dueños de un talento enorme, pero con un ego aún más grande. Estos dos últimos son el actor de Hollywood Félix Rivero (Antonio Banderas), y el radical actor de teatro Iván Torres (Oscar Martínez). Ambos son leyendas, pero no exactamente los mejores amigos. A través de una serie de pruebas cada vez más excéntricas establecidas por Lola, Feliz e Iván deben enfrentarse no solo entre sí, sino también con sus propios legados.</desc>
     <credits>
@@ -106112,7 +106110,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260924091000 -0600" stop="20260924111200 -0600" channel="Canal.Cinecanal.(México).sv">
     <title lang="es">La boda de Rosa</title>
-  </programme><programme start="20260924111200 -0600" stop="20260924132100 -0600" channel="Canal.Cinecanal.(México).sv">
+  </programme>
+  <programme start="20260924111200 -0600" stop="20260924132100 -0600" channel="Canal.Cinecanal.(México).sv">
     <title lang="es">Yo soy Simón</title>
     <desc lang="es">Todos merecen una gran historia de amor. Pero para Simon Spier (Nick Robinson), de diecisiete años, es un poco más complicado: todavía no le a ha dicho a su familia o amigos que es homosexual y que en realidad no conoce la identidad del compañero de clase anónimo por el que se ha enamorado en línea. Resolver ambos problemas resulta hilarante, aterrador y le cambia la vida.</desc>
     <credits>
@@ -106185,7 +106184,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260921004500 -0600" stop="20260921023500 -0600" channel="Canal.Cinelatino.sv">
     <title lang="es">Mi prima la sexóloga</title>
-  </programme><programme start="20260921023500 -0600" stop="20260921042000 -0600" channel="Canal.Cinelatino.sv">
+  </programme>
+  <programme start="20260921023500 -0600" stop="20260921042000 -0600" channel="Canal.Cinelatino.sv">
     <title lang="es">Dominación femenina</title>
   </programme>
   <programme start="20260921042000 -0600" stop="20260921044500 -0600" channel="Canal.Cinelatino.sv">
@@ -106441,8 +106441,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   <programme start="20260922230000 -0600" stop="20260923000000 -0600" channel="Canal.Concert.Channel.sv">
     <title lang="es">Other Voices Cardigan</title>
     <sub-title lang="es">Nadine Shah, Charlotte Day Wilson, Victor Ray, Georgia Ruth, Bill Ryder-Jones</sub-title>
-  </programme>
-  <programme start="20260921011500 -0600" stop="20260921025500 -0600" channel="Canal.DHE.sv">
+  </programme><programme start="20260921011500 -0600" stop="20260921025500 -0600" channel="Canal.DHE.sv">
     <title lang="es">Magia Magia</title>
   </programme>
   <programme start="20260921025500 -0600" stop="20260921043000 -0600" channel="Canal.DHE.sv">
@@ -106585,7 +106584,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260922011000 -0600" stop="20260922025500 -0600" channel="Canal.DHE.sv">
     <title lang="es">Francotirador 6: El tirador fantasma</title>
-  </programme><programme start="20260922025500 -0600" stop="20260922043500 -0600" channel="Canal.DHE.sv">
+  </programme>
+  <programme start="20260922025500 -0600" stop="20260922043500 -0600" channel="Canal.DHE.sv">
     <title lang="es">Placeres vespertinos</title>
   </programme>
   <programme start="20260922043500 -0600" stop="20260922060000 -0600" channel="Canal.DHE.sv">
@@ -106935,8 +106935,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   <programme start="20260922164500 -0600" stop="20260922180000 -0600" channel="Canal.Distrito.Comedia.sv">
     <title lang="es">40 y 20</title>
     <episode-num system="onscreen">S7</episode-num>
-  </programme>
-  <programme start="20260922180000 -0600" stop="20260922183000 -0600" channel="Canal.Distrito.Comedia.sv">
+  </programme><programme start="20260922180000 -0600" stop="20260922183000 -0600" channel="Canal.Distrito.Comedia.sv">
     <title lang="es">El Príncipe del Barrio</title>
     <episode-num system="onscreen">S3</episode-num>
   </programme>
@@ -108196,8 +108195,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260923140000 -0600" stop="20260923150000 -0600" channel="Canal.Estrella.TV.sv">
     <title lang="es">Mi sueño es bailar</title>
-  </programme>
-  <programme start="20260923150000 -0600" stop="20260923160000 -0600" channel="Canal.Estrella.TV.sv">
+  </programme><programme start="20260923150000 -0600" stop="20260923160000 -0600" channel="Canal.Estrella.TV.sv">
     <title lang="es">Rica, famosa, latina</title>
   </programme>
   <programme start="20260923160000 -0600" stop="20260923163000 -0600" channel="Canal.Estrella.TV.sv">
@@ -108460,7 +108458,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   <programme start="20260924040000 -0600" stop="20260924060000 -0600" channel="Canal.Europa.Europa.sv">
     <title lang="es">Montalbano</title>
     <episode-num system="onscreen">S7 E18</episode-num>
-  </programme><programme start="20260924060000 -0600" stop="20260924080000 -0600" channel="Canal.Europa.Europa.sv">
+  </programme>
+  <programme start="20260924060000 -0600" stop="20260924080000 -0600" channel="Canal.Europa.Europa.sv">
     <title lang="es">La novia vestía de negro</title>
   </programme>
   <programme start="20260924080000 -0600" stop="20260924100000 -0600" channel="Canal.Europa.Europa.sv">
@@ -108619,8 +108618,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260922190000 -0600" stop="20260922200000 -0600" channel="Canal.Exa.TV.sv">
     <title lang="es">Videos</title>
-  </programme>
-  <programme start="20260922200000 -0600" stop="20260922210000 -0600" channel="Canal.Exa.TV.sv">
+  </programme><programme start="20260922200000 -0600" stop="20260922210000 -0600" channel="Canal.Exa.TV.sv">
     <title lang="es">K-vibe</title>
   </programme>
   <programme start="20260922210000 -0600" stop="20260922220000 -0600" channel="Canal.Exa.TV.sv">
@@ -109054,7 +109052,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260923120000 -0600" stop="20260923130000 -0600" channel="Canal.Film.&amp;.Arts.sv">
     <title lang="es">Kate Winslet</title>
-  </programme><programme start="20260923130000 -0600" stop="20260923140000 -0600" channel="Canal.Film.&amp;.Arts.sv">
+  </programme>
+  <programme start="20260923130000 -0600" stop="20260923140000 -0600" channel="Canal.Film.&amp;.Arts.sv">
     <title lang="es">Los dibujos de Yves Saint Laur</title>
   </programme>
   <programme start="20260923140000 -0600" stop="20260923150000 -0600" channel="Canal.Film.&amp;.Arts.sv">
@@ -109258,8 +109257,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260922030000 -0600" stop="20260922033000 -0600" channel="Canal.Fox.Deportes.sv">
     <title lang="es">Programa Pagado</title>
-  </programme>
-  <programme start="20260922033000 -0600" stop="20260922040000 -0600" channel="Canal.Fox.Deportes.sv">
+  </programme><programme start="20260922033000 -0600" stop="20260922040000 -0600" channel="Canal.Fox.Deportes.sv">
     <title lang="es">Programa Pagado</title>
   </programme>
   <programme start="20260922040000 -0600" stop="20260922043000 -0600" channel="Canal.Fox.Deportes.sv">
@@ -109422,7 +109420,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260924060000 -0600" stop="20260924070000 -0600" channel="Canal.Fox.Deportes.sv">
     <title lang="es">FOX 365</title>
-  </programme><programme start="20260924070000 -0600" stop="20260924080000 -0600" channel="Canal.Fox.Deportes.sv">
+  </programme>
+  <programme start="20260924070000 -0600" stop="20260924080000 -0600" channel="Canal.Fox.Deportes.sv">
     <title lang="es">Cuadro titular</title>
   </programme>
   <programme start="20260924080000 -0600" stop="20260924100000 -0600" channel="Canal.Fox.Deportes.sv">
@@ -109570,7 +109569,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260922112400 -0600" stop="20260922131400 -0600" channel="Canal.Golden.Premier.sv">
     <title lang="es">La casa del engaño</title>
-  </programme><programme start="20260922131400 -0600" stop="20260922150000 -0600" channel="Canal.Golden.Premier.sv">
+  </programme>
+  <programme start="20260922131400 -0600" stop="20260922150000 -0600" channel="Canal.Golden.Premier.sv">
     <title lang="es">Isla fantasma</title>
   </programme>
   <programme start="20260922150000 -0600" stop="20260922162200 -0600" channel="Canal.Golden.Premier.sv">
@@ -109704,8 +109704,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260923115600 -0600" stop="20260923141800 -0600" channel="Canal.Golden.Premier.sv">
     <title lang="es">El Mediador</title>
-  </programme>
-  <programme start="20260923141800 -0600" stop="20260923155100 -0600" channel="Canal.Golden.Premier.sv">
+  </programme><programme start="20260923141800 -0600" stop="20260923155100 -0600" channel="Canal.Golden.Premier.sv">
     <title lang="es">El cofre</title>
   </programme>
   <programme start="20260923155100 -0600" stop="20260923173700 -0600" channel="Canal.Golden.Premier.sv">
@@ -109902,8 +109901,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260921200000 -0600" stop="20260921210000 -0600" channel="Canal.Mexiquense.TV.sv">
     <title lang="es">Otro Stylo para Cocinar</title>
-  </programme>
-  <programme start="20260921210000 -0600" stop="20260921220000 -0600" channel="Canal.Mexiquense.TV.sv">
+  </programme><programme start="20260921210000 -0600" stop="20260921220000 -0600" channel="Canal.Mexiquense.TV.sv">
     <title lang="es">Cóncavo y Consexo</title>
   </programme>
   <programme start="20260921220000 -0600" stop="20260921230000 -0600" channel="Canal.Mexiquense.TV.sv">
@@ -110067,7 +110065,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260924030000 -0600" stop="20260924070000 -0600" channel="Canal.Mexiquense.TV.sv">
     <title lang="es">Fuera del aire</title>
-  </programme><programme start="20260924070000 -0600" stop="20260924071000 -0600" channel="Canal.Mexiquense.TV.sv">
+  </programme>
+  <programme start="20260924070000 -0600" stop="20260924071000 -0600" channel="Canal.Mexiquense.TV.sv">
     <title lang="es">Himno del Estado de México</title>
   </programme>
   <programme start="20260924071000 -0600" stop="20260924071500 -0600" channel="Canal.Mexiquense.TV.sv">
@@ -110637,7 +110636,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260921060000 -0600" stop="20260921070000 -0600" channel="Canal.TUDN.(México).sv">
     <title lang="es">La Jugada</title>
-  </programme><programme start="20260921070000 -0600" stop="20260921080000 -0600" channel="Canal.TUDN.(México).sv">
+  </programme>
+  <programme start="20260921070000 -0600" stop="20260921080000 -0600" channel="Canal.TUDN.(México).sv">
     <title lang="es">Liga MX en 60</title>
     <sub-title lang="es">Atlas vs. Pumas UNAM</sub-title>
     <episode-num system="onscreen">S2026</episode-num>
@@ -111126,8 +111126,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260924010000 -0600" stop="20260924023000 -0600" channel="Canal.Telefórmula.sv">
     <title lang="es">Todo para la Mujer con Maxine</title>
-  </programme>
-  <programme start="20260924023000 -0600" stop="20260924033000 -0600" channel="Canal.Telefórmula.sv">
+  </programme><programme start="20260924023000 -0600" stop="20260924033000 -0600" channel="Canal.Telefórmula.sv">
     <title lang="es">Shanik en Fórmula</title>
   </programme>
   <programme start="20260924033000 -0600" stop="20260924043000 -0600" channel="Canal.Telefórmula.sv">
@@ -111483,7 +111482,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="tr">Namaz Vakti, ibadet vakitlerine odaklanan ve dini içerikleri izleyiciyle buluşturan bir yayın formatıdır. Günlük namaz vakitleri, bilgilendirici içerikler ve manevi hatırlatmalar üzerinden hazırlanarak izleyiciye düzenli ve rehber niteliğinde bir içerik sunar.</desc>
     <category lang="tr">Haber</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202609/20260913/78/2306562050515eb9542c.jpg" />
-  </programme><programme start="20260922023200 +0000" stop="20260922023500 +0000" channel="TV5.tr">
+  </programme>
+  <programme start="20260922023200 +0000" stop="20260922023500 +0000" channel="TV5.tr">
     <title lang="tr">Hatırla!</title>
     <desc lang="tr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
     <category lang="tr">Magazin</category>
@@ -111638,7 +111638,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="tr">"Hatırla!", geçmişe iz bırakan anları, unutulmaz sahneleri ve yıldızların hafızalara kazınmış hikâyelerini ekranlara taşıyan özel bir magazin programı. Duygusal anılar, nostaljik detaylar ve ünlü dünyasından çarpıcı hatıralar bu programda yeniden canlanıyor.</desc>
     <category lang="tr">Magazin</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202609/20260914/41/2306078617035eb9542c.jpg" />
-  </programme><programme start="20260922085700 +0000" stop="20260922090000 +0000" channel="TV5.tr">
+  </programme>
+  <programme start="20260922085700 +0000" stop="20260922090000 +0000" channel="TV5.tr">
     <title lang="tr">Esma-ül Hüsna</title>
     <desc lang="tr">Esma-ül Hüsna, Allah'ın 99 güzel ismini anlamları, tecellileri ve insan hayatına yansımalarıyla birlikte ele alır. Her bölümde isimlerin Kur'an'daki bağlamı ve manevi hikmeti anlatılarak izleyicilere huzur veren bir atmosfer sunulur.</desc>
     <category lang="tr">Magazin</category>
@@ -111943,7 +111944,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="tr">Ekonomi Terimleri, enflasyondan faiz oranlarına, bütçe açığından piyasa dinamiklerine kadar temel ekonomik kavramları herkesin kolayca anlayabileceği şekilde ele alır. Program, ekonomiyi yakından takip etmek isteyenler için pratik ve öğretici bir rehber sunar.</desc>
     <category lang="tr">Magazin</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202609/20260914/2/2306078791115eb9542c.jpg" />
-  </programme><programme start="20260922195300 +0000" stop="20260922204000 +0000" channel="TV5.tr">
+  </programme>
+  <programme start="20260922195300 +0000" stop="20260922204000 +0000" channel="TV5.tr">
     <title lang="tr">Haberin Var Mı?</title>
     <desc lang="tr">Gündemde öne çıkan gelişmelerin ele alındığı programda siyaset, ekonomi ve toplumsal konular kapsamlı biçimde değerlendirilir. Günün dikkat çeken başlıkları farklı bakış açılarıyla analiz edilirken, öne çıkan tartışmalar ve yaşanan gelişmeler izleyiciye anlaşılır ve bütüncül bir çerçevede aktarılır.</desc>
     <category lang="tr">Magazin</category>
@@ -112164,8 +112166,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="tr">Programda Muhammed Emin Yıldırım, İslam tarihi, siyer ve güncel dini meseleler üzerine sohbetler gerçekleştirir. Ayet ve hadisler ışığında yapılan anlatımlarda, izleyicilere manevi rehberlik sunulurken toplumsal konular da ele alınır.</desc>
     <category lang="tr">Dini</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202609/20260915/18/2306107593085eb7f426.jpg" />
-  </programme>
-  <programme start="20260923053500 +0000" stop="20260923054000 +0000" channel="TV5.tr">
+  </programme><programme start="20260923053500 +0000" stop="20260923054000 +0000" channel="TV5.tr">
     <title lang="tr">Reklam - Sponsor - Kamu Spotu</title>
     <desc lang="tr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
     <category lang="tr">Diğer</category>
@@ -112320,8 +112321,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="tr">Programda Muhammed Emin Yıldırım, İslam tarihi, siyer ve güncel dini meseleler üzerine sohbetler gerçekleştirir. Ayet ve hadisler ışığında yapılan anlatımlarda, izleyicilere manevi rehberlik sunulurken toplumsal konular da ele alınır.</desc>
     <category lang="tr">Dini</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202609/20260915/2/2306107695165eb7f426.jpg" />
-  </programme>
-  <programme start="20260923104000 +0000" stop="20260923104400 +0000" channel="TV5.tr">
+  </programme><programme start="20260923104000 +0000" stop="20260923104400 +0000" channel="TV5.tr">
     <title lang="tr">Sponsor</title>
     <desc lang="tr">Toplumun bilinçlenmesine katkı sağlamak amacıyla hazırlanan sponsor ve kamu spotları ekrana geliyor. Sağlık, çevre, eğitim ve sosyal sorumluluk gibi alanlarda farkındalık yaratan içerikler, izleyicilere hem bilgilendirici hem de düşündürücü mesajlar sunuyor.</desc>
     <category lang="tr">Magazin</category>
@@ -112938,8 +112938,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="tr">Reklam + Sponsor, medya dünyasında markaların bilinirliğini ve etkisini artıran stratejileri mercek altına alıyor. Reklamcılığın dönüşen yapısı, sponsorluk modellerinin evrimi ve sektörde öne çıkan yeni trendler; uzman görüşleri, başarı hikâyeleri ve dikkat çekici örneklerle ele alınıyor.</desc>
     <category lang="tr">Diğer</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202609/20260916/25/2306121623725eb78424.jpg" />
-  </programme>
-  <programme start="20260924092500 +0000" stop="20260924092600 +0000" channel="TV5.tr">
+  </programme><programme start="20260924092500 +0000" stop="20260924092600 +0000" channel="TV5.tr">
     <title lang="tr">Ekonomi Terimleri</title>
     <desc lang="tr">Ekonomi Terimleri, enflasyondan faiz oranlarına, bütçe açığından piyasa dinamiklerine kadar temel ekonomik kavramları herkesin kolayca anlayabileceği şekilde ele alır. Program, ekonomiyi yakından takip etmek isteyenler için pratik ve öğretici bir rehber sunar.</desc>
     <category lang="tr">Magazin</category>
@@ -113250,8 +113249,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="tr">Bilginin Kökleri, bilgi, öğrenme ve bilişsel gelişim üzerine odaklanan bir eğitim programıdır. Programda öğrenme kuramları, zeka türleri ve bilimin temel kavramları ele alınarak izleyiciye sade ve anlaşılır bir anlatımla bilgi sunulur.</desc>
     <category lang="tr">Magazin</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202609/20260916/69/2306121787885eb78424.jpg" />
-  </programme>
-  <programme start="20260924204900 +0000" stop="20260924205400 +0000" channel="TV5.tr">
+  </programme><programme start="20260924204900 +0000" stop="20260924205400 +0000" channel="TV5.tr">
     <title lang="tr">İslam Düşünürleri</title>
     <desc lang="tr">İslam Düşünürleri, tarih boyunca İslam düşüncesine yön vermiş önemli isimlerin hayatlarını, eserlerini ve fikirlerini izleyiciyle buluşturur. Program, bu düşüncelerin günümüz dünyasındaki yansımalarını da ele alarak izleyiciye zengin bir perspektif sunar.</desc>
     <category lang="tr">Belgesel</category>
@@ -113652,7 +113650,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <desc lang="tr">"Düşünme Vakti", gündelik hayatın hızından uzaklaşıp derin bir nefes alma imkânı sunan, insanı düşünmeye davet eden bir sohbet programıdır. Farklı konular, sade bir anlatımla izleyiciye sunulur.</desc>
     <category lang="tr">Magazin</category>
     <icon src="https://izmottvsc24.tvplus.com.tr:33207/CPS/images/universal/film/program/202609/20260917/48/2306082039925eb78424.jpg" />
-  </programme><programme start="20260925115000 +0000" stop="20260925115500 +0000" channel="TV5.tr">
+  </programme>
+  <programme start="20260925115000 +0000" stop="20260925115500 +0000" channel="TV5.tr">
     <title lang="tr">Sponsor</title>
     <desc lang="tr">Toplumun bilinçlenmesine katkı sağlamak amacıyla hazırlanan sponsor ve kamu spotları ekrana geliyor. Sağlık, çevre, eğitim ve sosyal sorumluluk gibi alanlarda farkındalık yaratan içerikler, izleyicilere hem bilgilendirici hem de düşündürücü mesajlar sunuyor.</desc>
     <category lang="tr">Magazin</category>
@@ -114664,7 +114663,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating>
       <value>VH</value>
     </rating>
-  </programme><programme start="20260924170000 +0000" stop="20260924180000 +0000" channel="NATIONAL.GEOGRAPHIC.HD.tr">
+  </programme>
+  <programme start="20260924170000 +0000" stop="20260924180000 +0000" channel="NATIONAL.GEOGRAPHIC.HD.tr">
     <title lang="tr">Kolezyum: Antik Roma'nın Kalbi</title>
     <desc lang="tr">Kolezyum: Antik Roma’nın Kalbi, yeni keşifler ve son teknoloji araştırmalarla bu ikonik yapının Roma İmparatorluğu ile olan karmaşık bağlarını ortaya koyuyor. Kolezyum’dan Avrupa ve Kuzey Afrika’daki antik kalıntılara uzanan arkeolojik izlerle, yapının görkemli geçmişi ve Roma’nın yükselişindeki rolü mercek altına alınıyor.</desc>
     <category lang="tr">Belgesel</category>
@@ -115790,7 +115790,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="TR">
       <value>0+</value>
     </rating>
-  </programme><programme start="20260923123000 +0300" stop="20260923132500 +0300" channel="NATIONAL.GEOGRAPHIC.tr">
+  </programme>
+  <programme start="20260923123000 +0300" stop="20260923132500 +0300" channel="NATIONAL.GEOGRAPHIC.tr">
     <title lang="tr">Araba S.O.S</title>
     <desc lang="tr">İnsanların araba rüyalarını gerçekleştiren Araba SOS, 8. sezonuyla geri dönüyor! Fuzz Townshend ve Tim Shaw klasik arabaları, onları hak eden sahiplerle buluşturmaya devam ediyor. 1930'ların klasik aile arabalarından 1970'lerin İtalyan spor arabalarına, araba tutkunları yine bu program etrafında buluşuyor.</desc>
     <category lang="tr">Yaşam</category>
@@ -116176,7 +116177,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="TR">
       <value>0+</value>
     </rating>
-  </programme><programme start="20260925022500 +0300" stop="20260925031000 +0300" channel="NATIONAL.GEOGRAPHIC.tr">
+  </programme>
+  <programme start="20260925022500 +0300" stop="20260925031000 +0300" channel="NATIONAL.GEOGRAPHIC.tr">
     <title lang="tr">CIA'in Gizli Dünyası</title>
     <desc lang="tr">CIA'in Gizli Dünyası, istihbarat dünyasının en gizli operasyonlarını ve bu görevleri yürüten ajanların anlatılarını ekranlara taşıyor. Gerçek operasyonlardan çarpıcı hikâyeler, gizli görevler ve kritik karar anlarıyla her bölüm izleyiciyi casusluk dünyasının perde arkasına götürüyor.</desc>
     <category lang="tr">Yaşam</category>
@@ -118191,7 +118193,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">News</category>
     <icon src="http://dtil.tmsimg.com/assets/p832903_b_h10_ac.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme><programme channel="ESTRELLA.NEWS.us2" start="20260925063000 +0000" stop="20260925070000 +0000">
+  </programme>
+  <programme channel="ESTRELLA.NEWS.us2" start="20260925063000 +0000" stop="20260925070000 +0000">
     <title lang="es">En vivo</title>
     <desc lang="es">Show familiar de revista de entretenimiento, novedades e información de la farándula, entrevistas con famosos nacionales e internacionales y música en vivo todos los días.</desc>
     <credits>
@@ -118336,8 +118339,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">News</category>
     <icon src="http://dtil.tmsimg.com/assets/p19009415_b_h10_af.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme channel="ESTRELLA.NEWS.us2" start="20260925130000 +0000" stop="20260925133000 +0000">
+  </programme><programme channel="ESTRELLA.NEWS.us2" start="20260925130000 +0000" stop="20260925133000 +0000">
     <title lang="es">24 horas</title>
     <desc lang="es">Las noticias más importantes en política, finanzas, deportes, clima y los acontecimientos que impactan alrededor del mundo.</desc>
     <credits>
@@ -118676,8 +118678,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="en">Newsmagazine</category>
     <icon src="http://dtil.tmsimg.com/assets/p327031_b_h8_ab.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme channel="ESTRELLA.NEWS.us2" start="20260926023000 +0000" stop="20260926030000 +0000">
+  </programme><programme channel="ESTRELLA.NEWS.us2" start="20260926023000 +0000" stop="20260926030000 +0000">
     <title lang="es">Live: Cierre de edición</title>
     <desc lang="es">El desglose y análisis de las noticias más importantes para la comunidad latina en Estados Unidos.</desc>
     <credits>
@@ -122492,8 +122493,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="en">Consumer</category>
     <icon src="http://dtil.tmsimg.com/assets/p32384250_b_h8_aa.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme channel="National.Geographic.HD.us2" start="20260922113000 +0000" stop="20260922120000 +0000">
+  </programme><programme channel="National.Geographic.HD.us2" start="20260922113000 +0000" stop="20260922120000 +0000">
     <title lang="en">Paid Programming</title>
     <desc lang="en">Paid programming.</desc>
     <category lang="en">Consumer</category>
@@ -123298,8 +123298,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="Freiwillige Selbstkontrolle der Filmwirtschaft">
       <value>12</value>
     </rating>
-  </programme>
-  <programme channel="National.Geographic.HD.us2" start="20260923100000 +0000" stop="20260923103000 +0000">
+  </programme><programme channel="National.Geographic.HD.us2" start="20260923100000 +0000" stop="20260923103000 +0000">
     <title lang="en">Paid Programming</title>
     <desc lang="en">Paid programming.</desc>
     <category lang="en">Consumer</category>
@@ -127546,8 +127545,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="Canadian Parental Rating">
       <value>C</value>
     </rating>
-  </programme>
-  <programme channel="BabyFirst.TV.us2" start="20260924153000 +0000" stop="20260924160000 +0000">
+  </programme><programme channel="BabyFirst.TV.us2" start="20260924153000 +0000" stop="20260924160000 +0000">
     <title lang="en">Wonderful Thursday Playdate</title>
     <desc lang="en">Interactive adventures promoting social skills &amp; bonding.</desc>
     <date>2025</date>
@@ -128981,8 +128979,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">Entertainment</category>
     <icon src="http://dtil.tmsimg.com/assets/p10483797_b_h10_ac.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme>
-  <programme channel="Estrella.TV.us2" start="20260922120000 +0000" stop="20260922140000 +0000">
+  </programme><programme channel="Estrella.TV.us2" start="20260922120000 +0000" stop="20260922140000 +0000">
     <title lang="es">Renuncia por motivos de salud</title>
     <desc lang="es">Un empleado del gobierno quiere alejarse de la corrupción, pero se ve atrapado entre perderlo todo o unirse al juego.</desc>
     <credits>
@@ -129574,7 +129571,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">Entertainment</category>
     <icon src="http://dtil.tmsimg.com/assets/p10483797_b_h10_ac.jpg?w=960&amp;h=540" />
     <previously-shown />
-  </programme><programme channel="Estrella.TV.us2" start="20260923120000 +0000" stop="20260923140000 +0000">
+  </programme>
+  <programme channel="Estrella.TV.us2" start="20260923120000 +0000" stop="20260923140000 +0000">
     <title lang="es">Toña Machetes</title>
     <desc lang="es">Una mujer adopta a un niño y descubre que puede amar nuevamente. Sin embargo, un hombre planea complicarle los planes.</desc>
     <credits>
@@ -129936,7 +129934,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="Kijkwijzer">
       <value>AL</value>
     </rating>
-  </programme><programme channel="Estrella.TV.us2" start="20260924073000 +0000" stop="20260924080000 +0000">
+  </programme>
+  <programme channel="Estrella.TV.us2" start="20260924073000 +0000" stop="20260924080000 +0000">
     <title lang="es">Programa pagado</title>
     <desc lang="es">Programa que muestra diversos productos para la venta.</desc>
     <category lang="es">Consumer</category>
@@ -131843,7 +131842,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <rating system="Canadian Parental Rating">
       <value>14+</value>
     </rating>
-  </programme><programme channel="TUDN.us2" start="20260924110000 +0000" stop="20260924120000 +0000">
+  </programme>
+  <programme channel="TUDN.us2" start="20260924110000 +0000" stop="20260924120000 +0000">
     <title lang="es">Línea de cuatro</title>
     <desc lang="es">Los análisis futboleros más punzantes junto a las opiniones más fuertes. Una combinación exitosa entre la experiencia de los exfutbolistas y el debate apasionado de los periodistas con décadas de recorrido en el deporte más popular del mundo.</desc>
     <credits>
@@ -135731,7 +135731,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">Noticiero</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/1990697242.jpg" />
     <country lang="es">Argentina</country>
-  </programme><programme start="20260924140000 -0300" stop="20260924160000 -0300" channel="26.TV.uy">
+  </programme>
+  <programme start="20260924140000 -0300" stop="20260924160000 -0300" channel="26.TV.uy">
     <title lang="es">La tarde</title>
     <desc lang="es">Repasamos los temas más comentados del día en Argentina y el mundo junto a un equipo de periodistas expertos.</desc>
     <credits>
@@ -137395,8 +137396,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">Comedia</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/44860095.jpg" />
     <country lang="es">México</country>
-  </programme>
-  <programme start="20260923173000 -0300" stop="20260923184500 -0300" channel="DISTRITO.COMEDIA.HD.uy">
+  </programme><programme start="20260923173000 -0300" stop="20260923184500 -0300" channel="DISTRITO.COMEDIA.HD.uy">
     <title lang="es">Nosotros los guapos</title>
     <desc lang="es">El Vítor y Albertano persiguen un mismo objetivo: conseguir un lugar en dónde vivir y, muy a su pesar, buscar un trabajo que les permita sobrevivir y pagar la renta del cuarto que ambos deciden compartir en casa de Doña Cuca.</desc>
     <credits>
@@ -139355,8 +139355,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">Drama</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/49961942.jpg" />
     <country lang="es">México</country>
-  </programme>
-  <programme start="20260922044000 -0300" stop="20260922053000 -0300" channel="LAS.ESTRELLAS.HD.uy">
+  </programme><programme start="20260922044000 -0300" stop="20260922053000 -0300" channel="LAS.ESTRELLAS.HD.uy">
     <title lang="es">Tan cerca de ti, nace el amor</title>
     <desc lang="es">Después de un accidente que deja huérfanos a cuatro hermanos, Joaquín se convierte en su tutor legal Verónica es la verdadera madre de uno de los niños, por lo que asume una nueva identidad para acercarse a la familia de Joaquín.</desc>
     <credits>
@@ -140980,8 +140979,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">Magazine</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/1948608345.jpg" />
     <country lang="es">Francia</country>
-  </programme>
-  <programme start="20260922033300 -0300" stop="20260922042600 -0300" channel="TV.5.uy">
+  </programme><programme start="20260922033300 -0300" stop="20260922042600 -0300" channel="TV.5.uy">
     <title lang="es">Loin des villes</title>
     <title lang="xx">Campesinas pobres</title>
     <desc lang="es">Entre el arraigo a las raíces y la búsqueda de oportunidades, una pregunta atraviesa a las generaciones: ¿avanzar y marcharse, o quedarse para construir?</desc>
@@ -141248,7 +141246,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <category lang="es">Interés general</category>
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/1063584.jpg" />
     <country lang="es">Francia</country>
-  </programme><programme start="20260922150300 -0300" stop="20260922154900 -0300" channel="TV.5.uy">
+  </programme>
+  <programme start="20260922150300 -0300" stop="20260922154900 -0300" channel="TV.5.uy">
     <title lang="es">Pandore</title>
     <sub-title lang="es">Episodio 1</sub-title>
     <desc lang="es">La juez Claire Delval descubre que su padre, Simon Delval, está implicado en el caso de corrupción que lleva años investigando Obligado a dimitir, su puesto en el Partido Liberal Francófono es codiciado por el discreto Mark Van Dyck.</desc>
@@ -141561,7 +141560,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
     <icon src="http://www.reportv.com.ar/buscador/img/Programas/8776073.jpg" />
     <country lang="es">Francia</country>
     <episode-num system="onscreen">S5</episode-num>
-  </programme><programme start="20260923060000 -0300" stop="20260923062600 -0300" channel="TV.5.uy">
+  </programme>
+  <programme start="20260923060000 -0300" stop="20260923062600 -0300" channel="TV.5.uy">
     <title lang="es">Le téléjournal de Radio-Canada</title>
     <desc lang="es">El análisis de las noticias más importantes de la jornada conducido por un equipo de periodistas de profesionales.</desc>
     <date>2025</date>
@@ -143072,7 +143072,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260923190000 +0000" stop="20260923200000 +0000" channel="Azteca.Internacional.us">
     <title lang="en">Azteca Internacional</title>
-  </programme><programme start="20260923200000 +0000" stop="20260923210000 +0000" channel="Azteca.Internacional.us">
+  </programme>
+  <programme start="20260923200000 +0000" stop="20260923210000 +0000" channel="Azteca.Internacional.us">
     <title lang="en">Azteca Internacional</title>
   </programme>
   <programme start="20260923210000 +0000" stop="20260923220000 +0000" channel="Azteca.Internacional.us">
@@ -143101,8 +143102,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   </programme>
   <programme start="20260924050000 +0000" stop="20260924060000 +0000" channel="Azteca.Internacional.us">
     <title lang="en">Azteca Internacional</title>
-  </programme>
-  <programme start="20260924060000 +0000" stop="20260924070000 +0000" channel="Azteca.Internacional.us">
+  </programme><programme start="20260924060000 +0000" stop="20260924070000 +0000" channel="Azteca.Internacional.us">
     <title lang="en">Azteca Internacional</title>
   </programme>
   <programme start="20260924070000 +0000" stop="20260924080000 +0000" channel="Azteca.Internacional.us">
@@ -143429,8 +143429,7 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   <programme start="20260922023700 +0000" stop="20260922030700 +0000" channel="Weather.Spy.us">
     <title lang="en">Humans VS Weather</title>
     <desc lang="en">Who will win in a match of Kayaker over a Waterfall and Car Avoiding Falling Tree?</desc>
-  </programme>
-  <programme start="20260922030700 +0000" stop="20260922033700 +0000" channel="Weather.Spy.us">
+  </programme><programme start="20260922030700 +0000" stop="20260922033700 +0000" channel="Weather.Spy.us">
     <title lang="en">WeatherSpy Shorts</title>
     <desc lang="en">Sometimes its better to stop and record than wait out the storm.</desc>
   </programme>
@@ -143825,7 +143824,8 @@ Przez ostatnie dwa tysiące lat katolicy, którzy nie nadążali za wciąż zmie
   <programme start="20260924051100 +0000" stop="20260924054100 +0000" channel="Weather.Spy.us">
     <title lang="en">Storm Hunters</title>
     <desc lang="en">The North Atlantic Ocean is generous with her bounty, until she takes a life in return. Mark braves the deep seas on the most dangerous day of the lobster fishing season.</desc>
-  </programme><programme start="20260924054100 +0000" stop="20260924061100 +0000" channel="Weather.Spy.us">
+  </programme>
+  <programme start="20260924054100 +0000" stop="20260924061100 +0000" channel="Weather.Spy.us">
     <title lang="en">Storm Hunters</title>
     <desc lang="en">One year after witnessing a record number of deadly twisters in Tornado Alley, Mark &amp; Jaclyn return to the Midwest in search of more  extreme storms. The hunt challenges their relationship with Mother Nature, as well as with each other.</desc>
   </programme>
