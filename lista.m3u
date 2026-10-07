@@ -337,6 +337,8 @@ https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8
 https://tv.alterna.ar/stream/hls/live.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png",AMC Latin America
 http://15.204.246.24:8080/AMCHD/index.m3u8
+#EXTINF:-1 tvg-id="AMCSeriesLatinAmerica.us@Panregional" tvg-logo="https://amc-series.s3.amazonaws.com/menu/hbfen1Gom0_k1cyqi7rw4-amc-series-train-w.png",AMC Series Latin America
+http://45.171.64.30:6060/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="Anaylos7.us@Spain" tvg-logo="https://i.imgur.com/X5g6gXS.png",Ana y los 7
 https://jmp2.uk/plu-5f1acce7f17797000718f9be.m3u8
 #EXTINF:-1 tvg-id="AndinaRTV.pe@SD" tvg-logo="https://i.imgur.com/KoQPpVh.jpeg",Andina RTV
@@ -597,5 +599,3 @@ https://live20.bozztv.com/akamaissh101/ssh101/fsradiotv/playlist.m3u8
 https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
 #EXTINF:-1 tvg-id="FMPlusTV.cl@SD" tvg-logo="https://i.imgur.com/1UokOyN.png",FM Plus TV
 https://v2.tustreaming.cl/fmplus/index.m3u8
-#EXTINF:-1 tvg-id="FMTV.uk@SD" tvg-logo="https://i.imgur.com/vPxvbVv.png",FMTV [Not 24/7]
-https://s2.tvdatta.com:3307/hybrid/play.m3u8
