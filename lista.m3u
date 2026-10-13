@@ -71,8 +71,6 @@ https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.1_kd5oiNTTWO0gEOFc431277834
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
 #EXTINF:-1 tvg-id="Capital21.mx@SD" tvg-logo="https://i.imgur.com/8ign49i.png",Capital 21 [Not 24/7]
 https://video.cdmx.gob.mx/redes/stream.m3u8
-#EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png",Cartoon Network Latin America Mexico
-https://zg9mhld.s.gy/HD-CARTOON-MX.ts
 #EXTINF:-1 tvg-id="CineLatino.mx@SD" tvg-logo="https://i.imgur.com/2V0R0xT.png",CineLatino
 http://206.135.11.174:8010/play/a0lq/index.m3u8
 #EXTINF:-1 tvg-id="ClaroCinema.mx@SD" tvg-logo="https://i.imgur.com/SOLGQxQ.jpg",Claro Cinema
@@ -561,6 +559,8 @@ https://live2.telemicro.com.do/live/digital15cast_1080p/playlist.m3u8
 https://s.emisoras.tv:8081/diostevekids/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Panregional" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png",Discovery Kids Latin America
 http://181.224.200.5:2277/play/a00o/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Chile" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png",Discovery Kids Latin America Chile
+http://38.224.231.176:8000/play/a01j/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Colombia" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png",Discovery Kids Latin America Colombia
 http://38.134.250.110:8000/play/a003/index.m3u8
 #EXTINF:-1 tvg-id="DismarRadioTV.py@SD" tvg-logo="https://i.imgur.com/KOuxdMD.png",Dismar Radio TV
@@ -576,7 +576,7 @@ http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",Disney Jr. Latin America South
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@SouthHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg",Disney Jr. Latin America South
-http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/disney_jr.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png",Disney Junior (United States) (480p)
 http://tvsen5.aynascope.net/disney/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png",Disney XD (United States)
