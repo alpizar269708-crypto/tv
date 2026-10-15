@@ -4,6 +4,12 @@ on:
     - cron: '30 23 * * *'
   workflow_dispatch:
 
+# Ambos workflows modifican main; deben compartir el mismo grupo para evitar
+# que sus commits simultáneos se rechacen entre sí.
+concurrency:
+  group: tv-main-updates
+  cancel-in-progress: false
+
 permissions:
   contents: write
   actions: write
@@ -12,21 +18,45 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-python@v4
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    - run: python update_m3u.py
-    
+    - name: Actualizar lista M3U
+      run: python update_m3u.py
+
     - name: Subir cambios
       run: |
+        set -e
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add lista.m3u
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update M3U" && git push)
-        
+        if git diff --cached --quiet; then
+          echo "M3U sin cambios; no hay nada que subir."
+          exit 0
+        fi
+        git commit -m "Update M3U"
+        # Reintegrar commits que hayan llegado desde el checkout y reintentar
+        # si otro proceso externo actualiza main durante el push.
+        for attempt in 1 2 3; do
+          git fetch origin main
+          git rebase origin/main
+          if git push origin HEAD:main; then
+            exit 0
+          fi
+          echo "Push rechazado (intento $attempt); se volverá a sincronizar."
+          sleep $((attempt * 2))
+        done
+        echo "::error::No se pudo subir la lista M3U después de 3 intentos."
+        exit 1
+
     - name: Limpiar workflows viejos (mantener 3)
+      if: always()
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        gh run list --workflow "1. Actualizar M3U" --limit 100 --json databaseId -q '.[3:][].databaseId' | xargs -I{} gh run delete "{}" || true
+        gh run list --workflow "1. Actualizar M3U" --limit 100 --json databaseId -q '.[3:][].databaseId' | while read -r id; do
+          [ -z "$id" ] || gh run delete "$id" || true
+        done
