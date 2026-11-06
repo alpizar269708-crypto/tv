@@ -20,7 +20,7 @@ http://187.245.231.226:8000/play/a0uz/index.m3u8
 #EXTINF:-1 tvg-id="AztecaDeportesNetwork.mx@SD" tvg-logo="https://match-images.icdb.tv/5913207f2494844101287828e87625eb.jpg",Azteca Deportes Network
 http://209.14.115.253:8081/azteca-deportes/index.m3u8
 #EXTINF:-1 tvg-id="AztecaInternacional.mx@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png",Azteca Internacional
-https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+http://167.249.23.102:8000/play/a0a3/index.m3u8
 #EXTINF:-1 tvg-id="AztecaUno.mx@SD" tvg-logo="https://i.imgur.com/rRxgBtI.png",Azteca Uno
 http://38.44.109.41:8003/play/a033/index.m3u8
 #EXTINF:-1 tvg-id="AztecaUno.mx@Plus1" tvg-logo="https://i.imgur.com/rRxgBtI.png",Azteca Uno +1
@@ -58,7 +58,7 @@ https://stream-207963.castr.net/65313d270e749722b6474684/live_2b589fc0dfbf11ee9c
 #EXTINF:-1 tvg-id="Canal22Nacional.mx@SD" tvg-logo="https://i.imgur.com/6qiYvhe.png",Canal 22 Nacional [Geo-blocked]
 https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.mx@SD" tvg-logo="https://i.imgur.com/PAvnVN9.png",Canal 26 (Mexico)
-https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8
+https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal28.mx@SD" tvg-logo="https://i.imgur.com/lr4MZFg.png",Canal 28 [Not 24/7]
 https://stream.castr.com/653d77dcde70014f52ad1e19/live_bf24d4208d8611eeb116dbe87aa63be0/rewind-3600.m3u8
 #EXTINF:-1 tvg-id="Canal30Cintalapa.mx@SD" tvg-logo="https://i.imgur.com/xv13N7q.jpg",Canal 30 Cintalapa [Not 24/7]
@@ -74,11 +74,11 @@ https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
 #EXTINF:-1 tvg-id="Capital21.mx@SD" tvg-logo="https://i.imgur.com/8ign49i.png",Capital 21 [Not 24/7]
 https://video.cdmx.gob.mx/redes/stream.m3u8
 #EXTINF:-1 tvg-id="CineLatino.mx@SD" tvg-logo="https://i.imgur.com/2V0R0xT.png",CineLatino
-http://206.135.11.174:8010/play/a0lq/index.m3u8
+http://168.196.127.137:6001/play/a08o/index.m3u8
 #EXTINF:-1 tvg-id="ClaroCinema.mx@SD" tvg-logo="https://i.imgur.com/SOLGQxQ.jpg",Claro Cinema
-http://158.172.217.18:8000/play/a00d/index.m3u8
-#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png",Comedy Central Latin America
-https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8
+http://45.171.64.30:6060/play/a039/index.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png",like Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18" group-title="Comedy",Comedy Central Latin America
+https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Comedy_Central/playlist.m3u8
 #EXTINF:-1 tvg-id="ConectaTV.mx@SD" tvg-logo="https://i.imgur.com/qEk0QGa.png",Conecta TV
 https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
 #EXTINF:-1 tvg-id="CreaLaTV.mx@SD" tvg-logo="https://i.imgur.com/Bnjj29f.png",CreaLaTV
@@ -124,9 +124,9 @@ https://pistream.ddns.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GoldenPlus.mx@SD" tvg-logo="https://i.imgur.com/OOEkyM2.png",Golden Plus
 http://45.5.118.152:8000/play/a03p/index.m3u8
 #EXTINF:-1 tvg-id="GoldenPremier2.mx@SD" tvg-logo="https://i.imgur.com/GBlvQBI.png",Golden Premier 2
-http://200.229.147.210:9999/play/a00l/index.m3u8
+http://200.57.28.141:8540/play/a0lo
 #EXTINF:-1 tvg-id="GoldenPremier.mx@SD" tvg-logo="https://i.imgur.com/JMa7jws.png",Golden Premier
-http://200.229.147.210:9999/play/a00k/index.m3u8
+http://200.57.28.141:8540/play/a0ln
 #EXTINF:-1 tvg-id="IcrtvColima.mx@SD" tvg-logo="https://i.imgur.com/iUks0ot.png",Icrtv Colima
 https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="IERTBCSCanal82.mx@SD" tvg-logo="https://i.imgur.com/R3icGuG.png",IERTBCS Canal 8.2 [Not 24/7]
@@ -142,7 +142,7 @@ https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 #EXTINF:-1 tvg-id="JusticiaTV.mx@SD" tvg-logo="https://i.imgur.com/zyAS1hk.png",Justicia TV (Mexico)
 https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
 #EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png",Las Estrellas
-https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+http://45.189.151.7:8000/play/a07s
 #EXTINF:-1 tvg-id="LifetimeLatinAmerica.us@Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png",Lifetime Latin America Mexico
 https://streaming.onnethn.com/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="LoboTV.mx@SD" tvg-logo="https://i.imgur.com/3fA50RJ.png",Lobo TV
@@ -192,7 +192,7 @@ https://srspsn.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="PSNCanal452.mx@SD" tvg-logo="https://i.imgur.com/7i7GkSL.png",PSN Canal 45.2 (288p)
 https://srspsn2.live/live/livestream.m3u8
 #EXTINF:-1 tvg-id="PXSports.mx@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/PX_Sports_-_Logo.png/960px-PX_Sports_-_Logo.png",PX Sports
-http://38.252.238.18:8000/play/a02f/index.m3u8
+http://38.65.175.84:8000/play/a0ku/index.m3u8
 #EXTINF:-1 tvg-id="Radiotele.mx@SD" tvg-logo="https://i.imgur.com/XpcCZvu.png",Radiotele (352p)
 http://linkrt.ddns.net:8080/hls/rtmorelia_MID.m3u8
 #EXTINF:-1 tvg-id="RalyTV.mx@SD" tvg-logo="https://i.imgur.com/W8a1dIa.png",Raly TV
@@ -284,7 +284,7 @@ https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPObregon.mx@SD" tvg-logo="https://i.imgur.com/uX1S3kt.png",TVP Obregon [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/gpacifico3/obregon.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UAATV.mx@SD" tvg-logo="https://i.imgur.com/brCSiGh.png",UAA TV
-https://5fe2654d6127d.streamlock.net:443/uaa2/videouaa2/playlist.m3u8
+https://5fe2654d6127d.streamlock.net/uaa2/videouaa2/playlist.m3u8
 #EXTINF:-1 tvg-id="UACJTV.mx@SD" tvg-logo="https://i.imgur.com/a1WaGTQ.jpeg",UACJ-TV [Not 24/7]
 https://5ca3e84a76d30.streamlock.net/uacj/videouacj/playlist.m3u8
 #EXTINF:-1 tvg-id="UDGTV.mx@SD" tvg-logo="https://i.imgur.com/QKvINA6.png",UDG TV [Not 24/7]
@@ -430,7 +430,7 @@ https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
 #EXTINF:-1 tvg-id="CanalCineDios.co@SD" tvg-logo="https://i.imgur.com/S4xqZgV.png",Canal Cine Dios
 https://canal.mediaserver.com.co/live/cinedios.m3u8
 #EXTINF:-1 tvg-id="CanalInfantil.us@SD" tvg-logo="https://i.imgur.com/WGk7MJ3.png",Canal Infantil
-http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/canalinfantil/playlist.m3u8
+http://179.1.196.222:9000/play/a02y/index.m3u8
 #EXTINF:-1 tvg-id="CanalShowsport.ar@SD" tvg-logo="https://i.imgur.com/0L9tW3Z.png",Canal Showsport
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="CanalWomtv.co@SD" tvg-logo="https://i.imgur.com/Nr4muMP.jpeg",Canal Womtv
@@ -512,7 +512,7 @@ http://168.228.44.241:9999/play/a04j/index.m3u8
 #EXTINF:-1 tvg-id="ClaroMusicaTV.co@SD" tvg-logo="https://i.imgur.com/vrSFUwv.png",Claro Musica TV
 http://45.171.64.30:6060/play/a010
 #EXTINF:-1 tvg-id="ClaroSports.mx@SD" tvg-logo="https://i.imgur.com/n0kd17r.png",Claro Sports
-http://168.196.127.137:6001/play/a08r/index.m3u8
+http://45.171.64.30:6060/play/a00w/index.m3u8
 #EXTINF:-1 tvg-id="CMMTV.es@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/CMMedia.svg/960px-CMMedia.svg.png",CMM TV
 https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/flavorIds/1_a9gxgxzy,1_v71ryg4b,1_vbfvtjw6,1_obo1bqsx,1_3shk3s5d/a.m3u8
 #EXTINF:-1 tvg-id="ColimdoTV.do@SD" tvg-logo="https://i.imgur.com/ZeUgLCa.png",Colimdo TV
@@ -554,7 +554,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h250/index.m3u8
 #EXTINF:-1 tvg-id="Daria.us@LatAm" tvg-logo="https://images.pluto.tv/channels/62d0895ebe7a970008785244/colorLogoPNG.png",Daria
 https://jmp2.uk/plu-62d0895ebe7a970008785244.m3u8
 #EXTINF:-1 tvg-id="DePeliculaLatinAmerica.mx@SD" tvg-logo="https://i.imgur.com/aksM8pa.png",De Pelicula Latin America
-http://38.19.41.46:8081/DEPELICULA/index.m3u8
+http://15.204.196.147:22880/RECEPCION-DPELICULA-LATAM-FHD/video.m3u8
 #EXTINF:-1 tvg-id="DePeliculaPlus.mx@SD" tvg-logo="https://i.imgur.com/MMhSmDK.png",De Pelicula Plus
 http://200.115.120.1:8000/play/ca030/index.m3u8
 #EXTINF:-1 tvg-id="DePeliculaUS.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/DPel%C3%ADcula_2021.svg/960px-DPel%C3%ADcula_2021.svg.png",De Pelicula US
@@ -598,4 +598,4 @@ http://tvsen5.aynascope.net/disney/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png",Disney XD (United States)
 http://89.187.179.148:826/1368/gXwiagaXda/1672
 #EXTINF:-1 tvg-id="DistritoComedia.mx@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/DistritoComediaLOGO2018.png/960px-DistritoComediaLOGO2018.png",Distrito Comedia
-http://138.121.15.230:9002/DISTRITO-COMEDIA/index.m3u8
+http://15.204.142.109:22880/TELEVISA-PROVEEDOR-DISTRITO-COMEDIA/index.m3u8
