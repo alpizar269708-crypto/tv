@@ -1,5 +1,11 @@
 name: 1. Actualizar M3U
 on:
+  # Ejecutar al cambiar código o configuración, pero no cuando el propio job
+  # actualiza lista.m3u para evitar ciclos de ejecuciones.
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'lista.m3u'
   # Revisar varias veces al día para detectar caídas de los canales prioritarios.
   schedule:
     - cron: '15 */3 * * *'
