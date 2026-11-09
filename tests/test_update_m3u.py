@@ -15,6 +15,12 @@ class UpdateM3UTests(unittest.TestCase):
         self.assertIsNone(
             update_m3u.identificar_canal('#EXTINF:-1,Estrella TV')
         )
+        self.assertEqual(
+            update_m3u.identificar_canal(
+                '#EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx",Las Estrellas Latin America'
+            ),
+            "las_estrellas",
+        )
 
     def test_detecta_maria_vision_y_excluye_radio(self):
         self.assertEqual(
@@ -62,8 +68,12 @@ class UpdateM3UTests(unittest.TestCase):
         self.assertTrue(
             all("unknown.example" not in item.url for items in candidates.values() for item in items)
         )
-        self.assertGreaterEqual(len(candidates["las_estrellas"]), 2)
+        self.assertGreaterEqual(len(candidates["las_estrellas"]), 5)
         self.assertGreaterEqual(len(candidates["maria_vision"]), 2)
+        self.assertTrue(
+            any("15.204.246.24:8080/LasEstrellasHD/index.m3u8" in item.url
+                for item in candidates["las_estrellas"])
+        )
 
     def test_validador_exige_manifest_y_segmento_hls(self):
         class FakeHeaders(dict):
