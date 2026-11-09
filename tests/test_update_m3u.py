@@ -26,6 +26,14 @@ class UpdateM3UTests(unittest.TestCase):
         self.assertIsNone(
             update_m3u.identificar_canal('#EXTINF:-1,Maria Vision Radio')
         )
+        self.assertIsNone(
+            update_m3u.identificar_canal(
+                '#EXTINF:-1 tvg-id="MariaVision.it@SD",María Visión Italia'
+            )
+        )
+        self.assertIsNone(
+            update_m3u.identificar_canal('#EXTINF:-1,María Visión Italia')
+        )
 
     def test_parsea_m3u_y_omite_comentarios(self):
         content = (
@@ -47,6 +55,8 @@ class UpdateM3UTests(unittest.TestCase):
             "https://unknown.example/stream.m3u8\n"
             '#EXTINF:-1 tvg-id="MariaVision.mx",María Visión México\n'
             "https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8\n"
+            '#EXTINF:-1 tvg-id="MariaVision.it",María Visión Italia\n'
+            "https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Italiasette/playlist.m3u8\n"
         )
         candidates = update_m3u.obtener_candidatos_prioritarios({source: content})
         self.assertTrue(
