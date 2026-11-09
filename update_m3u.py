@@ -111,10 +111,15 @@ def identificar_canal(extinf):
     if "lasestrellas" in combined:
         return "las_estrellas"
 
-    # Exclude the station's radio/capilla feeds; the requested channel is the
-    # main María Visión Mexico TV signal.
+    # Exclude other country/network variants (for example Italia Sette),
+    # plus radio/capilla feeds. The requested entry is María Visión México.
+    regional_or_non_tv = (
+        "radio", "capilla", "chapel", "italia", "italy", "italiasette",
+        "mariavisionit", "mariavisionusa", "sevilla", "india", "polonia",
+        "polska", "medjugorje", "medju", "fatima", "carloacutis",
+    )
     if "mariavision" in combined and not any(
-        word in name for word in ("radio", "capilla", "chapel")
+        word in name or word in tvg_id for word in regional_or_non_tv
     ):
         return "maria_vision"
     return None
@@ -242,6 +247,12 @@ def obtener_candidatos_prioritarios(textos_por_fuente):
 
     def agregar(key, url, source):
         if key not in PRIORITY_CHANNELS:
+            return
+        # Do not let a generic "María Visión" label disguise a different feed.
+        normalized_url = normalizar(url)
+        if key == "maria_vision" and any(
+            marker in normalized_url for marker in ("italiasette", "mariavisionitalia", "mariavisionit")
+        ):
             return
         parsed = urllib.parse.urlparse(url)
         host = (parsed.hostname or "").lower()
