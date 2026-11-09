@@ -597,3 +597,5 @@ http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
 http://15.204.246.24:8080/DisneyHD/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Center" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",Disney Channel Latin America Center
 http://181.78.8.199:8000/play/a0dn/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@PanregionalHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg",Disney Channel Latin America Panregional
+http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8
