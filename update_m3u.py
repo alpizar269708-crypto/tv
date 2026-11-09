@@ -46,10 +46,21 @@ PRIORITY_CHANNELS = {
         "tvg_id": "LasEstrellas.mx@SD",
         "logo": "https://i.imgur.com/g5ShxZ7.png",
         "official_page": "https://www.lasestrellas.tv/las-estrellas-en-vivo-livestream",
-        "allowed_hosts": {"channel01-onlymex.akamaized.net"},
+        # CDN and public HLS origins catalogued for Las Estrellas / its
+        # Latin America feed. Keep each exact host allowlisted; never accept
+        # arbitrary .m3u8 URLs from unrelated HTML or ads.
+        "allowed_hosts": {
+            "channel01-onlymex.akamaized.net",
+            "15.204.246.24",
+            "190.93.224.42",
+            "209.14.115.253",
+        },
         "fallbacks": [
             "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8",
             "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_6.m3u8",
+            "http://15.204.246.24:8080/LasEstrellasHD/index.m3u8",
+            "http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8",
+            "http://209.14.115.253:8081/LAS-ESTRELLAS/index.m3u8",
         ],
     },
     "maria_vision": {
