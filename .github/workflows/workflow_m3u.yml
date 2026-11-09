@@ -41,17 +41,20 @@ jobs:
         set -e
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add lista.m3u
-        if git diff --cached --quiet; then
-          echo "M3U sin cambios; no hay nada que subir."
-          exit 0
-        fi
-        git commit -m "Update M3U"
-        # Reintegrar commits que hayan llegado desde el checkout y reintentar
-        # si otro proceso externo actualiza main durante el push.
+        # Guardar la lista recién generada fuera del árbol Git. Si main cambió
+        # durante la validación, reconstruimos el commit sobre el HEAD remoto
+        # más reciente en vez de rebasar un archivo M3U que puede colisionar.
+        cp lista.m3u "$RUNNER_TEMP/lista.m3u.generated"
         for attempt in 1 2 3; do
           git fetch origin main
-          git rebase origin/main
+          git reset --hard origin/main
+          cp "$RUNNER_TEMP/lista.m3u.generated" lista.m3u
+          git add lista.m3u
+          if git diff --cached --quiet; then
+            echo "M3U sin cambios; no hay nada que subir."
+            exit 0
+          fi
+          git commit -m "Update M3U"
           if git push origin HEAD:main; then
             exit 0
           fi
