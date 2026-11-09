@@ -1,7 +1,8 @@
 name: 1. Actualizar M3U
 on:
+  # Revisar varias veces al día para detectar caídas de los canales prioritarios.
   schedule:
-    - cron: '30 23 * * *'
+    - cron: '15 */3 * * *'
   workflow_dispatch:
 
 # Ambos workflows modifican main; deben compartir el mismo grupo para evitar
@@ -24,7 +25,9 @@ jobs:
     - uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-    - name: Actualizar lista M3U
+    - name: Probar actualizador M3U
+      run: python -m unittest discover -s tests -v
+    - name: Actualizar lista M3U y validar canales prioritarios
       run: python update_m3u.py
 
     - name: Subir cambios
@@ -52,11 +55,11 @@ jobs:
         echo "::error::No se pudo subir la lista M3U después de 3 intentos."
         exit 1
 
-    - name: Limpiar workflows viejos (mantener 3)
+    - name: Limpiar workflows viejos (mantener 12)
       if: always()
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        gh run list --workflow "1. Actualizar M3U" --limit 100 --json databaseId -q '.[3:][].databaseId' | while read -r id; do
+        gh run list --workflow "1. Actualizar M3U" --limit 100 --json databaseId -q '.[12:][].databaseId' | while read -r id; do
           [ -z "$id" ] || gh run delete "$id" || true
         done
