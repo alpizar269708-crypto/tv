@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Build lista.m3u and keep the two requested Mexican channels pinned.
+"""Build lista.m3u and promote the first priority stream that contains video.
 
-Priority streams are checked as HLS (manifest + one media segment). A GitHub
-hosted runner may be outside Mexico, so failed probes are retained as fallback
-entries instead of silently removing the channels.
+Each priority channel has exactly one M3U entry. Every run probes its current
+URL and all allowlisted backups; a backup replaces the main URL only after
+ffprobe confirms a real video stream. If none works, the last saved URL remains.
 """
 
 from dataclasses import dataclass
 import re
+import shutil
+import subprocess
 import sys
 import unicodedata
 import urllib.error
@@ -23,6 +25,8 @@ OUTPUT_FILE = "lista.m3u"
 MAX_CHANNELS = 300
 SOURCE_TIMEOUT = 20
 PROBE_TIMEOUT = 12
+VIDEO_PROBE_TIMEOUT = 22
+USER_AGENT = "Mozilla/5.0 (compatible; TVPlaylistValidator/3.0)"
 MAX_MANIFEST_BYTES = 512 * 1024
 MAX_SOURCE_BYTES = 12 * 1024 * 1024
 
@@ -248,11 +252,60 @@ def _validar_hls(url, depth=0):
 
 
 def validar_hls(url):
-    """Check the HLS manifest and one media segment without downloading video."""
-    return _validar_hls(url)
+    """Require both an accessible HLS segment and an actual video stream."""
+    basic = _validar_hls(url)
+    if not basic.ok:
+        return basic
+
+    ffprobe = shutil.which("ffprobe")
+    if not ffprobe:
+        return ProbeResult(False, "validator_missing", "ffprobe no está instalado; no se confirma video")
+
+    command = [
+        ffprobe,
+        "-v", "error",
+        "-rw_timeout", "12000000",
+        "-user_agent", USER_AGENT,
+        "-i", url,
+        "-select_streams", "v:0",
+        "-show_entries", "stream=codec_type,codec_name",
+        "-of", "csv=p=0",
+    ]
+    try:
+        result = subprocess.run(
+            command,
+            capture_output=True,
+            text=True,
+            timeout=VIDEO_PROBE_TIMEOUT,
+            check=False,
+        )
+    except subprocess.TimeoutExpired:
+        return ProbeResult(False, "video_timeout", "ffprobe agotó el tiempo al buscar video")
+    except OSError as error:
+        return ProbeResult(False, "video_error", "No se pudo ejecutar ffprobe: %s" % error)
+
+    output = (result.stdout or "").strip()
+    if result.returncode == 0 and output and "video" in output.lower():
+        return ProbeResult(True, "ok", "Video detectado por ffprobe: %s" % output.replace("\n", ", "))
+    detail = (result.stderr or output or "No se encontró una pista de video").strip()
+    return ProbeResult(False, "no_video", "La playlist/segmento responde, pero no contiene video: %s" % detail[:240])
 
 
-def obtener_candidatos_prioritarios(textos_por_fuente):
+def obtener_canales_prioritarios_existentes(path=OUTPUT_FILE):
+    """Read the currently published main URL so it can be tested first and preserved on outage."""
+    actuales = {}
+    try:
+        with open(path, "r", encoding="utf-8") as source:
+            for extinf, url in parsear_m3u(source.read()):
+                key = identificar_canal(extinf)
+                if key and key not in actuales:
+                    actuales[key] = url
+    except FileNotFoundError:
+        pass
+    return actuales
+
+
+def obtener_candidatos_prioritarios(textos_por_fuente, actuales=None):
     candidatos = {key: [] for key in PRIORITY_CHANNELS}
     vistos = {key: set() for key in PRIORITY_CHANNELS}
 
@@ -277,11 +330,16 @@ def obtener_candidatos_prioritarios(textos_por_fuente):
         vistos[key].add(url)
         candidatos[key].append(Candidate(key, url, source))
 
-    # Explicit stable fallbacks guarantee both channel labels are always
-    # included, even when an upstream index removes them or GitHub is geo-blocked.
+    # Test the previously published main URL first. If it still contains video,
+    # keep it stable; otherwise a working backup will be promoted automatically.
+    for key, url in (actuales or {}).items():
+        agregar(key, url, "URL principal publicada")
+
+    # Explicit backups remain in code so transient upstream index changes never
+    # remove a known option for either requested channel.
     for key, config in PRIORITY_CHANNELS.items():
         for url in config["fallbacks"]:
-            agregar(key, url, "respaldo fijo")
+            agregar(key, url, "respaldo configurado")
 
     # Discover additional renditions in more than one public M3U index, while
     # enforcing the per-channel CDN allowlist above.
@@ -294,35 +352,72 @@ def obtener_candidatos_prioritarios(textos_por_fuente):
     return candidatos
 
 
-def crear_extinf_prioritario(key, index):
+def crear_extinf_prioritario(key):
     config = PRIORITY_CHANNELS[key]
-    name = config["name"] if index == 0 else "%s (respaldo %d)" % (config["name"], index)
     return (
         '#EXTINF:-1 tvg-id="%s" tvg-logo="%s" group-title="Canales prioritarios",%s'
-        % (config["tvg_id"], config["logo"], name)
+        % (config["tvg_id"], config["logo"], config["name"])
     )
 
 
-def construir_bloque_prioritario(candidatos, probe=validar_hls):
+def construir_bloque_prioritario(candidatos, actuales=None, probe=validar_hls):
+    """Emit one main entry per channel, selecting the first candidate with video."""
     bloque = []
     resumen = {}
-    for key in PRIORITY_CHANNELS:
+    actuales = actuales or {}
+
+    for key, config in PRIORITY_CHANNELS.items():
+        opciones = candidatos.get(key, [])
         resultados = []
-        for candidate in candidatos.get(key, []):
+        elegido = None
+        resultado_elegido = None
+
+        # Candidates are ordered with the previously published URL first,
+        # followed by configured backups. Test every candidate for observability,
+        # but only publish one URL for this channel.
+        for candidate in opciones:
             result = probe(candidate.url)
             resultados.append((candidate, result))
-            estado = "OK" if result.ok else "RESPALDO"
+            estado = "VIDEO" if result.ok else "SIN VIDEO"
             print(
                 "[%s] %s | %s | %s"
-                % (estado, PRIORITY_CHANNELS[key]["name"], candidate.url, result.detail)
+                % (estado, config["name"], candidate.url, result.detail)
             )
+            if result.ok and elegido is None:
+                elegido = candidate
+                resultado_elegido = result
 
-        # Playable options go first; failed probes are still kept so a runner
-        # outside Mexico cannot accidentally erase a region-limited stream.
-        resultados.sort(key=lambda item: (not item[1].ok, candidatos[key].index(item[0])))
-        resumen[key] = {"ok": sum(1 for _, result in resultados if result.ok), "total": len(resultados)}
-        for index, (candidate, _) in enumerate(resultados):
-            bloque.append((crear_extinf_prioritario(key, index), candidate.url))
+        if elegido is not None:
+            url_publicada = elegido.url
+            estado_final = "PROMOVIDO" if url_publicada != actuales.get(key) else "SE MANTIENE"
+            detalle = resultado_elegido.detail
+        elif actuales.get(key):
+            # Do not replace a last-known main URL with a known failing URL
+            # during a provider outage or geo-restricted validation window.
+            url_publicada = actuales[key]
+            estado_final = "CONSERVA ÚLTIMA URL"
+            detalle = "Ninguna variante confirmó video; se conserva la URL principal anterior"
+        elif opciones:
+            # First-ever generation with a total outage: keep a single stable
+            # entry, but log explicitly that it is not verified.
+            url_publicada = opciones[0].url
+            estado_final = "URL INICIAL SIN VERIFICAR"
+            detalle = "Ninguna variante confirmó video; se deja el primer respaldo configurado"
+        else:
+            raise RuntimeError("No hay ninguna URL configurada para %s" % config["name"])
+
+        bloque.append((crear_extinf_prioritario(key), url_publicada))
+        resumen[key] = {
+            "video": sum(1 for _, result in resultados if result.ok),
+            "probadas": len(resultados),
+            "seleccionada": url_publicada,
+            "verificada": elegido is not None,
+            "estado": estado_final,
+        }
+        print(
+            "[%s] %s | URL principal: %s | %s"
+            % (estado_final, config["name"], url_publicada, detalle)
+        )
 
     return bloque, resumen
 
@@ -345,8 +440,9 @@ def procesar():
     if not mx and not spa:
         raise RuntimeError("No se pudo leer ninguna lista M3U principal; se conserva lista.m3u sin cambios")
 
-    candidatos = obtener_candidatos_prioritarios(textos)
-    bloque_prioritario, resumen = construir_bloque_prioritario(candidatos)
+    actuales = obtener_canales_prioritarios_existentes()
+    candidatos = obtener_candidatos_prioritarios(textos, actuales)
+    bloque_prioritario, resumen = construir_bloque_prioritario(candidatos, actuales)
 
     lista_final = list(bloque_prioritario)
     urls_agregadas = {url for _, url in lista_final}
@@ -413,10 +509,11 @@ def procesar():
     print("\nResumen de canales prioritarios:")
     for key, config in PRIORITY_CHANNELS.items():
         values = resumen[key]
-        print("- %s: %d/%d variantes verificadas; %d incluidas" % (
-            config["name"], values["ok"], values["total"], values["total"]
+        print("- %s: %d/%d con video; %s; una sola entrada principal." % (
+            config["name"], values["video"], values["probadas"], values["estado"]
         ))
-    print("Lista generada: %d canales totales (%d prioritarios)." % (len(lista_final), len(bloque_prioritario)))
+        print("  URL publicada: %s" % values["seleccionada"])
+    print("Lista generada: %d canales totales (%d entradas prioritarias)." % (len(lista_final), len(bloque_prioritario)))
 
 
 if __name__ == "__main__":
