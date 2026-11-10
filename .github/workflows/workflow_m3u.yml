@@ -9,6 +9,8 @@ on:
   # Revisar varias veces al día para detectar caídas de los canales prioritarios.
   schedule:
     - cron: '15 */3 * * *'
+    # Revisión diaria adicional 30 minutos antes del workflow 2 (EPG, 00:00 UTC).
+    - cron: '30 23 * * *'
   workflow_dispatch:
 
 # Ambos workflows modifican main; deben compartir el mismo grupo para evitar
