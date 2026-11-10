@@ -1,17 +1,17 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Canales prioritarios",Las Estrellas
 http://15.204.246.24:8080/LasEstrellasHD/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Canales prioritarios",Las Estrellas (respaldo 1)
+#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Respaldos",Las Estrellas (Respaldo 1 - video confirmado)
 http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Canales prioritarios",Las Estrellas (respaldo 2)
+#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Respaldos",Las Estrellas (Respaldo 2 - sin verificar)
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Canales prioritarios",Las Estrellas (respaldo 3)
+#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Respaldos",Las Estrellas (Respaldo 3 - sin verificar)
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_6.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Canales prioritarios",Las Estrellas (respaldo 4)
+#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-logo="https://i.imgur.com/g5ShxZ7.png" group-title="Respaldos",Las Estrellas (Respaldo 4 - sin verificar)
 http://209.14.115.253:8081/LAS-ESTRELLAS/index.m3u8
 #EXTINF:-1 tvg-id="MariaVision.mx@SD" tvg-logo="https://i.imgur.com/GylOPxE.png" group-title="Canales prioritarios",María Visión
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
-#EXTINF:-1 tvg-id="MariaVision.mx@SD" tvg-logo="https://i.imgur.com/GylOPxE.png" group-title="Canales prioritarios",María Visión (respaldo 1)
+#EXTINF:-1 tvg-id="MariaVision.mx@SD" tvg-logo="https://i.imgur.com/GylOPxE.png" group-title="Respaldos",María Visión (Respaldo 1 - video confirmado)
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/playlist.m3u8
 #EXTINF:-1 tvg-id="8NTV.mx@SD" tvg-logo="https://i.imgur.com/7ecgGIG.png",8NTV
 https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8
@@ -571,6 +571,8 @@ https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8
 https://op-group1-swiftservehd-1.dens.tv/h/h250/index.m3u8
 #EXTINF:-1 tvg-id="Daria.us@LatAm" tvg-logo="https://images.pluto.tv/channels/62d0895ebe7a970008785244/colorLogoPNG.png",Daria
 https://jmp2.uk/plu-62d0895ebe7a970008785244.m3u8
+#EXTINF:-1 tvg-id="DAZNF1.uk@Spain" tvg-logo="https://i.imgur.com/yFCr5XX.png",DAZN F1
+https://tvorb.net/ZTV/6918-live.m3u8
 #EXTINF:-1 tvg-id="DePeliculaLatinAmerica.mx@SD" tvg-logo="https://i.imgur.com/aksM8pa.png",De Pelicula Latin America
 http://15.204.196.147:22880/RECEPCION-DPELICULA-LATAM-FHD/video.m3u8
 #EXTINF:-1 tvg-id="DePeliculaPlus.mx@SD" tvg-logo="https://i.imgur.com/MMhSmDK.png",De Pelicula Plus
@@ -597,5 +599,3 @@ http://38.224.231.176:8000/play/a01j/index.m3u8
 http://38.134.250.110:8000/play/a003/index.m3u8
 #EXTINF:-1 tvg-id="DismarRadioTV.py@SD" tvg-logo="https://i.imgur.com/KOuxdMD.png",Dismar Radio TV
 https://rds3.desdeparaguay.net/dismartv/dismartv/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png",Disney Channel (United States)
-http://4.30.180.36:8420/disneychannel/index.m3u8?token=test
