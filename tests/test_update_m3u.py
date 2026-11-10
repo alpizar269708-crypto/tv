@@ -112,7 +112,7 @@ class UpdateM3UTests(unittest.TestCase):
                 return FakeResponse(b"fake-ts-segment-data", url)
             raise AssertionError(url)
 
-        fake_probe = unittest.mock.Mock(returncode=0, stdout="h264,video\\n", stderr="")
+        fake_probe = unittest.mock.Mock(returncode=0, stdout="h264,video\n", stderr="")
         with (
             patch.object(update_m3u.urllib.request, "urlopen", side_effect=fake_urlopen),
             patch.object(update_m3u.shutil, "which", return_value="/usr/bin/ffprobe"),
@@ -149,12 +149,12 @@ class UpdateM3UTests(unittest.TestCase):
         def fake_urlopen(request, timeout=None):
             url = request.full_url
             if url.endswith("/stream.m3u8"):
-                return FakeResponse(b"#EXTM3U\\n#EXTINF:6.0,\\nsegment.ts\\n", url)
+                return FakeResponse(b"#EXTM3U\n#EXTINF:6.0,\nsegment.ts\n", url)
             if url.endswith("/segment.ts"):
                 return FakeResponse(b"valid-segment-bytes", url)
             raise AssertionError(url)
 
-        fake_probe = unittest.mock.Mock(returncode=0, stdout="aac,audio\\n", stderr="")
+        fake_probe = unittest.mock.Mock(returncode=0, stdout="aac,audio\n", stderr="")
         with (
             patch.object(update_m3u.urllib.request, "urlopen", side_effect=fake_urlopen),
             patch.object(update_m3u.shutil, "which", return_value="/usr/bin/ffprobe"),
@@ -263,21 +263,23 @@ class UpdateM3UTests(unittest.TestCase):
             actuales={"las_estrellas": current, "maria_vision": "https://b.example/previous.m3u8"},
             probe=no_video,
         )
-        self.assertEqual(len(block), 2)
+        self.assertEqual(len(block), 4)
         self.assertEqual(block[0][1], current)
-        self.assertEqual(block[1][1], "https://b.example/previous.m3u8")
+        self.assertEqual(block[2][1], "https://b.example/previous.m3u8")
+        self.assertIn("Respaldo", block[1][0])
+        self.assertIn("Respaldo", block[3][0])
         self.assertFalse(summary["las_estrellas"]["verificada"])
         self.assertEqual(summary["las_estrellas"]["estado"], "CONSERVA ÚLTIMA URL")
 
     def test_obtiene_url_actual_de_una_sola_entrada_por_canal(self):
         content = (
-            "#EXTM3U\\n"
-            '#EXTINF:-1 tvg-id="LasEstrellas.mx@SD",Las Estrellas\\n'
-            "https://a.example/main.m3u8\\n"
-            '#EXTINF:-1 tvg-id="LasEstrellas.mx@SD",Las Estrellas (respaldo 1)\\n'
-            "https://a.example/backup.m3u8\\n"
-            '#EXTINF:-1 tvg-id="MariaVision.mx@SD",María Visión\\n'
-            "https://b.example/main.m3u8\\n"
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-id="LasEstrellas.mx@SD",Las Estrellas\n'
+            "https://a.example/main.m3u8\n"
+            '#EXTINF:-1 tvg-id="LasEstrellas.mx@SD",Las Estrellas (respaldo 1)\n'
+            "https://a.example/backup.m3u8\n"
+            '#EXTINF:-1 tvg-id="MariaVision.mx@SD",María Visión\n'
+            "https://b.example/main.m3u8\n"
         )
         with patch("builtins.open", unittest.mock.mock_open(read_data=content)):
             actuales = update_m3u.obtener_canales_prioritarios_existentes("lista.m3u")
