@@ -33,3 +33,8 @@ Se añadieron tres endpoints HLS de la ficha pública de [Las Estrellas Latin Am
 Se etiquetan como variantes de respaldo, no como señal oficial ni como verificadas de antemano. El workflow comprueba su manifiesto y un segmento en cada ejecución y las deja detrás de cualquier variante que supere la prueba. Los resultados pueden cambiar por disponibilidad, geobloqueo o requisitos del proveedor.
 
 Las páginas CXTv y Teleon muestran un reproductor web, pero no exponen el enlace HLS en el contenido que puede leer el actualizador; el iframe de Teleon además rechaza la lectura externa. La URL de México TV Live se carga como reproductor dinámico y su contenido no publica los tres manifiestos en el HTML disponible. No se inventan ni se derivan URLs a partir de IDs opacos.
+
+
+## Selección automática de la señal principal
+
+La lista publica **una sola entrada principal** para Las Estrellas y una sola para María Visión. En cada ejecución, el actualizador prueba primero la URL actualmente publicada y después sus respaldos permitidos. La validación requiere manifiesto HLS, un segmento accesible y una pista de video confirmada por `ffprobe`. El primer candidato que devuelve video se escribe en la entrada principal (la URL anterior se sustituye automáticamente). Si ninguno contiene video, se conserva la última URL publicada y se registra el fallo en los logs, sin insertar enlaces caídos como si fueran alternativas activas.
