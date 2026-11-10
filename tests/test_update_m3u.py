@@ -271,6 +271,21 @@ class UpdateM3UTests(unittest.TestCase):
         self.assertFalse(summary["las_estrellas"]["verificada"])
         self.assertEqual(summary["las_estrellas"]["estado"], "CONSERVA ÚLTIMA URL")
 
+    def test_recupera_respaldos_publicados_aunque_ya_no_aparezcan_en_indices(self):
+        content = (
+            "#EXTM3U\n"
+            '#EXTINF:-1 tvg-id="LasEstrellas.mx@SD",Las Estrellas\n'
+            "https://15.204.246.24:8080/LasEstrellasHD/index.m3u8\n"
+            '#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" group-title="Respaldos",Las Estrellas (Respaldo 1 - video confirmado)\n'
+            "https://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8\n"
+        )
+        with patch("builtins.open", unittest.mock.mock_open(read_data=content)):
+            respaldos = update_m3u.obtener_respaldos_prioritarios_existentes("lista.m3u")
+        self.assertEqual(
+            respaldos["las_estrellas"],
+            ["https://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8"],
+        )
+
     def test_obtiene_url_actual_de_una_sola_entrada_por_canal(self):
         content = (
             "#EXTM3U\n"
