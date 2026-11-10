@@ -112,9 +112,57 @@ class UpdateM3UTests(unittest.TestCase):
                 return FakeResponse(b"fake-ts-segment-data", url)
             raise AssertionError(url)
 
-        with patch.object(update_m3u.urllib.request, "urlopen", side_effect=fake_urlopen):
+        fake_probe = unittest.mock.Mock(returncode=0, stdout="h264,video\\n", stderr="")
+        with (
+            patch.object(update_m3u.urllib.request, "urlopen", side_effect=fake_urlopen),
+            patch.object(update_m3u.shutil, "which", return_value="/usr/bin/ffprobe"),
+            patch.object(update_m3u.subprocess, "run", return_value=fake_probe),
+        ):
             result = update_m3u.validar_hls("https://example.com/stream.m3u8")
         self.assertTrue(result.ok)
+        self.assertIn("Video detectado", result.detail)
+
+    def test_validador_rechaza_playlist_sin_video_real(self):
+        class FakeResponse:
+            status = 200
+            headers = {"Content-Type": "application/vnd.apple.mpegurl"}
+
+            def __init__(self, data, url):
+                self.data = data
+                self.url = url
+
+            def read(self, size=-1):
+                return self.data if size < 0 else self.data[:size]
+
+            def geturl(self):
+                return self.url
+
+            def getcode(self):
+                return self.status
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                return False
+
+        def fake_urlopen(request, timeout=None):
+            url = request.full_url
+            if url.endswith("/stream.m3u8"):
+                return FakeResponse(b"#EXTM3U\\n#EXTINF:6.0,\\nsegment.ts\\n", url)
+            if url.endswith("/segment.ts"):
+                return FakeResponse(b"valid-segment-bytes", url)
+            raise AssertionError(url)
+
+        fake_probe = unittest.mock.Mock(returncode=0, stdout="aac,audio\\n", stderr="")
+        with (
+            patch.object(update_m3u.urllib.request, "urlopen", side_effect=fake_urlopen),
+            patch.object(update_m3u.shutil, "which", return_value="/usr/bin/ffprobe"),
+            patch.object(update_m3u.subprocess, "run", return_value=fake_probe),
+        ):
+            result = update_m3u.validar_hls("https://example.com/stream.m3u8")
+        self.assertFalse(result.ok)
+        self.assertEqual(result.status, "no_video")
 
     def test_validador_rechaza_pagina_html(self):
         class FakeHeaders(dict):
@@ -145,24 +193,93 @@ class UpdateM3UTests(unittest.TestCase):
             result = update_m3u.validar_hls("https://example.com/stream.m3u8")
         self.assertFalse(result.ok)
 
-    def test_conserva_todas_las_variantes_aunque_no_pasen_la_prueba(self):
+    def test_promueve_el_primer_respaldo_con_video_y_publica_una_sola_entrada(self):
+        first = "https://a.example/main.m3u8"
+        backup_video = "https://a.example/backup-video.m3u8"
+        backup_later = "https://a.example/another-video.m3u8"
+        maria_main = "https://b.example/main.m3u8"
+        maria_backup = "https://b.example/backup.m3u8"
         candidates = {
             "las_estrellas": [
-                update_m3u.Candidate("las_estrellas", "https://a.example/one.m3u8", "test"),
-                update_m3u.Candidate("las_estrellas", "https://a.example/two.m3u8", "test"),
+                update_m3u.Candidate("las_estrellas", first, "principal"),
+                update_m3u.Candidate("las_estrellas", backup_video, "respaldo 1"),
+                update_m3u.Candidate("las_estrellas", backup_later, "respaldo 2"),
             ],
             "maria_vision": [
-                update_m3u.Candidate("maria_vision", "https://b.example/one.m3u8", "test"),
+                update_m3u.Candidate("maria_vision", maria_main, "principal"),
+                update_m3u.Candidate("maria_vision", maria_backup, "respaldo 1"),
+            ],
+        }
+        outcomes = {
+            first: False,
+            backup_video: True,
+            backup_later: True,
+            maria_main: False,
+            maria_backup: True,
+        }
+
+        def probe(url):
+            return update_m3u.ProbeResult(
+                outcomes[url],
+                "ok" if outcomes[url] else "no_video",
+                "video detectado" if outcomes[url] else "sin pista de video",
+            )
+
+        current = {"las_estrellas": first, "maria_vision": maria_main}
+        block, summary = update_m3u.construir_bloque_prioritario(
+            candidates, actuales=current, probe=probe
+        )
+        self.assertEqual(len(block), 2)
+        self.assertEqual(
+            [url for _, url in block],
+            [backup_video, maria_backup],
+        )
+        self.assertEqual(summary["las_estrellas"]["video"], 2)
+        self.assertEqual(summary["maria_vision"]["video"], 1)
+        self.assertEqual(summary["las_estrellas"]["estado"], "PROMOVIDO")
+        self.assertEqual(summary["maria_vision"]["estado"], "PROMOVIDO")
+        self.assertNotIn("respaldo", block[0][0].lower())
+
+    def test_conserva_la_ultima_url_si_ninguna_variante_tiene_video(self):
+        current = "https://a.example/last-known.m3u8"
+        candidates = {
+            "las_estrellas": [
+                update_m3u.Candidate("las_estrellas", current, "principal"),
+                update_m3u.Candidate("las_estrellas", "https://a.example/dead.m3u8", "respaldo"),
+            ],
+            "maria_vision": [
+                update_m3u.Candidate("maria_vision", "https://b.example/dead.m3u8", "respaldo"),
             ],
         }
 
-        def no_disponible(url):
-            return update_m3u.ProbeResult(False, "unverified", "prueba sin conexión")
+        def no_video(url):
+            return update_m3u.ProbeResult(False, "no_video", "sin video")
 
-        block, summary = update_m3u.construir_bloque_prioritario(candidates, probe=no_disponible)
-        self.assertEqual(len(block), 3)
-        self.assertEqual(summary["las_estrellas"]["total"], 2)
-        self.assertEqual(summary["maria_vision"]["total"], 1)
+        block, summary = update_m3u.construir_bloque_prioritario(
+            candidates,
+            actuales={"las_estrellas": current, "maria_vision": "https://b.example/previous.m3u8"},
+            probe=no_video,
+        )
+        self.assertEqual(len(block), 2)
+        self.assertEqual(block[0][1], current)
+        self.assertEqual(block[1][1], "https://b.example/previous.m3u8")
+        self.assertFalse(summary["las_estrellas"]["verificada"])
+        self.assertEqual(summary["las_estrellas"]["estado"], "CONSERVA ÚLTIMA URL")
+
+    def test_obtiene_url_actual_de_una_sola_entrada_por_canal(self):
+        content = (
+            "#EXTM3U\\n"
+            '#EXTINF:-1 tvg-id="LasEstrellas.mx@SD",Las Estrellas\\n'
+            "https://a.example/main.m3u8\\n"
+            '#EXTINF:-1 tvg-id="LasEstrellas.mx@SD",Las Estrellas (respaldo 1)\\n'
+            "https://a.example/backup.m3u8\\n"
+            '#EXTINF:-1 tvg-id="MariaVision.mx@SD",María Visión\\n'
+            "https://b.example/main.m3u8\\n"
+        )
+        with patch("builtins.open", unittest.mock.mock_open(read_data=content)):
+            actuales = update_m3u.obtener_canales_prioritarios_existentes("lista.m3u")
+        self.assertEqual(actuales["las_estrellas"], "https://a.example/main.m3u8")
+        self.assertEqual(actuales["maria_vision"], "https://b.example/main.m3u8")
 
 
 if __name__ == "__main__":
