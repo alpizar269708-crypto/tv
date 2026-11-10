@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Build lista.m3u and promote the first priority stream that contains video.
+"""Build lista.m3u, promote a playable main URL and retain labelled backups.
 
-Each priority channel has exactly one M3U entry. Every run probes its current
-URL and all allowlisted backups; a backup replaces the main URL only after
-ffprobe confirms a real video stream. If none works, the last saved URL remains.
+Every run probes the published main URL, previously published backups and
+configured/discovered alternatives. Only a candidate confirmed by ffprobe
+becomes the main entry; all other candidates remain as labelled backups.
+If nothing has confirmed video, the last saved main URL is preserved.
 """
 
 from dataclasses import dataclass
@@ -305,6 +306,23 @@ def obtener_canales_prioritarios_existentes(path=OUTPUT_FILE):
     return actuales
 
 
+def obtener_respaldos_prioritarios_existentes(path=OUTPUT_FILE):
+    """Keep previously published backups available even if an index drops them."""
+    respaldos = {key: [] for key in PRIORITY_CHANNELS}
+    vistos = {key: set() for key in PRIORITY_CHANNELS}
+    try:
+        with open(path, "r", encoding="utf-8") as source:
+            for extinf, url in parsear_m3u(source.read()):
+                key = identificar_canal(extinf)
+                nombre = normalizar(extinf_nombre(extinf))
+                if key and "respaldo" in nombre and url not in vistos[key]:
+                    vistos[key].add(url)
+                    respaldos[key].append(url)
+    except FileNotFoundError:
+        pass
+    return respaldos
+
+
 def obtener_candidatos_prioritarios(textos_por_fuente, actuales=None):
     candidatos = {key: [] for key in PRIORITY_CHANNELS}
     vistos = {key: set() for key in PRIORITY_CHANNELS}
@@ -334,6 +352,11 @@ def obtener_candidatos_prioritarios(textos_por_fuente, actuales=None):
     # keep it stable; otherwise a working backup will be promoted automatically.
     for key, url in (actuales or {}).items():
         agregar(key, url, "URL principal publicada")
+
+    # Previously published backup entries survive temporary upstream index drops.
+    for key, urls in obtener_respaldos_prioritarios_existentes().items():
+        for url in urls:
+            agregar(key, url, "respaldo publicado anteriormente")
 
     # Explicit backups remain in code so transient upstream index changes never
     # remove a known option for either requested channel.
@@ -518,11 +541,11 @@ def procesar():
     print("\nResumen de canales prioritarios:")
     for key, config in PRIORITY_CHANNELS.items():
         values = resumen[key]
-        print("- %s: %d/%d con video; %s; una sola entrada principal." % (
-            config["name"], values["video"], values["probadas"], values["estado"]
+        print("- %s: %d/%d con video; %s; %d respaldos." % (
+            config["name"], values["video"], values["probadas"], values["estado"], values["respaldos"]
         ))
         print("  URL publicada: %s" % values["seleccionada"])
-    print("Lista generada: %d canales totales (%d entradas prioritarias)." % (len(lista_final), len(bloque_prioritario)))
+    print("Lista generada: %d entradas totales; principales y respaldos incluidos." % len(lista_final))
 
 
 if __name__ == "__main__":
