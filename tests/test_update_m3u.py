@@ -229,16 +229,19 @@ class UpdateM3UTests(unittest.TestCase):
         block, summary = update_m3u.construir_bloque_prioritario(
             candidates, actuales=current, probe=probe
         )
-        self.assertEqual(len(block), 2)
+        self.assertEqual(len(block), 5)
         self.assertEqual(
             [url for _, url in block],
-            [backup_video, maria_backup],
+            [backup_video, first, backup_later, maria_backup, maria_main],
         )
         self.assertEqual(summary["las_estrellas"]["video"], 2)
         self.assertEqual(summary["maria_vision"]["video"], 1)
         self.assertEqual(summary["las_estrellas"]["estado"], "PROMOVIDO")
         self.assertEqual(summary["maria_vision"]["estado"], "PROMOVIDO")
         self.assertNotIn("respaldo", block[0][0].lower())
+        self.assertIn("Respaldo 1 - sin verificar", block[1][0])
+        self.assertIn("Respaldo 2 - video confirmado", block[2][0])
+        self.assertIn("Respaldo 1 - sin verificar", block[4][0])
 
     def test_conserva_la_ultima_url_si_ninguna_variante_tiene_video(self):
         current = "https://a.example/last-known.m3u8"
