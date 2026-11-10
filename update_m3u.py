@@ -360,8 +360,19 @@ def crear_extinf_prioritario(key):
     )
 
 
+def crear_extinf_respaldo(key, numero, verificado):
+    """Create a clearly labelled backup entry after the canonical channel."""
+    config = PRIORITY_CHANNELS[key]
+    estado = "video confirmado" if verificado else "sin verificar"
+    nombre = "%s (Respaldo %d - %s)" % (config["name"], numero, estado)
+    return (
+        '#EXTINF:-1 tvg-id="%s" tvg-logo="%s" group-title="Respaldos",%s'
+        % (config["tvg_id"], config["logo"], nombre)
+    )
+
+
 def construir_bloque_prioritario(candidatos, actuales=None, probe=validar_hls):
-    """Emit one main entry per channel, selecting the first candidate with video."""
+    """Promote the first candidate with real video and retain the rest as backups."""
     bloque = []
     resumen = {}
     actuales = actuales or {}
@@ -372,17 +383,12 @@ def construir_bloque_prioritario(candidatos, actuales=None, probe=validar_hls):
         elegido = None
         resultado_elegido = None
 
-        # Candidates are ordered with the previously published URL first,
-        # followed by configured backups. Test every candidate for observability,
-        # but only publish one URL for this channel.
+        # Test the current main URL first, then configured backups. Test all candidates.
         for candidate in opciones:
             result = probe(candidate.url)
             resultados.append((candidate, result))
             estado = "VIDEO" if result.ok else "SIN VIDEO"
-            print(
-                "[%s] %s | %s | %s"
-                % (estado, config["name"], candidate.url, result.detail)
-            )
+            print("[%s] %s | %s | %s" % (estado, config["name"], candidate.url, result.detail))
             if result.ok and elegido is None:
                 elegido = candidate
                 resultado_elegido = result
@@ -392,32 +398,35 @@ def construir_bloque_prioritario(candidatos, actuales=None, probe=validar_hls):
             estado_final = "PROMOVIDO" if url_publicada != actuales.get(key) else "SE MANTIENE"
             detalle = resultado_elegido.detail
         elif actuales.get(key):
-            # Do not replace a last-known main URL with a known failing URL
-            # during a provider outage or geo-restricted validation window.
             url_publicada = actuales[key]
             estado_final = "CONSERVA ÚLTIMA URL"
             detalle = "Ninguna variante confirmó video; se conserva la URL principal anterior"
         elif opciones:
-            # First-ever generation with a total outage: keep a single stable
-            # entry, but log explicitly that it is not verified.
             url_publicada = opciones[0].url
             estado_final = "URL INICIAL SIN VERIFICAR"
-            detalle = "Ninguna variante confirmó video; se deja el primer respaldo configurado"
+            detalle = "Ninguna variante confirmó video; se conserva el primer respaldo configurado"
         else:
             raise RuntimeError("No hay ninguna URL configurada para %s" % config["name"])
 
         bloque.append((crear_extinf_prioritario(key), url_publicada))
+        respaldo_numero = 0
+        for candidate, result in resultados:
+            if candidate.url == url_publicada:
+                continue
+            respaldo_numero += 1
+            bloque.append((crear_extinf_respaldo(key, respaldo_numero, result.ok), candidate.url))
+
         resumen[key] = {
             "video": sum(1 for _, result in resultados if result.ok),
             "probadas": len(resultados),
             "seleccionada": url_publicada,
             "verificada": elegido is not None,
+            "respaldos": max(0, len(resultados) - (1 if resultados else 0)),
             "estado": estado_final,
         }
-        print(
-            "[%s] %s | URL principal: %s | %s"
-            % (estado_final, config["name"], url_publicada, detalle)
-        )
+        print("[%s] %s | URL principal: %s | %d respaldos | %s" % (
+            estado_final, config["name"], url_publicada, resumen[key]["respaldos"], detalle
+        ))
 
     return bloque, resumen
 
