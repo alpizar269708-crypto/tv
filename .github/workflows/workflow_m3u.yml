@@ -31,6 +31,13 @@ jobs:
     - uses: actions/setup-python@v5
       with:
         python-version: '3.10'
+    - name: Instalar ffprobe para verificar video real
+      run: |
+        if ! command -v ffprobe >/dev/null 2>&1; then
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+        fi
+        ffprobe -version | head -n 1
     - name: Probar actualizador M3U
       run: python -m unittest discover -s tests -v
     - name: Actualizar lista M3U y validar canales prioritarios
