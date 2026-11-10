@@ -16,7 +16,7 @@ on:
 # Ambos workflows modifican main; deben compartir el mismo grupo para evitar
 # que sus commits simultáneos se rechacen entre sí.
 concurrency:
-  group: tv-main-updates
+  group: tv-main-updates-v2
   cancel-in-progress: false
 
 permissions:
@@ -37,6 +37,7 @@ jobs:
     - name: Instalar ffprobe para verificar video real
       run: |
         if ! command -v ffprobe >/dev/null 2>&1; then
+          sudo apt-get update -qq
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends ffmpeg
         fi
@@ -74,11 +75,21 @@ jobs:
         echo "::error::No se pudo subir la lista M3U después de 3 intentos."
         exit 1
 
-    - name: Limpiar ejecuciones antiguas (conservar las últimas 5 del repositorio)
+    - name: Cancelar ejecuciones obsoletas y conservar las últimas 5
       if: always()
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        gh run list --limit 100 --json databaseId,status -q '.[5:][] | select(.status == "completed") | .databaseId' | while read -r id; do
-          [ -z "$id" ] || gh run delete "$id" || true
-        done
+        set +e
+        CUTOFF=$(date -u -d '10 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
+        gh run list --limit 100 --json databaseId,status,createdAt |
+          jq -r --arg current "$GITHUB_RUN_ID" --arg cutoff "$CUTOFF" '.[] | select((.databaseId | tostring) != $current) | select(.status == "queued" or .status == "in_progress") | select(.createdAt < $cutoff) | .databaseId' |
+          while read -r id; do
+            [ -z "$id" ] || gh run cancel "$id" || true
+          done
+        sleep 5
+        gh run list --limit 100 --json databaseId,status |
+          jq -r '.[5:][] | select(.status == "completed") | .databaseId' |
+          while read -r id; do
+            [ -z "$id" ] || gh run delete "$id" || true
+          done
